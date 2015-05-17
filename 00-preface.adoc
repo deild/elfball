@@ -1,0 +1,20 @@
+[abstract]
+image::images/content.png[Content]
+----
+The crowd roars as the thrashing mass of armored arms and legs fights for possession of the ball. Somewhow a lithe and agile Night Elf breaks away from the scrum with the ball in the hand, but just as suddenly he is smashed into the ground by a towering ice troll. The ball is airborne ... it's heading your way! Can you catch it? Can you dodge and twist your way to the goal circle?
+
+In Elfball you do just that! Assemble a team of up to 12 players selected from a myriad of fantasy races and pit them against your friends in a fantasy rugby styled football game! You manage it all! From how many cheerleaders you hire right down to which direction your player will move! Your team learns and grows with you, so you can coach a set of rookies right into the halls of greatness! Every turn is a challenge and every roll of the dice is a chance for glory!
+
+Are you ready?
+----
+
+[preface]
+= ElfBall
+
+Un des grands mystères de ce sport le Elfball est où a-t-il vu le jour, et comment il a obtenu son nom. Les elfes de la nuit originaires des sombre forêts de Westerland prétendent qu’ils jouent à ce sport depuis la nuit des temps, et qu’ils ont nommés ce jeu en leur honneur. Depuis leur terre natales arides les gnolls nomades du désert le revendiquent aussi et insistent sur le fait que le nom du jeu viendrait du type de tête le plus adapté pour y jouer. En fait de nombreuses races revendiquent être à l'origine du jeu et beaucoup des guerres les plus meurtrières de l’histoire du monde ont étés déclarées à cause de ces revendications. Les hommes des royaumes du milieu ignorent ces pitoyables conflits, et préfèrent appeler le jeu « le cirque ».
+
+Aujourd'hui ElfBall est joué par chaque nation, race et tribu du monde. Tandis que la plupart préfèrent le terrain distintif de norme circulaire, il existe d’autres variations pour jouer dans les centre-ville ou sur les plages de sable tout au tour du monde. Toutefois à sa base, le ballon distinctif et les règles du jeu sont toutes très standardisés.
+
+toc::[]
+
+include::00-credits.adoc[]

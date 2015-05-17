@@ -1,0 +1,25 @@
+[[teamAndPlayerDescriptions]]
+== Team & player descriptions
+Most Elfball teams are composed of some standard type of specialist players. The races use more of some types of specialists than others and a few use none at all. The page building & growing your team gives the full details to use for building a team and adding extras to your team. Your team is composed of players picked from a single team list. You may not mix players from more than one team list to create your Elfball team.
+
+=== Midfielders
+Midfielders are the stock players of an Elfball team. The true jack-of-all-trades of Elfball they excel at nothing in specific but also have no true weaknesses.
+
+=== Safeties
+The job of the Safety is to quickly get to the opponent with the ball and try to tie him up or take him out. While not skilled ball handlers they are normally the fastest players in Elfball.
+
+=== Hunters
+Hunters are skilled tacklers of average strength. Not very agile but handy to free up the ball.
+
+=== Strikers
+Dodging through the opposition and catching/retrieving the ball is the primary function of Strikers. However they have trouble dealing with objects larger than the ball as they are not normally sturdy players or talented at bringing down opponents.
+
+=== Throwers
+Need a better tackler than a Striker to stay in the back field and sending the ball flying across the field? The Thrower is the go to player for this job.
+
+=== Defenders
+Defenders are the muscle of the team. Exceptionally strong - a successful hit by one of these
+players is almost sure to knock a player senseless.
+
+=== Other players
+Many other creatures both living and undead play the game of Elfball. Their unusual mix of size (both huge and tiny), endurance, and willingness to play honourably mean it is difficult to class them as any of the standard players that grace an Elfball field normally.

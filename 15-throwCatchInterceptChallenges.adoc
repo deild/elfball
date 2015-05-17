@@ -1,0 +1,16 @@
+[[throwCatchInterceptChallenges]]
+== Throw, catch & intercept challenges
+
+Throwing the Ball - A player with the ball may attempt to throw the ball to another player on his team. If he tries to throw 7 or more paces away from his hex (maximum of 18), he may not move or perform a challenge before or after the Throw challenge. If he wants to move or perform a challenge before or after the throw he may throw up to a maximum of 6 paces. The player must throw the ball in a direction matching his current facing using a Throw challenge (note: you can throw the ball to empty hex on the playing field).
+
+Throw challenge table
+
+Intercepting the Ball - A thrown ball might be intercepted by a standing player between the thrower and the landing hex. After a successful or missed throw but before any Catch challenge, lay the passing string flat on the path (including any bounce off a white line) between the thrower's hex and the hex the ball is landing in. Any one opposing standing player (intercepting coach's choice) who has any part of a hex he occupies crossed by the passing string may attempt to intercept the ball by rolling an Intercept challenge.
+
+Interception challenge table
+
+Catching the Ball - A standing player who has a ball land in his hex from a wobbly throw or bouncing ball may attempt to perform a Catch challenge to catch the ball. A player can choose to automatically fail a catch roll in which case it will bounce 1 pace in a D6 direction from his position and is treated as a dropped ball.
+
+Catch challenge table
+
+Example: You try to catch a throw with a Skill attribute of 3 with one adjacent forward facing standing opponent (however you have three Momentum counters from extra successes on the Throw challenge). You'll need 3 successes to successfully catch the ball (2+1). You roll one flop, one blank, and one success. You use two Momentum counters to replace the flop and blank and roll two blanks. You cannot use Momentum more than once per a roll so you end up with 1 success, 1 point of Momentum left, and a failed catch.

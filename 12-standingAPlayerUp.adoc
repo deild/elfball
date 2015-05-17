@@ -1,0 +1,9 @@
+[[standingAPlayerup]]
+== Standing a player up
+Players who have fallen or been knocked down are represented by two states if they are still on the playing field, Down and Dazed. In both states, you may not move out of your hex or perform a challenge until you get up.
+
+Down - A Down player is not hurt, but is temporarily on the ground. To represent a Down player, place the miniature face-up on the field in the hex where he was knocked over.
+
+Dazed - A player who is Dazed needs more time to shake off the effects of his fall or a lot of personal grit or team-mate help to focus enough to get up. To represent a Dazed player, place the miniature face-down in the hex where he has fallen.
+
+A player must be taking an action in order to stand up. If your player is Down he can spend 5 less his Grit attribute in Jog paces to get up to a standing position in the same hex. If your player is Dazed he needs 8 less his Grit attribute in Jog paces to get up to a standing position in the same hex. Each adjacent standing team-mate facing the Down/Dazed player reduces the number of Jog paces needed by one and each adjacent standing opponent facing the Down/Dazed player increases the number of Jog paces by one. You may not get up to a standing position if you don't have enough Jog left. Note: you cannot use a Dash challenge to get an extra point of Jog to stand up. If the amount of Jog needed to stand is zero or less than the player may stand without spending any Jog to do so.

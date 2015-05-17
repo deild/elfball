@@ -1,0 +1,15 @@
+[[tournamentPlay]]
+== Tournament Play
+These rules are open to modification but this is a suggestion for rules to have a great tournament using Elfball.
+
+Use 120 to 150 point teams. Teams must have at least 6 players.
+Team can purchase a Bribed Ref, Zlurpee Kegs, Cheerleaders and Magic Potions as part of their team. Magic Potions are limited to 0-2 instead of 0-3.
+The optional rules for the Face-Off and Stars on the Challenge dice being 2 successes are used.
+All games using the 2-Minute Warning cards is highly recommended.*
+Game time should be limited to 75 minutes, first goal scored, or running out of 2-Minute Warning cards whichever comes first.
+Scoring will be calculated as follows:
+100 points for a win + (number of cards left in the 2-minute warning deck divided by 5 (round all fractions down))
+1 point for each "No Unusual Event Occurs" card a player has if a player tied or lost
+2 points for each player in opponent's Ejected, Recovery & Infirmary box at end of game (regardless of how they ended up there).
+
+TIP: If you do not have 2-Minute Warning decks. Use a standard deck of cards with Jokers. Each face card (Jack through Ace) give the player +1 Momentum for that turn. Each Joker gives the player +3 Momentum for that turn. All other cards (2 through 10) are treated as "No Unusual Event Occurs" cards and give no benefit for the turn.

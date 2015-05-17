@@ -1,0 +1,3 @@
+[[conceding]]
+== Conceding
+A player at any point may concede the match to his opponent. If this is done, each player on the opposing team not in the Infirmary receives one Experience Point. In addition, the opposing team's score is adjusted so that they have scored sufficient goals to win this game.

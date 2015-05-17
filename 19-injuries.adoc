@@ -1,0 +1,8 @@
+[[injuries]]
+== Injuries
+A player on the wrong side of a particularly nasty tackle may be injured. To see the severity of the injury, roll an Injury challenge for the player injured.
+
+If a player with the ball suffers an Injury challenge, roll for the Injury challenge before the roll to scatter the ball.
+
+
+Injury challenge table

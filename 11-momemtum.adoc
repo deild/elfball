@@ -1,0 +1,10 @@
+[[momentum]]
+== Momentum
+During a game of Elfball, teams and players will get hot streaks where everything seems to go right for them. This is represented by the Momentum track. A counter is placed on the Momentum track at zero at the start of each Test and after any action that ends without an event that results in a Shift in Momentum (abbreviated SiM in the rules which means your action ends and you have a Shift in Momentum).
+
+Any time you attempt a challenge (other than a Dash or Face-off challenge or rolling a challenge during your opponent's turn) and roll more than number of needed successes, these are considered Extra Successes and allow you to move the Momentum counter up the track that many spaces (to a maximum of 6). Momentum is a powerful thing in the game. Any time any player from your team performs a challenge during your player's action he may use as many Momentum counters as he wants to replace any challenge dice rolls once after all conditional success rolls and ability replacement rolls are fully resolved as long as you have not flopped the challenge. The new rolls from using Momentum replace the old rolls and must be used. You can also use Momentum counters to force an opponent to replace a die of your choice for any challenge rolls they make during your action. Momentum counters always return to zero at the beginning of your opponent's action unless a Shift in Momentum occurs in which case your opponent gains all of your remaining Momentum counters to use for his player's action. The list of action ending events that result in a Shift in Momentum are:
+
+- Failing to pick-up the ball during a Pick-Up challenge
+- Failing to have one of your players catch the ball after a throw challenge
+- Failing a Dash challenge
+- Flopping a challenge (if you have flopped a challenge no Momentum counters may be used to change this)

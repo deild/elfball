@@ -1,0 +1,5 @@
+== Player facing
+Each player has a forward and rear facing. Hitting an opponent in the back or trying to get away from opponents looking the other way is easier to do than going head to head. Whenever a player starts or finishes any move, challenge or action, you must face the eyes of the player looking in the direction of the facing you want him to have. If it is unclear which way a player is facing (i.e. he is looking on a line), the opposing
+coach may decide which hex he is facing.
+
+Facing is determined based on the image to the right. The hex the player's eyes are looking at and the 2 hexes to each side of it are his front facing hexes. All other hexes are considered rear facing.

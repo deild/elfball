@@ -1,0 +1,11 @@
+[[challengeTypes]]
+== Challenge types
+When a player performs an action he may perform many different challenges. The active player may perform each challenge (other than Impact/Tackle and Shove) as many times as desired per action. Each time a player moves from one hex to another he uses one pace of his Jog. Performing challenges does not use any paces of Jog and can be performed even after using your last pace of Jog. The list below shows the types of challenges:
+
+*Disengaging* - Move away from an adjacent hex with an opponent.
+*Pick-up* - Attempting to pick up the elfball after moving into the hex where it is laying on the ground.
+
+*Throw* - Attempting to throw the ball to another player. A player may not move or attempt a challenge before or after a throw of 7 or more hexes.
+*Impact/Tackle* - Once per an action you may attempt to tackle an opponent in an adjacent hex.
+*Shove* - Attempting to shove one opposing player into the unoccupied adjacent hex directly behind him. Shoves are limited to half your Jog (rounded up)
+*Dash* - This is a special challenge that may be performed only once an action. After your normal action is ended (including performing any challenges at the end), if you have Momentum counters left you can attempt a Dash challenge to extend your action. A successful Dash challenge lets you either perform one additional challenge with one extra Challenge dice OR perform an extra Tackle/Shove challenge OR move one extra hex (including Disengage/Pick-up challenges needed)

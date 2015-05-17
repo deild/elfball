@@ -1,0 +1,15 @@
+[[beginningATest]]
+== Beginning a test
+At the beginning of the game or after each goal is scored, you set up your team for the next Test with the following restrictions:
+
+The ball is placed on the yellow dot centre point on the playing field.
+
+For the first Test, each player rolls a D6 with both players re-rolling in cases of a tie. The loser of this dice off must set up his entire team first onto the playing field. After this the opponent sets up. For all Tests after the first Test, the player who scored the last goal must set up his entire team first.
+
+One player must be set up on your team's side of the yellow circle in the middle of the playing field for the face-off with a facing that puts the ball in a front facing hex. No more than one player from your team may be placed in this area. Players with an attribute Type of Monster may not participate in a face-off as the Elfball rules do not allow monsters to compete in a face-off. If you cannot set up a player for the face-off, your team loses the Test. If neither team can place a player in the centre circle of the face-off the game ends in a tie. Your player must be placed inside the circle. He cannot be placed in a hex with either the white or yellow line running through it.
+
+One player (and no more) must be placed in the Guardian circle (if you have a 2nd eligible player). This is the yellow circle in front of the white goal circle. Your player must be placed inside the circle and not in a hex with the yellow line running through it.
+
+Up to two players may be placed in each of the large Rover circles on your side of the playing field. Your player must be placed inside the circle and not in a hex with the yellow line running through it.
+
+All players must be set-up inside the yellow circles on your side of the field and you may not set up more than 6 players total for a Test. Any extra players from your team should be placed in the Bench area.

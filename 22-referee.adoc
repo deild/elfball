@@ -1,0 +1,7 @@
+[[referee]]
+== Referee
+Many professional games have a referee or often a player on the bench from each team act to ensure the rules are not broken. The referee serves to really only enforce three rules.
+
+Any player who enters a hex with the white line running through it around the outside of the playing field at any point (including being shoved into the hex) is immediately forced to leave the playing field and sit on the Bench for the rest of the Test. If the player had the ball, he is ejected by the referee for the remainder of the game as an extra penalty.  In addition, the referee blows the whistle and freezes play (no players are moved), grabs the ball from the ejected player and places it on the yellow dot in the face-off hex and play resumes (i.e. a mad scramble to get back to the middle hex to get the ball). If there is already a player in the middle hex, the referee hands the ball to this player (no challenge roll needed.)
+Any player who enters the goal circle hex at any point (including being shoved into the hex) without holding the ball is immediately forced to leave the playing field and sit on the Bench for the rest of the Test. If the player had the ball and enters or is shoved into his own goal hex then he is immediately forced to leave the playing field and the ball bounces to an adjacent hex.
+No player with an attribute Type of Monster is allowed to set up for a face-off.

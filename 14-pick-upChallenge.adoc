@@ -1,0 +1,14 @@
+[[pick-upChallenge]]
+== Pick-up challenge
+Picking Up the Ball - When you move into the hex with the ball you must attempt to pick up the ball (being shoved does not count as moving into the hex). Picking up the ball requires a Pick-Up challenge.
+
+
+Pickup challenge table
+
+If you fail to successfully pick up the ball your action is ended and a Shift in Momentum occurs.
+
+Dropping the Ball - If a player fails a Pick-Up or Catch challenge or a player with the ball is knocked down or dazed for any reason; or a player is Shoved into the hex with the ball; the ball bounces onto a Down or Dazed player; or a player flops a Throw challenge, the ball will immediately scatter one hex in a D6 direction (as indicated on the corners of the Elfball board). If the ball scatters to a hex with another standing player in it, the player may attempt a Catch challenge. A player can choose to automatically fail this Catch challenge in which case it will bounce 1 pace in a D6 direction from his position and is still treated as a dropped ball. If the ball lands in an unoccupied hex than it remains in that hex.
+
+White Lines on the Playing Field - The wizards of the Middle Kingdoms long ago discovered a simple cantrip that anyone can use to convert simple dirt and dust into a white powder that when placed on the ground repels any small mass flying or walking creatures and  objects that cross the ground it is cast upon for half a day. The spell was meant to protect adventurers from vampiric nightwings, venomous snakes and assassin's arrows, but it quickly found another use ... keeping an elfball on the field and forcing players to run the ball across the centre line of the field or across the goal line.
+
+Anytime a ball bounces or is thrown its movement is stopped as soon as it enters a hex with a white line passing through it. Bounce the ball D6 hexes in a D6 direction away from the hex with the white line (rolling again any D6 rolls for a direction that would bounce the ball where the first hex contains a white line or would allow the ball to pass through the white line.) Note: if a player is standing in a white lined hex and the ball will land in that hex roll the Catch challenge first. If that fails the ball bounces off the white line as if the catching player has not been in that hex. You can throw the ball from a white lined hex without penalty.

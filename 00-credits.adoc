@@ -1,0 +1,14 @@
+|===
+
+^a|[big]#*CREDITS*# +
+Rules Design : _Tom Anders, Phil Bowen, Max Haider and
+Eric Reiter_ +
+Rulebook Editor : _Tom Anders_ +
+Board, Cutout and Logo Graphics : _Eric Reiter_ +
+Cover and Rulebook Graphics : _Melvin de Voor_ +
+[small]#Copyright 2007, Impact! Miniatures. All Rights Reserved +
+Second Edition - June 30, 2010#
+
+[small]#`Traduction française par Tolvä.`#
+
+|===

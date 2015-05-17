@@ -1,0 +1,26 @@
+= Glossaire
+:author: Samuel Marcaille
+:email: <smur (at) free (dot) fr>
+:Date: 2015-05-16
+:Revision: 1
+:icons: font
+:source-highlighter: coderay
+
+
+== Convention du glossaire
+un « *?* » à côté d'un mot signifie que la traduction proposée est discutable, « *ctx* » sert à indiquer un contexte.
+
+- Ball icon:arrow-circle-o-right[] Ballon
+- Counters icon:times-circle-o[]
+- Dice icon:arrow-circle-o-right[] Dés
+- Dodge icon:times-circle-o[]
+- Grit icon:times-circle-o[]
+- Jog icon:times-circle-o[]
+- Might icon:times-circle-o[]
+- Passing string icon:times-circle-o[]
+- Players icon:arrow-circle-o-right[] Joueurs
+- Playing field icon:arrow-circle-o-right[] Aire de jeu
+- Skill icon:times-circle-o[]
+- Tackle icon:times-circle-o[]
+- Team manager icon:arrow-circle-o-right[] Entraineur
+- Type icon:times-circle-o[]

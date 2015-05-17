@@ -1,0 +1,10 @@
+[[dashChallenge]]
+== Dash challenge
+This is a special challenge that may be performed only once an action. You may spend Momentum counters to attempt a Dash challenge to extend your movement, or gain a slight boost to a challenge. A successful Dash challenge lets you choose 1 of 2 options:
+
+Move one extra hex after all Jog Points have been spent (no challenges allowed other than Disengage or Pick-up challenges). OR
+Perform a single Challenge with one extra die. If you have already used all of your Shoves and/or performed your one Tackle Challenge, you may perform another one but without the extra dice bonus. This option always ends your turn even if you have Jog points left.
+Choosing the 2nd option and performing an available Impact or Tackle challenge allows you to add the extra Challenge dice to one of those challenges (not both). The number of Momentum counters you spend to make the Dash challenge is used as the attribute. You may spend any remaining Momentum to replace dice as normal with a Dash challenge.
+
+
+Dash challenge table

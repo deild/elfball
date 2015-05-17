@@ -1,0 +1,17 @@
+[[playerAttributes]]
+== Player attributes
+Every player of Elfball has seven attributes which define his performance on the field. These are:
+
+*Jog* : This is the maximum number of paces (hexes) which a player is able to move/act during one turn.
+
+*Tackle* : This represents the player's ability to attempt to bring down (i.e. tackle) opponents and prevent opponents from getting away from him.
+
+*Might* : This attribute is a player's brute force and controls the power he can hit with and strength needed to bring him down.
+
+*Dodge* This controls how well a player can disengage from an opponent and defend against tackles.
+
+*Skill* This attribute represents a player's ability to throw, catch, and pick up the ball.
+
+*Grit* This is the player's toughness and his ability to stay in the game and withstand punishment.
+
+*Type* This defines the basic category of the player and determines which skills he can learn as part of the advanced rules for the game.

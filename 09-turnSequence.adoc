@@ -1,0 +1,5 @@
+[[turnSequence]]
+== Turn sequence
+The team of the player who wins the face-off must go first to perform an action for the Test. The Team Manager of each team may select any of his players to perform an action. Play alternates in this fashion until a goal is scored. A Team Manager must select any one of his players to perform an action during his turn except the very last player which performed an action on his team (i.e. the same player may only perform an action every other turn).
+
+If a team has only one player on the field, then he may perform an action in consecutive turns.

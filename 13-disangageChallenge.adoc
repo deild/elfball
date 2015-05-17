@@ -1,0 +1,9 @@
+[[disangageChallenge]]
+
+Disengage challenge
+Disengaging: A player who is in adjacent hex with a forward facing standing opposing player and who wishes to move into any other hex needs to make a Disengage challenge.
+
+
+Disengage Challenge Table
+
+Example: You attempt to disengage with a player with a Dodge attribute of 4 from two adjacent forward facing opponents with Tackle attributes of 3 and 2. So the # of successes needed is 2 (3 -2 +1)). You roll a flop and 3 successes. This gives you two successes so you manage to disengage successfully.
