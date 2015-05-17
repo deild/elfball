@@ -1,12 +1,12 @@
 = Liste de tâches
 :authors: Tolvä
 :email: <smur (at) free (dot) fr>
-:uri-github-repo: elfball
 :icons: font
 :source-highlighter: coderay
 
 
 Traduire les sections :
+
 - [ ] 00-preface
 - [ ] 01-gameComponents
 - [ ] 02
