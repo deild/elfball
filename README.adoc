@@ -19,7 +19,7 @@ Si vous travaillez ou souhaitez travailler sur la traduction française, faites-
 
 == Workflow
 
-Pour simplifier la gestion et utiliser pleinement les capacités de Git et Github, la manière la plus directe de collaborer consiste à faire un fork sur Github du dépôt *{uri-github-repo}* sur votre propre compte pour y générer vos modifications, si possible sur une branche thématique.
+Pour simplifier la gestion et utiliser pleinement les capacités de Git et Github, la manière la plus directe de collaborer consiste à faire un fork sur Github du dépôt *{uri-github-repo}* sur votre propre compte pour y générer vos modifications, si possible sur une branche thématique (link:TODO.adoc[TODO]).
 
 Ensuite, il suffit de lancer une _pull request_ pour nous avertir que les modifications peuvent être revues et intégrées.
 

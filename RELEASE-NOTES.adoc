@@ -1,8 +1,13 @@
 = Release Notes
 :figure-caption!:
+:icons: font
 
-image:images/added.png[Added] Nouvel ajout image:images/modified.png[Modified] Modification image:images/fixed.png[Fixed] Correction d'un bug
+icon:plus[role="blue"] Ajout 
+icon:edit[role="green"] Modification
+icon:bug[role="red"] Correction 
+icon:remove[role="gray"] Suppresion 
 
-== 0.1.0
+== icon:tag[role="purple"] 0.1.0
 
-image:images/added.png[Added] Ajout de la préface.
+[no-bullet]
+icon:plus[role="blue"] Ajout de la préface.
