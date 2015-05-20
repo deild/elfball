@@ -1,0 +1,8 @@
+= Release Notes
+:figure-caption!:
+
+image:images/added.png[Added] Nouvel ajout image:images/modified.png[Modified] Modification image:images/fixed.png[Fixed] Correction d'un bug
+
+== 0.1.0
+
+image:images/added.png[Added] Ajout de la préface.

@@ -50,3 +50,7 @@ Voici ci-dessous quelques liens :
 
 ** http://www.dsi.univ-paris5.fr/typo.html
 ** http://jacques-andre.fr/faqtypo/lessons.pdf
+
+== release notes
+
+link:RELEASE-NOTES.adoc[change log]
