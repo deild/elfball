@@ -1,4 +1,5 @@
-== Objective of the game
-A match is made up of a series of Tests. The winner of each Test is the first team to score a goal which ends the Test. A match continues until one team has won a pre-determined number of Tests. A normal game would be played to first goal wins, but Advanced rules games should usually be played to two or three goals to win - make sure you and your opponent agree on this before starting the game. To score a goal, a player holding the ball must end his action in the opponent's goal circle hex.
+== Objectif du jeu
 
-NOTE: Your first few games of Elfball to better learn the rules and increase game speed really should be played to one goal with the Optional rules to change the Star result on the Challenge dice and the Face-Off.
+Le jeu est composé d’une série d'essais. Le gagnant de chaque essai est la première équipe qui marque un but ce qui termine l'essai. Le jeu continu jusqu’à ce qu’une équipe gagne un nombre prédéterminé d'essai. Le jeu de base peut se jouer jusqu’au premier but gagnant, mais les régles avancées se joue en 2 ou 3 buts gagnant. Assurez vous de vous être entendu avec votre adversaire avant d’avoir commencé le match. Pour marqué un but un joueur portant le ballon doit terminer son action dans l’hexagone contenant le cercle délimitant le but adverse.
+
+TIP: Lors de vos premiers match de Elfball pour appréhender au mieux et plus rapidement les règles du jeu vous devriez joués en un but gagnant avec les règles facultatives de Mise en jeu et de changement de résultat étoile sur le dé de défi.
