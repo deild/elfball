@@ -10,6 +10,7 @@ icon:remove[role="gray"] Suppresion [del]
 == icon:tag[role="purple"] 0.0.1
 
 [no-bullet]
+- icon:plus[role="blue"] Traduction de la section 01
 - icon:plus[role="blue"] Ajout de la préface.
 - icon:plus[role="blue"] Ajout d'une TODO liste.
 - icon:plus[role="blue"] Mise en place de la strucutre du dépôt.

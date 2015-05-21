@@ -2,12 +2,7 @@
 
 [[gameComponents]]
 == Composants du jeu
-Chaque partie d'ElfBall nécessite quelques éléments très basique pour jouer à ce jeu rapidement et facilement.
-
-----
-== Game components
-Every game of Elfball needs some very basic components to play the game quickly and easily.
-----
+Chaque partie d'ElfBall nécessite quelques éléments de base pour jouer au jeu rapidement et facilement.
 
 === Aire de jeu
 
@@ -33,6 +28,7 @@ The Elfball itself is designed to test the skill and in some part the luck of th
 === Players
 Impact! Miniatures sell a number of white metal miniatures to help you represent your players. However, any miniatures that you can put on a 25mm base (30mm for large players) to be properly representative of the players from your team are fine.
 ----
+
 === Dés
 ----
 === Dice
@@ -63,13 +59,12 @@ TIP: If you do not have Elfball Challenge dice you can use a normal D6 with the 
 === Passing string
 The game uses a 3/16" wide piece of string to show the hexes that can intercept when a throw is attempted.
 ----
+
 === Marqueurs
 ----
 === Counters
 The game has two small yellow counters to use to track which player moved last for each team. The game also includes five white counters to be used to track Momentum, Potions, and the score during the game.
 ----
+
 === Entraineur
-----
-=== Team manager
-You as the player of your team take on the roll of Team Manager. Any reference to the Team Manager in the rules is referring to you.
-----
+Vous avez en tant que joueur de votre équipe le rôle d'entraineur. Toutes référence à l'entraineur dans les régles se réferre à vous.
