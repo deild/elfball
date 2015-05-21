@@ -1,4 +1,4 @@
-[[standingAPlayerup]]
+
 == Standing a player up
 Players who have fallen or been knocked down are represented by two states if they are still on the playing field, Down and Dazed. In both states, you may not move out of your hex or perform a challenge until you get up.
 

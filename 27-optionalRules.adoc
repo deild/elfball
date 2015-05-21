@@ -1,5 +1,5 @@
-[[optionalRules]]
 = Alternate rules
+
 The following rules are optional rules and teams for Elfball and need to be agreed upon by both you and your opponent OR your league commissioner to be used.
 
 == Timed game

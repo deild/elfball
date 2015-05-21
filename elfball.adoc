@@ -1,11 +1,13 @@
 :doctitle: ElfBall : Livre des régles, seconde édition.
-:doctype:   book
+:doctype: book
 :docinfo:
 :toc: macro
 :toc-title: Table des matiéres
+:username: tolva
 //:front-cover-image: image:cover.png[width=1050,height=1600]
-:icons: font
 :source-highlighter: coderay
+:figure-caption!:
+:imagesdir: .
 ifdef::backend-pdf[:notitle:]
 ifdef::backend-pdf[]
 :pdf-page-size: A4
@@ -14,59 +16,32 @@ ifdef::backend-pdf[]
 endif::[]
 
 include::00-preface.adoc[]
-
+include::00-credits.adoc[]
 include::01-gameComponents.adoc[]
-
 include::02-objectiveOfTheGame.adoc[]
-
 include::03-teamAndPlayerDescriptions.adoc[]
-
 include::04-playerAttributes.adoc[]
-
 include::05-playerFacing.adoc[]
-
 include::06-actionAndChallenge.adoc[]
-
 include::07-beginningATest.adoc[]
-
 include::08-TheFace-off.adoc[]
-
 include::09-turnSequence.adoc[]
-
 include::10-challengeTypes.adoc[]
-
 include::11-momemtum.adoc[]
-
 include::12-standingAPlayerUp.adoc[]
-
 include::13-disangageChallenge.adoc[]
-
 include::14-pick-upChallenge.adoc[]
-
 include::15-throwCatchInterceptChallenges.adoc[]
-
 include::16-tackleChallenge.adoc[]
-
 include::17-shoveChallenge.adoc[]
-
 include::18-dashChallenge.adoc[]
-
 include::19-injuries.adoc[]
-
 include::20-replacements.adoc[]
-
 include::21-conceding.adoc[]
-
 include::22-referee.adoc[]
-
 include::23-playExample1.adoc[]
-
 include::24-playExample2.adoc[]
-
-include::25-advencedRules.adoc[]
-
+include::25-advancedRules.adoc[]
 include::26-teamLists.adoc[]
-
 include::27-optionalRules.adoc[]
-
 include::28-tournamentPlay.adoc[]

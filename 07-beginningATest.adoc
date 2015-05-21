@@ -1,4 +1,4 @@
-[[beginningATest]]
+
 == Beginning a test
 At the beginning of the game or after each goal is scored, you set up your team for the next Test with the following restrictions:
 

@@ -11,9 +11,10 @@ image:images/icons/tag.png[add,24] Version [tag]
 == image:images/icons/tag.png[add,24] 0.0.1
 
 [no-bullet]
+- image:images/icons/fix.png[add,24] correction dans la structure du document
 - image:images/icons/add.png[add,24] traduction section 01
 - image:images/icons/add.png[add,24] ajout d'une license
 - image:images/icons/add.png[add,24] création de la release note
 - image:images/icons/add.png[add,24] traduction de la préface
 - image:images/icons/add.png[add,24] création d'une TODO liste
-- image:images/icons/add.png[add,24] mise en place de la strucutre du dépôt
+- image:images/icons/add.png[add,24] mise en place de la structure du dépôt

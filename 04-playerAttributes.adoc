@@ -1,4 +1,3 @@
-[[playerAttributes]]
 == Player attributes
 Every player of Elfball has seven attributes which define his performance on the field. These are:
 

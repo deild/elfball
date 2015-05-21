@@ -1,4 +1,4 @@
-[[actionAndChallenge]]
+
 == Actions & challenges
 An action is defined by a series of challenges and movement that a player can perform until he runs out of paces of Jog to use or has an action ending Shift of Momentum event. Note: a player's action includes another player trying to catch any Throw that he performs. When a player attempts to perform any type of physical activity which requires a dice roll to determine whether it is a success or failure, it is referred to as a challenge.
 

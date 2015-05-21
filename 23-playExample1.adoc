@@ -1,4 +1,3 @@
-[[playExample1]]
 == Play-by-play-example #1
 
 

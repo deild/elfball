@@ -1,4 +1,4 @@
-[[challengeTypes]]
+
 == Challenge types
 When a player performs an action he may perform many different challenges. The active player may perform each challenge (other than Impact/Tackle and Shove) as many times as desired per action. Each time a player moves from one hex to another he uses one pace of his Jog. Performing challenges does not use any paces of Jog and can be performed even after using your last pace of Jog. The list below shows the types of challenges:
 

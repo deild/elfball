@@ -1,4 +1,3 @@
-[[objectiveOftheGame]]
 == Objective of the game
 A match is made up of a series of Tests. The winner of each Test is the first team to score a goal which ends the Test. A match continues until one team has won a pre-determined number of Tests. A normal game would be played to first goal wins, but Advanced rules games should usually be played to two or three goals to win - make sure you and your opponent agree on this before starting the game. To score a goal, a player holding the ball must end his action in the opponent's goal circle hex.
 

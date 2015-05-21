@@ -1,4 +1,4 @@
-[[replacements]]
+
 == Replacements
 
 If you have less than 6 players on the field, then for your turn instead of taking an action with a player on the field you may take one player from your Bench area (not Recovery or Infirmary areas) and place him into any hex without a player in it within 3 hexes of either stairway into your dugouts (these are the hexes outlined by the blue line in the picture). This player may pick-up the ball if it is in the hex, but may not move or perform any other challenges this turn. This player should be marked as the last player moved.

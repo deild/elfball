@@ -1,6 +1,7 @@
-[[tournamentPlay]]
-== Tournament Play
+= Tournament Play
+
 These rules are open to modification but this is a suggestion for rules to have a great tournament using Elfball.
+
 
 Use 120 to 150 point teams. Teams must have at least 6 players.
 Team can purchase a Bribed Ref, Zlurpee Kegs, Cheerleaders and Magic Potions as part of their team. Magic Potions are limited to 0-2 instead of 0-3.

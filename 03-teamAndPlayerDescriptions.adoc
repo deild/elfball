@@ -1,4 +1,3 @@
-[[teamAndPlayerDescriptions]]
 == Team & player descriptions
 Most Elfball teams are composed of some standard type of specialist players. The races use more of some types of specialists than others and a few use none at all. The page building & growing your team gives the full details to use for building a team and adding extras to your team. Your team is composed of players picked from a single team list. You may not mix players from more than one team list to create your Elfball team.
 

@@ -1,4 +1,4 @@
-[[dashChallenge]]
+
 == Dash challenge
 This is a special challenge that may be performed only once an action. You may spend Momentum counters to attempt a Dash challenge to extend your movement, or gain a slight boost to a challenge. A successful Dash challenge lets you choose 1 of 2 options:
 

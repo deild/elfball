@@ -1,7 +1,5 @@
-[[advancedRules]]
 = ADVANCED RULES
 
-[[teamBuildingRules]]
 == Team building rules
 The previous pages gave you all the rules you need to sit down and play a game of Elfball. The following rules are only intended if you want to create a team and play it over multiple games with it growing and changing as you play.
 

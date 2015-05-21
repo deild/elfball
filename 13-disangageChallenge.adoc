@@ -1,6 +1,6 @@
 [[disangageChallenge]]
 
-Disengage challenge
+== Disengage challenge
 Disengaging: A player who is in adjacent hex with a forward facing standing opposing player and who wishes to move into any other hex needs to make a Disengage challenge.
 
 

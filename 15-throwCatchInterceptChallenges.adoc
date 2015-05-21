@@ -1,4 +1,4 @@
-[[throwCatchInterceptChallenges]]
+
 == Throw, catch & intercept challenges
 
 Throwing the Ball - A player with the ball may attempt to throw the ball to another player on his team. If he tries to throw 7 or more paces away from his hex (maximum of 18), he may not move or perform a challenge before or after the Throw challenge. If he wants to move or perform a challenge before or after the throw he may throw up to a maximum of 6 paces. The player must throw the ball in a direction matching his current facing using a Throw challenge (note: you can throw the ball to empty hex on the playing field).

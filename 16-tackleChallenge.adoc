@@ -1,4 +1,4 @@
-[[tackleChallenge]]
+
 == Tackle challenge
 Impact challenge
 A standing player may roll a Impact/Tackle challenge against a standing adjacent opponent that he is facing once per action. First you must compare the Might of your player with the player you are tackling. If your player's Might is lower than your opponent's Might you must roll an Impact challenge first to see if you hit with enough force to make a Tackle challenge.
