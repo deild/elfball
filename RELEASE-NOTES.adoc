@@ -1,16 +1,18 @@
 = Release Notes
 :figure-caption!:
-:icons: font
 
-icon:plus[role="blue"] Ajout [add]
-icon:edit[role="green"] Modification [edit]
-icon:bug[role="red"] Correction [fix]
-icon:remove[role="gray"] Suppresion [del]
+image:images/icons/add.png[add,24] Ajout [add]
+image:images/icons/edit.png[add,24] Modification [edit]
+image:images/icons/fix.png[add,24] Correction [fix]
+image:images/icons/del.png[add,24] Suppression [del]
+image:images/icons/tag.png[add,24] Version [tag]
 
-== icon:tag[role="purple"] 0.0.1
+
+== image:images/icons/tag.png[add,24] 0.0.1
 
 [no-bullet]
-- icon:plus[role="blue"] Traduction de la section 01
-- icon:plus[role="blue"] Ajout de la préface.
-- icon:plus[role="blue"] Ajout d'une TODO liste.
-- icon:plus[role="blue"] Mise en place de la strucutre du dépôt.
+- image:images/icons/edit.png[add,24] Mise en page de la release note
+- image:images/icons/add.png[add,24] Traduction de la section 01
+- image:images/icons/add.png[add,24] Ajout de la préface
+- image:images/icons/add.png[add,24] Ajout d'une TODO liste
+- image:images/icons/add.png[add,24] Mise en place de la strucutre du dépôt
