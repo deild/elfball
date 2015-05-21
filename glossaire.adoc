@@ -10,17 +10,18 @@
 == Convention du glossaire
 un « *?* » à côté d'un mot signifie que la traduction proposée est discutable, « *ctx* » sert à indiquer un contexte.
 
-- Ball icon:arrow-circle-o-right[] Ballon
-- Counters icon:arrow-circle-o-right[] Marqueurs
-- Dice icon:arrow-circle-o-right[] Dés
-- Dodge icon:arrow-circle-o-right[] Esquiver
-- Grit icon:times-circle-o[]
-- Jog icon:arrow-circle-o-right[] Mouvement
-- Might icon:times-circle-o[] Force
-- Passing string icon:times-circle-o[]
-- Players icon:arrow-circle-o-right[] Joueurs
-- Playing field icon:arrow-circle-o-right[] Aire de jeu
-- Skill icon:arrow-circle-o-right[] Compétence
-- Tackle icon:arrow-circle-o-right[] Tacle
-- Team manager icon:arrow-circle-o-right[] Entraineur
-- Type icon:times-circle-o[]
+[square]
+- Ball icon:arrow-circle-o-right[lg] Ballon
+- Counters icon:arrow-circle-o-right[lg] Marqueurs
+- Dice icon:arrow-circle-o-right[lg] Dés
+- Dodge icon:arrow-circle-o-right[lg] Esquiver
+- Grit icon:times-circle-o[lg]
+- Jog icon:arrow-circle-o-right[lg] Mouvement
+- Might icon:arrow-circle-o-right[lg] Force
+- Passing string icon:times-circle-o[lg]
+- Players icon:arrow-circle-o-right[lg] Joueurs
+- Playing field icon:arrow-circle-o-right[lg] Aire de jeu
+- Skill icon:arrow-circle-o-right[lg] Compétence
+- Tackle icon:arrow-circle-o-right[lg] Tacle
+- Team manager icon:arrow-circle-o-right[lg] Entraîneur
+- Type icon:times-circle-o[lg]
