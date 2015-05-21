@@ -2,12 +2,14 @@
 :figure-caption!:
 :icons: font
 
-icon:plus[role="blue"] Ajout 
-icon:edit[role="green"] Modification
-icon:bug[role="red"] Correction 
-icon:remove[role="gray"] Suppresion 
+icon:plus[role="blue"] Ajout [add]
+icon:edit[role="green"] Modification [edit]
+icon:bug[role="red"] Correction [fix]
+icon:remove[role="gray"] Suppresion [del]
 
-== icon:tag[role="purple"] 0.1.0
+== icon:tag[role="purple"] 0.0.1
 
 [no-bullet]
-icon:plus[role="blue"] Ajout de la préface.
+- icon:plus[role="blue"] Ajout de la préface.
+- icon:plus[role="blue"] Ajout d'une TODO liste.
+- icon:plus[role="blue"] Mise en place de la strucutre du dépôt.
