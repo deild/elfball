@@ -7,7 +7,7 @@
 
 Traduire les sections :
 
-- [ ] https://github.com/deild/elfball/tree/00-preface[00-preface]
+- [x] https://github.com/deild/elfball/tree/00-preface[00-preface]
 - [ ] https://github.com/deild/elfball/tree/01-gameComponents[01-gameComponents]
 - [ ] https://github.com/deild/elfball/tree/[]02
 - [ ] https://github.com/deild/elfball/tree/[]03
