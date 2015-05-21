@@ -11,6 +11,7 @@ image:images/icons/tag.png[add,24] Version [tag]
 == image:images/icons/tag.png[add,24] 0.0.1
 
 [no-bullet]
+- image:images/icons/fix.png[add,24] [fix] changement de license
 - image:images/icons/edit.png[add,24] Mise en page de la release note
 - image:images/icons/add.png[add,24] Traduction de la section 01
 - image:images/icons/add.png[add,24] Ajout de la préface
