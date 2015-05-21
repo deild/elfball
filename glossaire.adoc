@@ -2,7 +2,6 @@
 :author: Samuel Marcaille
 :email: <smur (at) free (dot) fr>
 :Date: 2015-05-16
-:Revision: 1
 :icons: font
 :source-highlighter: coderay
 
@@ -25,3 +24,4 @@ un « *?* » à côté d'un mot signifie que la traduction proposée est discuta
 - Tackle icon:arrow-circle-o-right[lg] Tacle
 - Team manager icon:arrow-circle-o-right[lg] Entraîneur
 - Type icon:times-circle-o[lg]
+- Test icon:arrow-circle-o-right[lg] Essai
