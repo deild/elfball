@@ -11,16 +11,16 @@
 un « *?* » à côté d'un mot signifie que la traduction proposée est discutable, « *ctx* » sert à indiquer un contexte.
 
 - Ball icon:arrow-circle-o-right[] Ballon
-- Counters icon:times-circle-o[]
+- Counters icon:arrow-circle-o-right[] Marqueurs
 - Dice icon:arrow-circle-o-right[] Dés
-- Dodge icon:times-circle-o[]
+- Dodge icon:arrow-circle-o-right[] Esquiver
 - Grit icon:times-circle-o[]
-- Jog icon:times-circle-o[]
-- Might icon:times-circle-o[]
+- Jog icon:arrow-circle-o-right[] Mouvement
+- Might icon:times-circle-o[] Force
 - Passing string icon:times-circle-o[]
 - Players icon:arrow-circle-o-right[] Joueurs
 - Playing field icon:arrow-circle-o-right[] Aire de jeu
-- Skill icon:times-circle-o[]
-- Tackle icon:times-circle-o[]
+- Skill icon:arrow-circle-o-right[] Compétence
+- Tackle icon:arrow-circle-o-right[] Tacle
 - Team manager icon:arrow-circle-o-right[] Entraineur
 - Type icon:times-circle-o[]
