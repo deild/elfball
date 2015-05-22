@@ -1,4 +1,23 @@
-== Player attributes
+== Joueurs attributs
+
+Tous les joueurs de Elfball ont 7 attributs qui définissent leurs performances sur le terrain.
+
+*Mouvement* : C’est le nombre maximum de pas (hexagones)  dont un joueur est capable de se déplacer en un tour.
+
+*Tacle* : Il représente la capacité d'un joueur à mettre à terre un adversaire (Plaquer) et à empêcher les adversaires de s'éloigner de lui
+
+*Force* : Cet attribut permet de mesurer la force brute d’un  joueur,  la puissance avec laquelle il peut frapper, ainsi que la force nécessaire pour le plaquer.
+
+*Esquive* : représente la capacité d'un joueur à se désengager d’un adversaire et à se défendre face aux plaquages.
+
+*Habileté* : Cet attribut représente l’habileté qu’a un joueur à lancer, attraper et ramasser la balle.
+
+*Courage* : C’est la ténacité du joueur, sa capacité à rester dans le jeu et à résister à la douleur.
+
+*Type* : Ceci définit la catégorie de base du joueur et détermine quelles sont les aptitudes qu'il peut acquérir dans le cadre des règles avancées.
+
+----
+ Player attributes
 Every player of Elfball has seven attributes which define his performance on the field. These are:
 
 *Jog* : This is the maximum number of paces (hexes) which a player is able to move/act during one turn.
@@ -14,3 +33,4 @@ Every player of Elfball has seven attributes which define his performance on the
 *Grit* This is the player's toughness and his ability to stay in the game and withstand punishment.
 
 *Type* This defines the basic category of the player and determines which skills he can learn as part of the advanced rules for the game.
+----

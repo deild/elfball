@@ -11,6 +11,7 @@ image:images/icons/tag.png[add,24] Version [tag]
 
 [no-bullet]
 - image:images/icons/add.png[add,24] traduction de la section 05
+- image:images/icons/add.png[add,24] traduction de la section 04
 - image:images/icons/add.png[add,24] traduction de la section 03
 - image:images/icons/add.png[add,24] traduction de la section 02
 
