@@ -1,5 +1,16 @@
+== Débuter un essai
 
-== Beginning a test
+Au début du match ou après chaque but marqué, vous replacez votre équipe pour le prochain Test avec les restrictions suivantes:
+
+* La balle est placée sur le point jaune au centre du terrain.
+* Pour le premier Test, chaque joueur lance un D6. Le perdant doit placer la totalité de son équipe sur le terrain. Ensuite son adversaire fait de même. Lors des autres Test c’est l’équipe qui a marqué le dernier but qui doit se replacer en premier.
+* Un joueur doit être placé de votre coté du cercle jaune central pour la mise en jeu, il doit faire face à l’hexagone contenant la balle. Pas plus de un joueur de votre équipe ne peut être dans cette zone. Les joueurs avec un attribut de type monstre ne peuvent pas prendre part à la Mise en jeu. Si vous ne pouvez pas placer un joueur pour la Mise en jeu vous perdez le Test. Si aucune des équipes ne peut placer de joueur  dans le cercle central le jeu se termine sur une égalité. Votre joueur doit être à l'intérieur du cercle il ne peut pas être sur un hexagone traversé par une ligne blanche ou jaune.
+* Un joueur doit être placé dans le cercle du Garde. Ce cercle jaune est juste devant le cercle blanc du but. Votre joueur doit être à l'intérieur du cercle et non sur un hexagone traversé par le cercle jaune.
+* Jusqu'à deux joueurs peuvent être placés dans chacun des grands cercles jaunes de votre moitié de terrain. Vos joueurs doivent être placé à l'intérieur du cercle et non pas dans un hexagone traversé par la ligne jaune.
+* Tous les joueurs sont placés dans des cercles jaunes dans votre moitié de terrain et vous ne pouvez pas placer plus de 6 joueurs pour un Test. Tous les joueurs supplémentaires sont placés sur le banc des remplaçants.
+
+----
+ Beginning a test
 At the beginning of the game or after each goal is scored, you set up your team for the next Test with the following restrictions:
 
 The ball is placed on the yellow dot centre point on the playing field.
@@ -13,3 +24,4 @@ One player (and no more) must be placed in the Guardian circle (if you have a 2n
 Up to two players may be placed in each of the large Rover circles on your side of the playing field. Your player must be placed inside the circle and not in a hex with the yellow line running through it.
 
 All players must be set-up inside the yellow circles on your side of the field and you may not set up more than 6 players total for a Test. Any extra players from your team should be placed in the Bench area.
+----
