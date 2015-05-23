@@ -1,5 +1,16 @@
+== Temps fort
 
-== Momentum
+Durant un match de Elfball, il y a des moments chaud ou tout semble se passer pour le mieux. Ces moments sont représentés par le compteur de Temps fort. Un marqueur est placé sur le zéro au début de chaque Test et après chaque action qui  ne se termine pas par un Revirement de Situation ( nous utiliserons l'abréviation RdS).
+
+À chaque fois que vous résolvez un défi (autre que Se lancer ou Mise en jeu ou un défi durant l'action adverse) et que vous obtenez plus de succès que nécessaire, cela vous autorise à incrémenter le marqueur de Temps fort de plusieurs points (jusqu'à un maximum de 6). Les Temps fort sont une chose importante dans le jeu. Chaque fois qu'un joueur de votre équipe tente un défi durant votre action il peut utiliser vos marqueurs de Temps fort pour relancer des dés après que l'utilisation de ses aptitudes (cf page 12) ont bien été résolut sans échec. Le nouveau jet remplace l'ancien. Vous pouvez aussi utiliser les Temps fort pour forcer votre adversaire à relancer un de ses dés durant votre action. Le compteur de Temps fort revient toujours à zéro au début de l'action de votre adversaire sauf si un Revirement de Situation se produit dans ce cas votre adversaire gagne tout vos marqueurs de Temps fort pour son action. Voici la liste des action dont la fin amène un RdS :
+
+- Échoué a un défi Ramasser la balle.
+- Aucune réception de l'un de vos joueurs après un lancer.
+- Échoué a un défi Se lancer.
+- Fiasco à un défi (aucun marqueur de Temps fort ne peut être utilisé pour changer un fiasco à un défi)
+
+----
+ Momentum
 During a game of Elfball, teams and players will get hot streaks where everything seems to go right for them. This is represented by the Momentum track. A counter is placed on the Momentum track at zero at the start of each Test and after any action that ends without an event that results in a Shift in Momentum (abbreviated SiM in the rules which means your action ends and you have a Shift in Momentum).
 
 Any time you attempt a challenge (other than a Dash or Face-off challenge or rolling a challenge during your opponent's turn) and roll more than number of needed successes, these are considered Extra Successes and allow you to move the Momentum counter up the track that many spaces (to a maximum of 6). Momentum is a powerful thing in the game. Any time any player from your team performs a challenge during your player's action he may use as many Momentum counters as he wants to replace any challenge dice rolls once after all conditional success rolls and ability replacement rolls are fully resolved as long as you have not flopped the challenge. The new rolls from using Momentum replace the old rolls and must be used. You can also use Momentum counters to force an opponent to replace a die of your choice for any challenge rolls they make during your action. Momentum counters always return to zero at the beginning of your opponent's action unless a Shift in Momentum occurs in which case your opponent gains all of your remaining Momentum counters to use for his player's action. The list of action ending events that result in a Shift in Momentum are:
@@ -8,3 +19,4 @@ Any time you attempt a challenge (other than a Dash or Face-off challenge or rol
 - Failing to have one of your players catch the ball after a throw challenge
 - Failing a Dash challenge
 - Flopping a challenge (if you have flopped a challenge no Momentum counters may be used to change this)
+----
