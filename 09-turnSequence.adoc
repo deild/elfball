@@ -1,5 +1,13 @@
+== Séquence du tour
+
+L'équipe du joueur qui gagne la mise en jeu doit être la première à exécuter une action. Une fois l’action résolue, l'entraîneur adverse peut choisir n'importe lequel de ses joueurs pour exécuter une action à son tour. Jouez alternativement comme cela jusqu'à ce qu’un but soit marqué. L'entraîneur peut choisir n'importe lequel de ses joueurs pour exécuter une action pendant son tour sauf le tout dernier joueur qu’il a utilisé (c.à-d. le même joueur ne peut être utilisé deux fois de suite).
+
+Si une équipe n’a plus qu’un joueur sur le terrain, il peut alors effectuer une action durant plusieurs tours consécutifs.
+
+----
 
 == Turn sequence
 The team of the player who wins the face-off must go first to perform an action for the Test. The Team Manager of each team may select any of his players to perform an action. Play alternates in this fashion until a goal is scored. A Team Manager must select any one of his players to perform an action during his turn except the very last player which performed an action on his team (i.e. the same player may only perform an action every other turn).
 
 If a team has only one player on the field, then he may perform an action in consecutive turns.
+----
