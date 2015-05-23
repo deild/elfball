@@ -1,2 +1,7 @@
+== Concéder le match
+Un joueur peut concéder le match à son adversaire à n'importe quel moment. Si c'est le cas, chaque joueur de l'équipe adversaire non à l'infirmerie reçoit un point d'expérience. De plus, le score de l'équipe adverse est ajusté de telle sorte qu'ils ont marqué un nombre de buts suffisants pour gagner ce match.
+
+----
 == Conceding
 A player at any point may concede the match to his opponent. If this is done, each player on the opposing team not in the Infirmary receives one Experience Point. In addition, the opposing team's score is adjusted so that they have scored sufficient goals to win this game.
+----
