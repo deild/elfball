@@ -7,6 +7,12 @@ image:images/icons/fix.png[add,24] Correction [fix]
 image:images/icons/del.png[add,24] Suppression [del]
 image:images/icons/tag.png[add,24] Version [tag]
 
+== image:images/icons/tag.png[add,24] 0.0.4
+
+[no-bullet]
+- image:images/icons/add.png[add,24] traduction de la section 12
+- image:images/icons/add.png[add,24] traduction de la section 11
+
 == image:images/icons/tag.png[add,24] 0.0.3
 
 [no-bullet]
