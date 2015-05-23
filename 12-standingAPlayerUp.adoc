@@ -11,7 +11,7 @@ Chaque coéquipier adjacent de face réduit le besoin de 1 +
 Chaque adversaire adjacent de face augmente le besoin de 1 +
 Si vous n'avez pas les points de mouvement nécessaires vous ne vous relevez pas. Si le nombre de point de Mouvement nécessaire est zéro ou moins alors le joueur peut se relever sans perdre de point de Mouvement.
 
-NOTE: vous ne pouvez pas utiliser de défi Se lancer pour gagner un point de mouvement afin de vous relever.
+WARNING: vous ne pouvez pas utiliser de défi Se lancer pour gagner un point de mouvement afin de vous relever.
 
 ----
 == Standing a player up
