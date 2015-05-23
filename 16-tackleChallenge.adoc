@@ -1,4 +1,41 @@
+== Charger et plaquer
+Un joueur debout peut tenter un défi de Charger/Plaquer contre un adversaire adjacent lui faisant face une fois par action. Tout d'abord vous devez comparez la force de votre joueur avec celle de son adversaire. Si la force de votre joueur est inférieure vous devez commencer par un défi de charge avant de pouvoir éventuellement pouvoir réalisé un défi Plaquer.
 
+Charger
+Attribut:	Force
+# de succès nécessaire	Force adverse - 2
+Modificateur de succès
+Pour chaque équipier debout face à votre joueur	-1
+Pour chaque adversaire debout face à votre joueur autre que la cible	"+1
+"
+Charger un adversaire dans le dos	-1
+Résultat:
+Échec:	Votre joueur est à terre. RdS
+Nombre de succès insuffisant:	La charge échoue et vous devez utiliser un point de mouvement avant de bouger ou de faire une action autre qu'un Placage .
+Nombre de succès suffisant:	Succès; vous pouvez Plaquer votre adversaire.
+
+En cas de succès lors du défi charger ou si votre force est supérieur ou égal à votre adversaire vous pouvez réaliser un défi Plaquer contre lui.
+
+Plaquer
+Attribut:	Tacle
+# de succès nécessaire	Esquive adverse - 2
+Modificateur de succès
+Pour chaque équipier debout face à votre joueur	-1
+Pour chaque adversaire debout face à votre joueur autre que la cible	"+1
+"
+Plaquer un adversaire sans la balle	1
+Plaquer un adversaire dans le dos	-1
+Résultat:
+Échec:	Le plaqueur est à terre. RdS
+Nombre de succès insuffisant:	Le placage échoue il est sans effet.
+Exactement le nombre de succès nécessaire:	Plaque glissant; le plaqueur et son adversaire sont à terre.
+Un succès de plus que nécessaire:	Bon coup. L'adversaire est à terre.
+Deux succès de plus que nécessaire:	Punition. L'adversaire doit lancer un défi de blessure comme si il avait un attribut Courage de 6
+Trois succès ou plus que nécessaire:	Handicap. L'adversaire doit lancer un défi de blessure.
+
+WARNING: seul les succès au dessus de trois compte comme succès supplémentaires pour un Temps fort.
+
+----
 == Tackle challenge
 Impact challenge
 A standing player may roll a Impact/Tackle challenge against a standing adjacent opponent that he is facing once per action. First you must compare the Might of your player with the player you are tackling. If your player's Might is lower than your opponent's Might you must roll an Impact challenge first to see if you hit with enough force to make a Tackle challenge.
@@ -11,3 +48,4 @@ If you succeed at the Impact challenge or your Might was equal to or greater tha
 
 
 Tackle challenge table
+----
