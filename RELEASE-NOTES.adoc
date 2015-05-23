@@ -10,6 +10,7 @@ image:images/icons/tag.png[add,24] Version [tag]
 == image:images/icons/tag.png[add,24] 0.0.4
 
 [no-bullet]
+- image:images/icons/add.png[add,24] traduction de la section 17
 - image:images/icons/add.png[add,24] traduction de la section 16
 - image:images/icons/add.png[add,24] traduction de la section 15
 - image:images/icons/add.png[add,24] traduction de la section 14
