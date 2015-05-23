@@ -1,4 +1,27 @@
+== Ramassage
 
+Ramasser le ballon - Quand vous vous déplacez dans un hexagone contenant la balle vous devez essayer de la ramasser (une poussée n'est pas considéré comme un déplacement dans l'hexagone). Ramassé la balle nécessite un défi.
+
+Ramasser la balle
+Attribut:	Habileté
+# de succès nécessaire	1
+Modificateur de succès
+Pour chaque équipier debout face à votre joueur	-1
+Pour chaque adversaire debout face à votre joueur	+1
+Résultat:
+Échec:	Le joueur trébuche et se retrouve à terre. La balle rebondit d'un hexagone dans une direction D6. RdS.
+Nombre de succès insuffisant :	La balle échappe au joueur et rebondit d'un hexagone dans la direction D6. RdS.
+Nombre de succès suffisant :	Le joueur ramasse la balle avec succès.
+
+Si vous ratez votre ramassage, votre action est terminé et c'est un RdS.
+
+*Rebond de balle* : si un joueur rate un ramassage ou une réception, ou encore qu'un joueur avec la balle soit mis à terre ou sonné pour n'importe quelle raison, ou qu'un joueur soit poussé dans l'hexagone dans lequel repose la balle, que la balle rebondit sur un joueur à terre ou sonné, ou qu'un joueur rate un lancer, la balle est immédiatement disperser d'un hexagone  à l'aide d'un D6 (comme indiqué dans le coin du plateau). Si la balle rebondit sur l'hexagone d'un joueur debout, celui ci peut essayer de la réceptionner (cf réception).  Le joueur peut choisir de rater automatiquement cette réception dans ce cas elle rebondira à nouveau de cette position et sera toujours traité comme une balle à terre. Si enfin la balle arrive dans un hexagone inoccupé elle reste dans celui-ci.
+
+*Les lignes blanches du terrain* : les sorciers des royaumes du milieu ont découvert il y a longtemps un moyen de convertir saleté et poussière en une poudre blanche qui répandu sur le sol repousse les petites masses volantes ou rampantes pendant une demi-journée. Le sortilège protège les aventuriers des vampires, des serpents venimeux et des flèches d'assassins, mais il est facile de trouver aussi d'autres usages ... comme par exemple en gardant une balle sur le terrain et en forçant les joueurs a courir avec la balle à travers la ligne médiane ou la ligne de but.
+
+À chaque fois que la balle rebondit ou qu'elle est lancée son mouvement s'arrête si elle entre dans un hexagone traversé par une ligne blanche. La balle est alors renvoyée d'une distance d'un D6 hexagones dans une direction d'un D6 depuis l'hexagone traversée par cette ligne blanche. Note: si un joueur est debout dans un hexagone traversé par une ligne blanche il peut réceptionner la balle avant que celle ci ne soit renvoyer par magie. Vous pouvez lancer la balle depuis un hexagone traversé par une ligne blanche sans pénalité.
+
+----
 == Pick-up challenge
 Picking Up the Ball - When you move into the hex with the ball you must attempt to pick up the ball (being shoved does not count as moving into the hex). Picking up the ball requires a Pick-Up challenge.
 
@@ -12,3 +35,4 @@ Dropping the Ball - If a player fails a Pick-Up or Catch challenge or a player w
 White Lines on the Playing Field - The wizards of the Middle Kingdoms long ago discovered a simple cantrip that anyone can use to convert simple dirt and dust into a white powder that when placed on the ground repels any small mass flying or walking creatures and  objects that cross the ground it is cast upon for half a day. The spell was meant to protect adventurers from vampiric nightwings, venomous snakes and assassin's arrows, but it quickly found another use ... keeping an elfball on the field and forcing players to run the ball across the centre line of the field or across the goal line.
 
 Anytime a ball bounces or is thrown its movement is stopped as soon as it enters a hex with a white line passing through it. Bounce the ball D6 hexes in a D6 direction away from the hex with the white line (rolling again any D6 rolls for a direction that would bounce the ball where the first hex contains a white line or would allow the ball to pass through the white line.) Note: if a player is standing in a white lined hex and the ball will land in that hex roll the Catch challenge first. If that fails the ball bounces off the white line as if the catching player has not been in that hex. You can throw the ball from a white lined hex without penalty.
+----
