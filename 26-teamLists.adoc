@@ -1,5 +1,9 @@
-= TEAM LISTS
+= LISTES DES EQUIPES
 
+VEUVES NOIRES
+Les veuves noires sont célèbres dans le circuit Elfball. Cette équipe de demi-elfes, toutes des femmes, est reconnue pour son jeu de passe qui est l'un des plus forts de la ligue. Plusieurs équipes ont été pris au dépourvu quand un joueur a été victime d'une attaque d'une Widowmaker et les veuves saisissent ce moment pour lancer le ballon à un buteur qui marquer facilement.
+
+----
 BLACK WIDOWS
 The Black Widows are famous in the Elfball circuit. This half-elven all women team is known for their passing game which is one of the strongest in the league. Many a team has been caught off guard when a player falls victim to a Widowmaker attack and the Widows seize that moment to throw the ball to an open Striker who runs in for the easy goal.
 ￼￼￼
@@ -15,6 +19,7 @@ Hunter Midfielder Striker Thrower Cheater
 6 3 4 6 3 3 6 3 2 6 2 3 6 3 5
 3 2 3 3 4 4 3 4 4 1
 3 3 2 3 2
+----
 
 [cols="^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^"]
 |===
@@ -27,6 +32,10 @@ h| # h| Position h| Mouvement h| Force h| Tacle h| Esquive h| Habileté h| Grit 
 ￼| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
 |===
 
+DEADLINGS
+Chavirant sur le terrain, ces habitants de l'au-delà d'une demi-pinte de taille ne laisseraient pas une petite chose comme la mort les empêcher de jouer au Elfball. Bien que ces joueurs puisse à peine voir au dessus de la tête d'un diablotin, ils envois quelques coups de poing puissant. Combiné avec la puissance des Deadwoods, c'est l'une des équipes en vie les plus redoutées  ... façon de parler.
+
+----
 ￼DEADLINGS
 Shambling onto the field, these half-pint sized denizens from the afterlife don't let a little thing like being dead stop them from playing Elfball. While these players barely see over the head of a Imp, they pack some powerful punches. Combined with the power of the Deadwoods, this is one of the most feared teams alive ... in a manner of speaking.
 ￼￼￼
@@ -45,8 +54,12 @@ Monster Undead
 2 1 2 2
 5 4
 5 6
+￼----
 ￼
-￼
+CHIENS DU DESERT
+Du désert aride de Vihktora, les chiens du désert ont trouvé la transition vers le climat plus modéré facile car seule la quête de gloire sur le terrain consomme leurs pensées. Les chiens du désert sont une équipe bien équilibrée des plus redoutable avec leurs derviches tourneurs. Un derviche est souvent fou à cause de l'exposition excessive au soleil et la vie du désert. Ils sont spécialistes de frapper les joueurs au delà des limites en raison de leur folie, ils ignorent pratiquement tout des blessures dont ils souffrent.
+
+----
 DESERT DOGS
 From the arid Vihktora Desert, the Desert Dogs have found the transition to the more moderate climates an easy one as only the quest for glory on the field consumes their thoughts. The Desert Dogs are a well rounded team made only more fearsome with their Whirling Dervishes. A Dervish has often gone mad from excessive exposure to the sun and desert living. They are specialists at knocking players out of bounds and due to their madness they ignore virtually any injury they suffer.
 ￼￼￼
@@ -59,8 +72,12 @@ Defender Defender Midfielder Striker Thrower
 5 4 4 7 4 1 6 3 3 6 3 2 6 2 3
 2 2 3 1 3 3 4 4 3 4
 4 5 3 2 3
+￼----
 ￼
-￼
+VENT DIVIN
+Venant de l'ouest des royaumes du milieu. Le Elfball leur permet de pratiquer et perfectionner leurs aptitudes légendaires au combat. L'équipe est unique par son niveau de puissance et de combat mélangé à de rapide ninja.
+
+----
 DIVINE WIND
 To the Far West of the Middle Kingdoms they use Elfball to practice and hone their legendary fighting skills. The team is unique in its level of might and tackling skills mixed with fast scoring ninja.
 ￼￼￼
@@ -71,9 +88,12 @@ To the Far West of the Middle Kingdoms they use Elfball to practice and hone the
 0-2 Strikers
 Jog Might Tackle Dodge Skill Grit Type
 5 4 4 2 2 4 Defender 6 3 4 3 2 3 Hunter 6 3 3 3 3 3 Midfielder 6 3 2 4 4 2 Striker
-￼￼
+￼￼----
 ￼
-￼
+NAINS
+Les nains vivent profondément sous les montagnes des royaumes du milieu sont de deux clans. L'un d'entre eux est le clan des roches noires sur versant est de la montagne. Ces nains ont succombé depuis longtemps à l'utilisation de la magie noire pour se faciliter la vie. Ils ont rsoumis les gobelins pour les aider dans leurs travaux ou ils punissent les membres du clan en les transformant en centaure pour évacuer les débris miniers. Ils ont ainsi trouvé un bon mélange pour constituer une équipe adapté au circuit de Elfball.
+
+￼----
 DWARVES
 The Dwarves living deep under the mountains of the Middle Kingdoms come in two clans. The Black Rock clan in the east practices sorcery summoning Imps to help them with their labours or punishing clan members by turning them into Centaurs to haul away mining debris. By comparison the western based Thunder Hammer clan are their opposites. They use no magic and live their lives as a united group dedicated to hard work, strong ale and gold (lots and lots of gold.)
 ￼￼￼
@@ -88,20 +108,36 @@ Type
 ￼￼￼
 Defender Hunter
 * Thunder Hammer teams are composed of only 0-12 Dwarves. Black Rock teams use 0-6 Dwarves along with Hobimps and Dwarven Centaurs.
-Page 15
-ELFBALL
+----
+
+GNOLLS
+Les gnolls sont une race féroce surtout connu pour leurs aptitudes à la chasse. Ils sont les rivaux de longue date des chiens du désert et ils utiliser leurs techniques de chasse sur le terrain pour traquer les adversaires avec le ballon.
+
+----
 ￼￼￼￼￼￼GNOLLS
 The Gnolls are a fierce race known primarily for their hunting skills. They are the long time rivals of the Desert Dogs and use their hunting skills on the field to track down opponents with the ball.
 ￼￼￼￼￼# Allowed Position
 0-4 Hunters 0-2 Midfielders 0-4 Safeties 0-2 Strikers
 Jog Might Tackle Dodge Skill Grit Type
 6 3 4 3 2 3 Hunter 6 3 3 3 3 3 Midfielder 7 3 3 3 2 3 Safety 6 3 2 4 4 2 Striker
+----
+
+GNOMES
+Malgré leur petite taille les Gnomes sont étonnamment robuste et agile. Gnomes utilisent de grandes machines robotique pour les aider dans leur exploitation et les ont ingénieusement adaptés pour jouer au elfball (toutefois, ces machines sont connus pour se briser). Les gnomes sont méticuleux et jamais pressé de faire quelque chose mais plutôt de prendre le temps de bien faire les choses. Cette race est connue sur le circuit comme  "lente mais mortel".
+
+----
 ￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼GNOMES
 Despite their small size Gnomes are surprisingly tough yet nimble. Gnomes use large robotic contraptions to help them with their mining and have ingeniously adapted them for playing Elfball (however these contraptions are notorious for breaking down). Gnomes are meticulous and never in a hurry to get something done instead of getting it done right. This race is known on the Elfball circuit for being "slow but deadly".
 ￼￼￼￼￼# Allowed Position Jog Might Tackle Dodge Skill Grit
 0-9 Gnomes 5 3 3 4 3 3 0-3 Gnomish Contraptions 5 5 5 3 1 2
 Type
 Little Guy Monster
+----
+
+ROYAUMES DU MILIEU
+Les humains des Royaumes du milieu sont un groupe varié ou tous participe au elfball. De nombreuses équipes recrutent des mercenaires, des monstres brutaux, afin d'ajouter le muscle nécessaire à leur équipe. Ces équipes sont normalement bien équilibré avec un accent sur la vitesse et l'attaque  plutôt qu'entrer en querelle avec l'équipe adverse.
+
+----
 ￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼MIDDLE KINGDOMS
 The Humans of the Middle Kingdoms are a varied group with all of them participating in Elfball. Many teams hire brutish monster mercenaries to add needed tackling muscle to their team. These teams are normally well rounded with a focus on speed and scoring over getting into a brawl with the opposing team.
 ￼￼￼￼￼# Allowed Position Jog Might Tackle Dodge Skill Grit
@@ -113,12 +149,24 @@ Midfielder Monster Safety Striker Thrower
 0-3 Strikers 6 3 2 0-2 Throwers 6 2 3
 3 3 2 1 3 2 4 4 3 4
 3 4 3 2 3
+----
+
+ELFES DE LA NUIT
+Les elfes de la nuit sont une race au cœur sombre et beaucoup sont des mages d'une certaine renommée. Les mages elfes de la nuit convoque des diablotins pour aider leur équipe. Les diablotins sont extrêmement rapide, ce qui leur permet de se mettre en bonne position sur le terrain ou d'éviter les plaquage. Ils sont des ressources à disposition pendant que les elfes de la nuit courent  au but.
+
+----
 ￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼NIGHT ELVES
 Night Elves are a dark hearted race and many are mages of some renown. The Night Elf mages summon Imps to help their team. The Imps are extremely quick which allows them to get in position on the field or avoid tackles. They are the perfect disposable resources while the Night Elves run in the goals.
 ￼￼￼￼￼# Allowed Position
 0-2 Hunters 0-8 Imps 0-2 Strikers
 Jog Might Tackle Dodge Skill Grit Type
 6 3 4 3 2 3 Hunter 7 2 2 5 3 2 LittleGuy 6 3 2 4 4 2 Striker
+----
+
+PHARAONS DE VIHKTORA
+Ces êtres issus d'anciennes vieilles tombes dans le désert Vihktora apparu lorsque leurs fidèles ont prié pour une intervention divine pour un tournoi Elfball à venir. Toutefois, ces êtres aime réellement le jeu et ont décidé de rester et d'offrir de  divine défaite à des équipes d'autres terres plutôt que de retourner dans leur tombes.
+
+----
 ￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼PHARAOHS OF VIHKTORA
 These ancient beings emerged from the old tombs in the Vihktora Desert when their worshippers prayed for divine intervention for an upcoming Elfball tournament. However these beings actually enjoyed the game and decided to stay and deliver divine beat-downs on teams from other lands rather than return to their tombs.
 ￼￼￼￼￼# Allowed Position
@@ -130,6 +178,12 @@ Defender Midfielder Safety Striker Thrower
 ￼￼￼￼￼5 4 4 6 3 3 7 3 3 6 3 2 6 2 3
 2 2 3 3 3 2 4 4 3 4
 4 3 3 2 3
+----
+
+RAZORBACKS
+Les marais de Calicos sont un endroit dangereux. Les Razorback divise la société en deux classes pour faire face à ce danger. Le Gruts qui effectuent les tâches quotidiennes autour de leurs colonies et les Chasseurs qui rassemblent les aliments et les défende. Maintenant que certains membres sont partis pour jouer au Elfball cette division du travail s'est révélée très utile.
+
+----
 ￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼RAZORBACKS
 The Calicos Marshlands are a dangerous place. The Razorbacks divided their society into two classes to deal with this danger. The Gruts who perform the day to day work around their settlements and Hunters who gather the food and defend them. Now that certain members have left and starting playing Elfball this division of labour has proved very useful.
 ￼￼￼￼￼# Allowed Position
@@ -138,8 +192,12 @@ Jog Might Tackle Dodge Skill Grit Type
 6 3 4 3 2 3 Hunter 6 3 3 3 3 3 Midfielder 6 4 2 4 2 3 Monster
 ￼￼￼￼￼￼￼￼￼￼￼￼Page 16
 ELFBALL
+￼----
 ￼
-￼
+SARCOS
+Des marais calicots, les crocodiliens sarcos ont lentement suintait dans le circuit au cours des dernières années. Ce qui leur manque en vitesse et en lancent ils  le compensent en sautant à la fois sur les balles et sur les opposants.
+
+----
 ￼SARCOS
 From the Calicos Marshlands, the crocodilian Sarcos have slowly oozed into the Elfball circuit over the last few years. What they lack in speed and throwing skill they excel in leaping both for balls and opponents.
 ￼￼￼
@@ -151,9 +209,12 @@ Jog Might Tackle Dodge Skill Grit Type
 0-3 Midfielders
 0-4 Strikers
 0-1 Terrorpin/Leviathan 4 5 4 2 1 5 Monster
+￼----
 ￼
-￼
-￼
+SAMHAINO
+Au nord des marais Calicos sur le bord de la forêt sombre de l'Est se trouve le royaume sombre de Samhaino. On sait peu de choses sur ces  créatures de cauchemars qui partage le royaume de l'ombre perpétuelle avec les Deadlings sauf qu'ils jouent un jeu de sang-froid le Elfball.
+
+----￼
 ￼SAMHAINO
 North of the Calicos Marshlands and on the dark eastern edge of the Westerland Forest is the bleak realm of the Samhaino. Little is known or spoken of this race of creatures of nightmares that share their realm of perpetual gloom with the Deadlings other than the fact that they play a blood-chilling game of Elfball.
 ￼￼￼
@@ -166,9 +227,12 @@ Monster Hunter Midfielder Safety Thrower
 3 6 5 6 3 4 6 3 3 7 3 3 6 2 3
 1 1 3 2 3 3 3 2 3 4
 5 3 3 3 3
+￼----
 ￼
-￼
-￼￼
+￼￼SIRINGIT
+Dans le sud-est du marais Calicos au milieu des plaines herbeuses où la terre tourne à l'infini (a ce qu'ils disent). Les ani-hommes de cette région ont évolué à partir de nombreuses espèces différentes. Quand ils travaillent ensemble pour le Elfball ils rassemblent une équipe qui excelle dans tous les domaines.
+
+----
 SIRINGIT
 To the southeast of the Calicos Marshlands lay the grassy plains where the land runs on forever (or so they say). The ani-men of this region have evolved from many different species. When they work together for Elfball they produce a team that excels at a little bit of everything.
 ￼￼￼
@@ -185,9 +249,12 @@ Defender Striker Hunter Little Guy Midfielder Safety Monster Thrower
 5 4 4 6 3 3 6 3 4 7 2 2 6 3 3 7 3 3 4 6 4 6 2 3
 2 2 3 4 3 2 5 3 3 3 3 2 2 1 3 4
 4 2 3 2 3 3 4 3
+￼----
 ￼
-￼
-￼￼
+￼￼ELFES DE TIMBERLINE
+Les elfes de Timberline vivent dans les forêts sur les bords de la montagne des nains. Contrairement aux elfes de la nuit, les elfes de Timberline sont des Chasseurs avec d'excellentes capacités de grimpeur dans la montagne. Ils travaillent en harmonie avec leur environnement et sont féroces lorsqu'il s'agit de protéger les régions boisées qu'ils occupent. Leurs techniques de survie et les Dryades de la forêt  en font des adversaires de Elfball formidable
+
+----
 TIMBERLINE ELVES
 The Timberline Elves live in the forests on the edges of the Dwarven mountains. Unlike the Night Elves, the Timberline Elves are hunters and excellent with mountain climbing skills. They work as one with their environment and are fierce when protecting the wooden regions they occupy. Their survival skills and the forest Dryads that assist them make them formidable Elfball opponents.
 ￼￼￼
@@ -200,9 +267,12 @@ Defender Hunter Midfielder Striker Thrower
 6 4 1 6 3 4 6 3 3 6 3 2 6 2 3
 4 2 3 2 3 3 4 4 3 4
 4 3 3 2 3
+￼----
 ￼
-￼
-￼￼
+V￼ALKYRIES
+Vivre dans le Grand Nord est une une vie dure. Les Valkyries sont d'un clan de Vikings où les femmes ont appris à se battre pour préserver et protéger leur foyer pendant que les hommes sont en voyages pour des raids. Les Valkyries ont même "apprivoisé" de féroce Trolls des glaces et les weremen sauvage sur les hauteurs des montagnes de glace pour donner à leur équipe un peu de puissance de frappe supplémentaire.
+
+----￼
 VALKYRIES
 Living in the frozen North makes for a tough life. The Valkyries are from a clan of Vikings where the women developed fierce battle skills to maintain and protect the homefront while the men where away on raiding voyages. The Valkyries even have "tamed" fierce Ice Trolls and the savage weremen from the icy mountain heights to give their team some extra punching power.
 ￼￼￼
@@ -218,8 +288,12 @@ Hunter Monster Midfielder Striker Thrower
 6 3 4 4 5 4 6 3 3 6 3 2 6 2 3
 3 2 3 1 3 3 4 4 3 4
 3 4 3 2 3
+----
 
+ORCS
+La race des Orcs a presque été exterminés par les Royaumes du milieu au cours des nombreuses guerres du passée. Maintenant, ils vivent une existence rude dans les montagnes et les forêts à la frontière ouest des monts de la Roche noire. Ces conditions endurci les équipes qui  se forment occasionnellement les transformant en de redoutables adversaires.
 
+----
 ORCS
 The race of Orcs were nearly exterminated from the Middle Kingdoms during wars many years ago. Now they live a rough existence in mountains and forests on the western border of Black Rock Ridge. These conditions harden the teams they occasionally form and make them formidable opponents.
 ￼￼￼￼
@@ -232,9 +306,12 @@ Defender Hunter Midfielder Cheater Thrower Monster
 5 4 4 6 3 4 6 3 3 6 2 4 6 2 3 4 5 4
 2 2 3 2 3 3 4 3 3 4 1 1
 4 3 3 2 3 6
+￼----
 ￼
-￼
-￼
+￼HOMMES RATS
+La vitesse tue est la devise des hommes rats. Vivant sur le bord ouest de la plaine Siringit, le travail des hommes rats et plus particulièrement de leurs courriers  et de porter des messages entre les Siringit et les Royaumes du milieu, avec des Wrats brutal agissant comme gardes du corps sur les missions plus critique. Quand les équipes d'homme rats jouent au Elfball elles apportent le meilleur de leur vitesse.
+
+----
 RATMEN
 Speed kills is the motto of the Ratmen. Based on the western edge of the Siringit Plains, the Ratmen work mostly as message couriers between the races of the Siringit and the Middle Kingdoms with brutish Wrats acting as bodyguards on more critical missions. When the Ratmen field Elfball teams they bring the best of their lightning speed to the game.
 ￼￼￼￼
@@ -247,4 +324,4 @@ Striker Midfielder Safety Thrower Defender
 7 2 2 6 3 3 7 3 3 6 2 3 6 4 4
 4 4 3 3 3 2 3 4 3 1
 2 3 3 3 3
-￼￼￼￼￼￼￼￼￼￼
+￼￼￼￼----￼￼￼￼￼￼
