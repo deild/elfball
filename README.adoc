@@ -1,7 +1,7 @@
 :authors: Tolvä
 :doctitle: ElfBall : Livre des régles, seconde édition. Effort de traduction française
 :email: <smur (at) free (dot) fr>
-:uri-github-repo: elfball
+:uri-github-repo: https://github.com/deild/elfball
 :icons: font
 :source-highlighter: coderay
 ifdef::backend-pdf[:notitle:]
@@ -12,6 +12,14 @@ ifdef::backend-pdf[]
 endif::[]
 
 Ce dépot concerne l'effort de traduction en français de la seconde édition des régles d'ElfBall.
+
+Voilà le livre de règle est terminé. Je ne suis pas mécontent d'avoir terminé, après un bon nombre d'heures passées dans l'espoir de donner accès au plus grand nombre à une version française digne de ce nom et surtout le plus proche possible de la version originale.
+
+J'ai trouvé intéressant d'ajouter également quelques annexes, pour ceux qui passent de l'anglais au français régulièrement en consultant les sites dédiés, ceci permettra de connaître les termes ayant servi à cette traduction et leurs correspondances.
+
+Bien sûr ce document est encore perfectible, et je compte sur vous, si vous y découvrez des coquilles, pour me les signaler afin de parfaire le document.
+
+J'espère que ce document pourra rendre service aux francophones de tout pays et vous permettra de passer de bons moments avec ce merveilleux jeu le elfball.
 
 == Diffusion
 
