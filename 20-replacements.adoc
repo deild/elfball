@@ -2,10 +2,4 @@
 
 [.right.text-center]
 image::images/replacements.png[Zone de remplacement]
-Si vous avez moins de 6 joueurs sur le terrain, à votre tour au lieu d'entreprendre une action avec un joueur sur le terrain vous pouvez prendre un joueur de votre banc (pas de la zone de repos ou de l'infirmerie) et le placer dans un hexagone sans joueur et a 3 hexagones de distance de l'entré de votre aire. (la zone en bleu sur l'image). Le joueur peut ramasser la balle mais ne peut entreprendre aucun autre défi durant ce tour. Ce joueur est marqué comme le dernier joueur en action.
-
-----
-== Replacements
-
-If you have less than 6 players on the field, then for your turn instead of taking an action with a player on the field you may take one player from your Bench area (not Recovery or Infirmary areas) and place him into any hex without a player in it within 3 hexes of either stairway into your dugouts (these are the hexes outlined by the blue line in the picture). This player may pick-up the ball if it is in the hex, but may not move or perform any other challenges this turn. This player should be marked as the last player moved.
-----
+Si vous avez moins de 6 joueurs sur le terrain, à votre tour au lieu d'entreprendre une action avec un joueur sur le terrain vous pouvez prendre un joueur de votre zone de banc (pas de la zone de repos ou de l'infirmerie) et le placer dans un hexagone sans joueur et a 3 hexagones de distance de l'entré de votre aire. (la zone en bleu sur l'image). Le joueur peut ramasser la balle mais ne peut entreprendre aucun autre défi durant ce tour. Ce joueur est marqué comme le dernier joueur en action.

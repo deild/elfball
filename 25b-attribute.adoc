@@ -1,3 +1,5 @@
+:figure-caption!:
+
 === Attribut d'aptitudes génerales
 
 Équilibre (Mouvement/Basique): Le joueur est ferme sur ses pieds, même en le poussant au-delà de ses limites. Équilibre peut être utilisé une fois par action et vous permet de remplacer un dé de votre choix lors du défi Se lancer (le nouveau résultat remplace l'ancien).
@@ -250,3 +252,7 @@ This player has the famed slow unstoppable movement of the undead. This player m
 .Elfball Abilites Map
 image
 ----
+
+.Cartographie des aptitudes d'ElfBall
+[.left]
+image::images/ElfballAbilityMap.jpg[ElfballAbilityMap]
