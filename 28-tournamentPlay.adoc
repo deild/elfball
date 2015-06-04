@@ -1,3 +1,20 @@
+= JOUER EN TOURNOIS
+
+Ces règles sont ouvertes aux modifications, c'est une suggestion pour passer un bon tournoi de Elfball.
+
+Utiliser 120 à 150 Points d'équipe. Une équipe doit toujours avoir au moins 6 joueurs.
+Une équipe peut acheter un Arbitre corrompu, des Fûts de Zlurpee, des Pom-pom girls et des potions magiques. Les potions magique sont limitées à 2 au lieu de 3.
+Les règles optionnelles de Mise en jeu et  de l'étoile sur le dé de défi sont utilisées.
+Ils est fortement recommandé que tous les matchs utilisent les cartes  '2-Minute Warning'.*
+le temps de jeu doit être limité à la première chose atteinte parmi un temps de 75 minutes, au premier but, ou avoir vidé les cartes '2-Minute Warning'.*
+le score est calculé comme suit :
+a. 100 points pour une victoire + (nombre de cartes restante dans la pioche divisée par 5)
+b. 1 point pour chaque carte 'Aucun Événement Inhabituel' en cas d'égalité ou de défaite.
+c. 2 points pour chaque joueur adverse mit hors jeu, dans la zone de repos ou à l'infirmerie à la fin du match.
+
+TIP: si vous n'avez pas de jeux de cartes '2-Minute Warning'. Utilisez un jeu de cartes standard avec les Joker. Chaque figure (Valet à l'As) donne +1 Temps fort au joueur pour ce tour. Chaque Joker donne +3 Temps fort au joueur pour ce tour. Toutes les autres cartes (2 à 10) sont traitées comme 'Aucun Événement Inhabituel' et ne donne aucun avantage pour le tour.
+
+----
 = Tournament Play
 
 These rules are open to modification but this is a suggestion for rules to have a great tournament using Elfball.
@@ -14,3 +31,4 @@ Scoring will be calculated as follows:
 2 points for each player in opponent's Ejected, Recovery & Infirmary box at end of game (regardless of how they ended up there).
 
 TIP: If you do not have 2-Minute Warning decks. Use a standard deck of cards with Jokers. Each face card (Jack through Ace) give the player +1 Momentum for that turn. Each Joker gives the player +3 Momentum for that turn. All other cards (2 through 10) are treated as "No Unusual Event Occurs" cards and give no benefit for the turn.
+----
