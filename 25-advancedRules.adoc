@@ -1,3 +1,39 @@
+= REGLES AVANCEES
+
+Les pages que vous venez de parcourir vous ont permis d'abordé les règles indispensables pour jouer un match de elfball. Les règles qui vont suivre vous donnes les détails pour bâtir votre propre équipe et jouer de nombreuses parties faisant ainsi progresser votre jeu.
+
+=== BATIR VOTRE EQUIPE
+
+Quand vous bâtissez votre équipe vous recevez 180 points pour au plus 12 joueurs (Note:votre ligue peut changer cette limite de 180 points). Vous n'êtes pas obligé d'utiliser les 180 points pour construire votre équipe mais vous ne pouvez jamais les dépasser. Chaque nouveau joueur débutant sans aptitude coute 15 points.
+
+Cependant les joueurs ne sont pas les seuls éléments que vous pouvez avoir dans votre équipe. Sur cette page, vous trouverez d'autres soutien professionnel pour votre équipe ou des objets que vous pouvez acheter pour votre équipe et ce qu'il coute en point d'équipe de les ajouter (souvenez vous la valeur de votre équipe ne peut dépasser 180 points).
+
+Tant que votre équipe joue vos joueurs progressent et apprennent de nouvelles aptitudes. Gagner ces aptitudes ajoutent des points à votre équipe. Si le gain de ces aptitudes amène votre équipe au delà des 180 points, vous devez vous débarrassez de quelque chose ou quelqu'un afin de garder le joueur qui a gagné une aptitude. Note: Vous ne pouvez jamais avoir moins de 6 joueurs. À tout moment vous pouvez vous débarrassez de joueurs de votre équipe ( et utiliser leur valeur pour autre chose) ou ajouter un débutant à votre équipe pour le coup habituel de 15 points (une dernière fois, votre équipe ne peut excédé la valeur de 180 points)
+
+=== SOUTIENT
+
+*Arbitre Corrompu* (5 points, 1 permis) : Vous avez payé l'arbitre pour regarder de l'autre coté pendant que votre équipe joue. Avoir un arbitre corrompu vous permet de placer un joueur de Type Monstre dans le cercle de mise en jeu et permet à vos joueurs sans ballon de terminer leur action à l'intérieur de l'un des cercles de but. Toutefois, avant votre première action après la mise en jeu avec un joueur de Type Monstre ou au début d'un tour de votre équipe lorsque vous avez un joueur à l'intérieur d'un cercle de but, lancez un dé de défi. Si vous échoué, le résultat est que l'arbitre ne supporte pas l'infraction plus longtemps. Le joueur en infraction est exclus pour le reste du jeu, votre équipe perd la capacité d'exécuter quoi que ce soit durant ce tour (cela compte comme un RdS) et vous ne pouvez plus briser l'une de ces règles pour le reste de la partie.
+
+*Pom-pom girl* (5 points chaque, 4 permis) : Chaque Pom-pom girl peut être utilisé une fois par test au début d'une action pour ajouter un marquer au compteur de Temps fort.
+
+*Fûts de Zlurpee* (5 points chaque, 2 permis) : Votre équipe peut consacré quelques points à acheter des fûts de Zlurpee et des serveurs. Le Zlurpee est une boisson énergisante disponible dans divers arômes du citron à l'or Nain ou plus exotique du sang de tigre apprécié par les Deadlings. Le Zlurpee aide les joueurs a évité certaine blessures qui les rendraient indisponible pour un Test ou pour le reste du match. Pour chaque Fût dans votre équipe, vous pouvez ajouté un succès à tout défi de Blessures durant le match qui n'est pas en échec et qui n'est pas à 0 succès après avoir utilisé un Temps forts. Chaque Fûts peut être utilisé une fois par Test.
+
+*Potions Magiques* ( 5 points chaque, 3 permis ) : Votre équipe peut dépenser ses points pour s'allouer les services d'alchimistes afin de préparer des potions magiques pour aider votre équipe. Mais utiliser la magie n'est  pas sans risque. Vous pouvez utilisez une ou plusieurs potions sur n'importe quel joueur non présent sur le terrain avant  le placement d'un Test, durant un Test  ou après chaque but. Pour utiliser une potion, lancer deux dés de défi et consultez cet table. Si le jet dit que vous gagnez une aptitude basique ou avancée vous ne pouvez choisir qu'une aptitude d'Attribut. Un joueur ne  peut prendre qu'une potion par match.
+
+GAGNER DES POINTS D'EXPERIENCES ET DES APTITUDES
+
+La plupart des joueurs développent des aptitudes après avoir jouer plusieurs matchs de Elfball. Tandis que beaucoup de joueurs ne se changent jamais en stars, chaque équipe peut avoir la chance d'accueillir le joueur à qui tous les enfants rêvent  de ressembler. Les joueurs gagnent le potentiel pour apprendre de nouvelles aptitudes par les points d'expérience
+
+*Points expériences* : comptabiliser les points d'expérience est assez Simple. À chaque fois que votre équipe marque un but, donnez deux points au buteur et un point à tous les autres joueurs sur le terrain.
+
+*Gagner de nouvelles aptitudes* : Pour chaque tranche de 5 points d'expériences votre joueur peut apprendre une nouvelle aptitude basique ou avancée (i.e. Une aptitude à 5 points, une seconde à 10 points, etc...) un joueur ne peut apprendre une aptitude en dehors du tableau des aptitudes. Un joueur peut apprendre une aptitude après chaque match si il a les points nécessaire. Par exemple, un joueur gagne son 10iéme points d'expériences et 3 match plus tard l'entraineur décide de lui apprendre une nouvelle aptitude basique. Une aptitude apprise ne peut être supprimé.
+
+*Aptitudes basiques et avancées* : chaque attribut et type de joueur donne accès à une aptitude basique et une ou plusieurs aptitudes avancées que chaque joueur peut apprendre quand il a les points d'expériences suffisant. Une aptitude avancée ne peut être apprise que si le joueur a déjà apprise l'aptitude basique de cette attribut.  Une aptitude ne peut être apprise qu'une fois par un joueur. Les aptitudes sont décrites avec leur nom, l'attribut sur lequel elle se base et si elle est basique ou avancée. Tous les joueurs peuvent apprendre une aptitude basé sur un attribut général mais uniquement les joueurs du bon type peuvent apprendre les aptitudes basé sur un type.
+
+include::25b-attribute.adoc[]
+
+----
+
 = ADVANCED RULES
 
 == Team building rules
@@ -31,147 +67,4 @@ Experience Points: Every time your team scores a goal give the player scoring th
 Gaining New Abilities: For every full 5 Experience Points your player has he may learn a  new Basic or Advanced ability (i.e. one ability at 5 points, a second at 10 points, etc.) Players do not have to learn a new skill upon gaining the next plateau for skills. A player can learn a new skill after any game in their career if they have enough Experience Points. For example, a player earns his 10th Experience Point and three games later the coach can choose to have him then learn a new Basic ability if he desires. An ability once  learned cannot be removed.
 
 Basic and Advanced Abilities: Each attribute and player Type has at least one Basic and one or more Advanced abilities that any player can learn once they have the Experience Points to do so. An Advanced ability can only be learned if a player already has the Basic ability for that attribute. Each Basic and Advanced ability on your team add 5 points to your team's points (abilities temporarily gained through magic potions are worth 0 points). A specific ability can be learned only once by a player (i.e. you cannot take Agile twice). Each ability that follows is listed with its name, the attribute it is based on and whether it is Basic or Advanced. Any player can learn a Basic or Advanced general attribute ability. Only players of the specified Type can learn Basic and Advanced type attribute abilities.
-
-==== General attribute abilites
-
-Steady (Jog/Basic):
-The player is steady on his feet even when pushing to move beyond his normal limits. Steady may be used once per action and allows you to replace one die of your choice from a Dash challenge (you must use the result from the new roll in place of the original die roll).
-
-Sprinter (Jog/Advanced)
-You may perform the Dash challenge as many times per action as you want without having or paying Momentum. Instead of Momentum paid, this player uses his Jog attribute to determine how many challenge dice can be rolled for the Dash challenge (maximum of 6). The number of successes needed for each Dash challenge is equal to number of Dash challenges the player has attempted this action plus 1. For example, if you are attempting your 3rd Dash challenge, you must roll 4 or more successes.
-
-Buff (Might/Basic)
-The player has spent an extensive amount of time weightlifting and developing muscle mass. Buff may be used once per action and during the Face-off challenge and allows you to replace one die of your choice from any challenge using the Might attribute (you must use
-the result from the new roll in place of the original die roll).
-
-Bonecrusher (Might/Advanced)
-The player hits like a ton of bricks often ending an opponent's career. Opponents roll one less challenge die for any Injury challenge from any tackle from this player.
-
-Grapple (Tackle/Basic)
-This player is focused on only one thing ... taking down the opposition. Grapple may be used once per action and allows you to replace one die of your choice from any challenge using the Tackle attribute (you must use the result from the new roll in place of the original die roll).
-
-Psycho (Tackle/Advanced)
-Frothing at the mouth from a self induced battle rage, this player fears no man or beast. This player rolls challenge dice equal to his opponent's Might for any Impact challenge required when attempting a Tackle challenge. He may also add 2 challenge dice to any Shove challenge he attempts (maximum of 6).
-
-Nimble (Dodge/Basic)
-This player is able to think on his feet and change plans quickly as conditions change on the
-field. Nimble may be used once per action and allows you to replace one die of your choice from any challenge using the Dodge attribute (you must use the result from the new roll in place of the original die roll).
-
-Slippery (Dodge/Advanced)
-This player is as difficult to lay a hand on as a greased pig. This player may ignore one opposing player modifying the number of successes of any challenge using the Dodge attribute and automatically succeeds (without rolling dice) any Disengage challenge where the successes needed would be zero or less (before it is normally increased to the one success required).
-
-Agile (Skill/Basic)
-Need the elfball to get where you want it to go ... call this player. Agile may be used once per action and allows you to replace one die of your choice from any challenge using the Skill attribute (you must use the result from the new roll in place of the original die roll).
-
-Bankshot (Skill/Advanced)
-The player has developed low level magical powers allowing him to control the bounce from the white repelling powder. Anytime this player performs a throw into a white line he may choose the direction it bounces back. In addition, he may add or subtract one hex from the number of hexes it bounces off the white line.
-
-Focused (Skill/Advanced)
-The player has ice water in his veins and is able to ignore opponents around him. This player may ignore one opposing player modifying the number of successes of any challenge using the Skill attribute.
-
-Resilient (Grit/Basic)
-Tough as nails ... this player is very difficult to take out of the game. Resilient may be used once per any player's action and allows you to replace one die of your choice from any challenge using the Grit attribute (you must use the result from the new roll in place of the original die roll).
-
-Rugged (Grit/Advanced)
-This player is immune to all but the most serious of hits. This player may treat 3 or more successes on a Grit challenge as being placed Down on the playing field. In addition, his Grit is considered one point higher for determining the Jog he needs to use to stand up.
-
-==== Type attribute abilities
-
-Cheapshot (Cheater/Basic)
-This player may attempt a dishonourable attack on an opponent. This player may attempt a Tackle challenge (no Impact challenge required) against a Down or Dazed opponent. Ignore modifiers for Rear facing or lack of Ball holding for this challenge. Replace the result "Slide Tackle. Both Tackler and Opponent are Down." with "Tackle has no effect." A Dazed opponent will become Down from a result of "Solid Hit. Opponent is Down." (you snapped him out of his daze).
-
-Malicious (Cheater/Advanced)
-This player takes great pleasure from inflicted pain. This player earns one Momentum counter any time he causes an opponent to become Dazed and two Momentum counters if he causes the opponent to leave the field from injury.
-
-Ruthless (Cheater/Advanced)
-This player is extremely bloodthirsty. This player may spend Momentum counters instead of Jog to move closer to a Down or Dazed opponent. Each counter spent allows this player to move one hex if the player does not need to Disengage to move.
-
-Clipping (Defender/Basic)
-Getting away from this player is very difficult. Any opponent with less Might than this player must roll an Impact challenge first to break free and attempt a Disengage challenge (the opponent may use his Dodge attribute instead of Might for this special Impact challenge). If you fail the Impact challenge without flopping, you may spend a pace of Jog to attempt the Impact challenge again to break away until you run out of Jog.
-
-Knockback (Defender/Advanced)
-This player hits like a freight train. This player earns double the number of Momentum counters from Shove challenges.
-
-Goalie (Defender/Advanced)
-This player is great at defending the goal circle. This player may spend Momentum counters instead of Jog to move closer to the goal circle his team is defending. Each counter spent allows this player to move one hex if the player does not need to Disengage to move.
-
-Cutblock (Hunter/Basic)
-If this player has moved at least one hex first, he may perform a Tackle challenge against any higher Might player without needing to roll an Impact challenge. A player using Cutblock is  placed Down regardless of the results of the Tackle challenge.
-
-Collision (Hunter/Advanced)
-Nothing psyches this player more than a crunching tackle. This player earns double the number of Momentum counters from Impact and Tackle challenges.
-
-Beeline (Hunter/Advanced)
-This player hunts down ball carriers with a passion. This player may spend Momentum counters instead of Jog to move closer to the opposing ball carrier. Each counter spent allows this player to move one hex if the player does not need to Disengage to move.
-
-Taunt (Little Guy/Basic)
-He may be small but he can be amazingly annoying (and insulting). This player may act out of sequence when the opposing team suffers a Shift in Momentum. This player may attempt to change the facing of an opponent within 6 hexes using a Taunt challenge.
-
-You may use the Taunt ability as many times as you can against as many opponents as you can until you run out of Momentum. Use of Taunt does not count as the team's action.
-
-
-Quickling (Little Guy/Advanced)
-Lightning reflexes in a small package especially with his tongue. If this player takes his action after a Shift in Momentum, he may double the current number of Momentum counters (this may occur before use of the Taunt ability).
-
-Swarm (Little Guy/Advanced)
-These little guys overwhelm opponents with numbers. During this player's action any standing player on his team with the Little Guy type may spend Momentum counters instead of Jog to move closer to any player from his team with an equal or lesser Might. Each counter spent allows a Little Guy type player to move one hex if the player does not need to Disengage to move. Multiple players may be moved from the use of Swarm.
-
-Rally (Midfielder/Basic)
-This player is never out of the action when down. This player may stand up when Dazed as if he was only Down.
-
-Helping Hand (Midfielder/Advanced)
-Always willing to lend a hand, this player can give a -1 modifier to the number of successes required for any challenge attempted by adjacent teammates even when he is not facing them.
-
-Teammate (Midfielder/Advanced)
-Always there for his teammates, this player may spend Momentum counters instead of Jog to move closer to another player from his team. Each counter spent allows this player to move one hex if the player does not need to Disengage to move.
-
-Pummel (Monster/Basic)
-This player may attempt to strike a crippling blow (but one that is easier to avoid). This player may choose to roll up to three fewer Challenge dice for the Tackle challenge. If the Tackle challenge results in an Injury challenge than he can remove one success from the Injury challenge roll for each Challenge dice he removed from the Tackle challenge.
-
-Enrage (Monster/Advanced)
-This player strikes back with a vengeance when attacked. If this player takes the action for this turn he may add two Momentum counters to the Momentum track if an Impact, Tackle, or Shove challenge was attempted against him on the opponent's previous turn (maximum of two counters earned total). Note: use of the abilities Cutblock, Steal, and Cheapshot against this player in the previous turn also count for triggering the Enrage ability.
-
-Plough (Monster/Advanced)
-This player is a juggernaut. This player may spend one Momentum counter instead of Jog to move into the hex his opponent was previously in immediately after a successful Shove challenge. The movement may ignore any required Disengage challenge.
-
-Reach (Safety/Basic)
-This player seems to snag balls from the air with ease. If the intercept line passes through a
-hex adjacent to this player, he may attempt an Intercept challenge. This includes hexes for the Thrower, landing hex and hexes with opponents in them.
-
-Cover (Safety/Advanced)
-Once this player has a chance to intercept ... it is all over. An opposing team manager may not use Momentum to replace rolls made for any Interception challenge by this player.
-
-React (Safety/Advanced)
-Quick to respond to problems with the opposing team, this player may spend Momentum counters out of sequence when the opposing team suffers a Shift in Momentum. Each counter spent allows this player to move one hex if the player does not need to Disengage to move. This movement does not count as the team's action and a different player may take the team's action if desired.
-
-Steal (Striker/Basic)
-This player is a master ball thief. This player may attempt to steal the ball instead of knocking down the opponent during a Tackle challenge attempt. No Impact challenge is ever required for a Steal. If a Steal is attempted, replace "Slide Tackle. Both Tackler and Opponent are Down." with "Strip. Both players standing. Ball scatters". All results for one or more successes than needed are replaced with "Steal. Both players standing. The Tackling player gets  possession of the ball." Only successes over three more than needed earn Momentum as with a normal Tackle challenge.
-
-Hotdog (Striker/Advanced)
-Weaving between tacklers is a fine art this player has mastered. This player earns double the number of Momentum counters from Disengage challenges.
-
-Burst (Striker/Advanced)
-This player really pours on the speed once he has the ball. When a player with Burst gets possession of the ball from a Pick-up challenge or use of the Steal ability he may spend Momentum counters instead of Jog to move. Each counter spent allows this player to move one hex if the player does not need to Disengage to move.
-
-Scramble (Thrower/Basic)
-What an arm on this player. A player with this ability may always attempt to throw 7 or more
-paces (i.e. even if he has moved or performed another challenge.), but you must add 1 to the number of successes needed for the Throw challenge.
-
-Bullet (Thrower/Advanced)
-What a perfect spiral on that throw. This player earns double the number of Momentum counters from Throw challenges.
-
-Lead Pass (Thrower/Advanced)
-This player really can give his receivers a jump on the opposition with his perfect throws. This player may spend Momentum counters to allow a player from his team that successfully catches a ball he has thrown to immediately move after catching the ball. Each counter spent allows the player that caught the ball to move one hex if the player does not need to Disengage to move. The player with Lead Pass can finish his action after the catching player has finished moving.
-
-Fear (Undead/Basic)
-This player radiates an aura that scares off many opponents with any sense. Any Tackle challenge by an equal or higher Might opponent or the use of the Steal and Cutblock abilities against this player requires an Impact challenge first however no Momentum counters are earned for this Impact challenge. An opponent with Psycho or using Cheapshot can ignore the effect of the Fear ability. Any player from the Samhaino race may gain this ability.
-
-Everlasting (Undead/Advanced)
-This player shrugs off even the most grievous injuries. The opposing team manager may not use Momentum to replace rolls made for any Injury challenge for this player.
-
-Shamble (Undead/Advanced)
-This player has the famed slow unstoppable movement of the undead. This player may spend Momentum counters instead of Jog to move. Each two counters spent allow this player to move one hex ignoring any Disengage challenge that would be required.
-
-
-.Elfball Abilites Map
-image
+----

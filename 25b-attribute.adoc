@@ -1,0 +1,252 @@
+=== Attribut d'aptitudes génerales
+
+Équilibre (Mouvement/Basique): Le joueur est ferme sur ses pieds, même en le poussant au-delà de ses limites. Équilibre peut être utilisé une fois par action et vous permet de remplacer un dé de votre choix lors du défi Se lancer (le nouveau résultat remplace l'ancien).
+
+Sprinter (Mouvement/Avancée): Vous pouvez effectuer  autant de  défi Se lancer que vous souhaitez sans dépenser de Temps fort, au lieu de cela le joueur utilise son Mouvement pour déterminer le nombre de dés à lancer (Maximum 6). Le nombre de succès nécessaires pour chaque défi est égal au nombre de défi tenté plus 1. Par exemple, si vous tentez votre 3ieme Se lancer vous devez  obtenir 4 succès.
+
+Muscle (Force/Basique): Le joueur a passé beaucoup de temps dans la salle de musculation. Muscle peut être utilisé une fois par action ainsi que pendant la mise en jeu, il permet de  relancer un dé lors d'un défi basé sur la Force (le nouveau résultat remplace l'ancien)
+
+Broyeur d'os (Force/Avancée): Le joueur a une frappe de mule. L'adversaire  lance un dé de moins pour résoudre le défi de blessure de votre adversaire lors d'un plaquage.
+
+Lutte (Tacle/Basique): Le joueur se concentre sur une seule chose … mettre à terre son adversaire. Lutte peut être utilisée une fois par action pour remplacer un dé lors d'un défi Plaquer (le nouveau résultat remplace l'ancien)
+
+Fou Furieux (Tacle/Avancée): Écume de Rage à la bouche, ce joueur ne craint ni homme ni bête. Ce joueur lance des dés de défi égal à la Force de son adversaire pour n'importe quel défi de charge nécessaire avant de plaquer. Il peut également ajouter 2 dés défi pour tout défi de Pousser qu'il tente (maximum de 6).
+
+Vif (Esquive/Basique): Ce joueur est capable de bouger ses pieds comme il pense et de changer de plans aussi rapidement que les conditions changent sur le terrain. Vif peut être utilisé une fois par action et vous permet de remplacer un dé de votre choix pour n'importe quel défi utilisant l'attribut Esquive (le nouveau résultat remplace l'ancien).
+
+Insaisissable (Esquive/Avancée): Il est aussi difficile de mettre la main sur ce joueur que sur un cochon graissé. Ce joueur peut ignorer les modifications provoquées par les joueurs adverse pour tous les défi utilisant l'attribut Esquive et il réussit automatiquement (sans jeter les dés) les défis Se désengager dont la difficulté nécessaire serait de zéro ou moins (avant qu'elle ne soit normalement ramené à une difficulté de un comme requis ).
+
+Agile (Habileté/Basique): Besoin du Elfball pour arriver là où vous voulez aller ... appeler ce joueur. Agile peut être utilisé une fois par action et vous permet de remplacer un dé de votre choix pour n'importe quel défi utilisant l'attribut Habileté (le nouveau résultat remplace l'ancien).
+
+Passe passe (Habileté/Avancée): Le joueur a développé un faible niveau de ses pouvoirs magiques lui permettant de contrôler le rebond provoquer par la poudre blanche. Chaque fois que ce joueur effectue un lancer coupant une ligne blanche, il peut choisir la direction du rebond. En outre, il peut ajouter ou soustraire un hexagone au nombre de cases du rebond depuis la ligne blanche.
+
+Nerf d'acier (Habileté/Avancée): Le joueur a du sang glacé dans les veines et est capable d'ignorer les adversaires autour de lui. Ce joueur peut ignorer  le modificateur de joueur adverse quand il tente un défi utilisant l'attribut Habileté.
+
+Résilient (Courage/Basique): Résistant au choc ... ce joueur est très difficile à sortir de la partie. Résilient peut être utilisé qu'une seule fois par action et vous permet de remplacer un dé de votre choix pour n'importe quel défi utilisant l'attribut Courage (le nouveau résultat remplace l'ancien).
+
+Rude (Courage/Avancée): Ce joueur est à l'abri de tous, sauf des blessures les plus grave. Ce joueur peut traiter tout résultat de 3 ou plus lors d'un défi de Blessure comme étant à terre. En outre, son Courage est augmenté d'un point lors de la détermination du coût de mouvement nécessaire pour se relever.
+
+=== Attribut d'aptitudes de classe
+
+Vicieux (Truqueur/Basique): Ce joueur peut tenter une attaque malhonnête sur un adversaire. Ce joueur peut tenter un défi Plaquer (aucun défi Charger requis) contre un adversaire à terre ou sonné. Ignorer les modificateurs  face à l'arrière ou l'absence de Balle pour ce défi. Remplacer le résultat "tacles glissés. Plaqueur et son adversaire sont à terre" par «Plaquer n'a aucun effet." Un adversaire sonné deviendra à terre sur  un résultat de «Bon coup. L'adversaire est à terre." (Vous avez mis fin à sa stupeur).
+
+Malveillant (Truqueur/Avancée): Ce Joueur prend beaucoup de plaisir à infliger la souffrance. Ce joueur gagne un marqueur de temps fort pour chaque adversaire qu'il sonne et deux marqueurs si un adversaire quitte le terrain sur  blessure.
+
+Impitoyable (Truqueur/Avancée): Ce joueur est extrêmement sanguinaires. Ce joueur peut dépenser les compteurs de temps fort au lieu de son Mouvement pour se rapprocher d'un adversaire à terre ou sonné. Chaque compteur utilisé permet à ce joueur d'avancer d'une case si le joueur n'a pas besoin de se désengager pour se déplacer.
+
+Champ de vision (Défenseur/Basique): S'éloigner de ce joueur est très difficile. Tout adversaire avec moins de Force que ce joueur doit lancer un défi Charge avant de se libérer et de tenter un défi Se dégager (l'adversaire peut utiliser son attribut Esquive au lieu de Force pour ce défi Charger spécial). Si il échoue sans que se soit un fiasco, il peut utiliser un point de Mouvement  pour tenter à nouveau le défi Charger jusqu'à ce qu'il n'est plus de Mouvement ou qu'il réussisse.
+
+Cogner (Défenseur/Avancée): Ce joueur frappe comme un train de marchandises. Ce joueur gagne le double du nombre de Temps fort lors des défis de Pousser.
+
+Garde (Défenseur/Avancée): Ce joueur est très fort pour défendre le cercle but. Ce joueur peut dépenser des compteurs de Temps fort au lieu de son Mouvement pour se rapprocher du cercle but que son équipe défend. Chaque compteur utilisé permet à ce joueur à avancer d'une case si le joueur n'a pas besoin de se désengager pour se déplacer.
+
+
+Charge (Chasseur/Basique): Si ce joueur c'est déplacé au moins d'un hexagone, il peut effectuer un défi Plaquer contre tout joueur ayant plus de Force sans avoir besoin de tenter un défi Charger. Un joueur qui utilise Charge est à terre indépendamment des résultats du défi Plaquer.
+
+Collision (Chasseur/Avancée): Rien ne satisfait plus ce joueur qu'un craquement lors d'un Plaquage. Ce joueur gagne le double du nombre de compteurs de temps fort lors de défi Charger/Plaquer.
+
+Traque (Chasseur/Avancée): Ce Joueur traque le porteur de la balle avec passion. Ce joueur peut dépenser des compteurs de Temps fort au lieu du Mouvement pour se rapprocher du porteur du ballon adverse. Chaque compteur passé permet à ce joueur de se déplacer d'un hexagone si le joueur n'a pas besoin de se désengager pour se déplacer.
+
+Provocation (Petit Gens/Basique): Il peut être petit, mais il peut être étonnamment ennuyeux (et insultant). Ce Joueur peut agir hors de la séquence lorsque l'équipe adverse subit un Revirement de situation. Ce joueur peut tenter de changer l'orientation d'un adversaire à une distance de 6 cases en utilisant un défi Provocation.
+
+
+
+Vous pouvez utiliser la Provocation autant de fois que vous voulez contre autant d'adversaires jusqu'à ce que vous manquiez de Temps fort. L'utilisation de Provocation ne compte pas comme une action de l'équipe.
+
+Rapidité (Petit Gens/Avancée): Réflexes éclairs dans un petit paquet en particulier avec sa langue. Si ce joueur commence son action après un Revirement de situation, il peut doubler le nombre actuel de Temps fort (cela peut se produire avant l'utilisation de la capacité Provocation).
+
+Essaim (Petit Gens/Avancée): Ces petits gars submergent leurs adversaires par le nombre. Au cours de l'action de ce joueur tout joueur debout de son équipe de type Petits Gens peut utiliser des Temps forts au lieu de son Mouvement pour se rapprocher de n'importe quel joueur de son équipe avec une Force égale ou moindre. Chaque compteur passé permet à un joueur de type Petis Gens d'avancer d'un hexagone si le joueur n'a pas besoin de se désengager pour se déplacer. Plusieurs joueurs peuvent être déplacés par l'utilisation d'Essaim.
+
+Crâne d'acier (Milieu de terrain/Basique): Ce joueur n'est jamais mit au sol sur un résultat à terre. Ce joueur peut se lever quand il est sonné comme s'il n'était qu'à terre.
+
+Coup de main (Milieu de terrain/Avancée): Toujours prêt à donner un coup de main, ce joueur peut donner un modificateur de -1 au nombre de succès nécessaires à n'importe quel défi tenté par ses coéquipiers à côté, même quand il n'est pas face à eux.
+
+Coéquipier (Milieu de terrain/Avancée): Toujours là pour ses coéquipiers, ce joueur peut dépenser des compteurs de Temps fort au lieu du Mouvement pour se rapprocher d'un autre joueur de son équipe. Chaque compteur utilisé permet à ce joueur de se déplacer d'un hexagone si le joueur n'a pas besoin de se désengager pour se déplacer.
+
+Roué de coup (Monstre/Basique): Ce joueur peut tenter de porter un coup écrasant (mais qui est plus facile à éviter). Ce joueur peut choisir de lancer jusqu'à trois dés de moins sur un Défi Plaquer. Si le résultat du défi demande un défi de blessure, sur ce défi de blessure il peut supprimer un succès pour chaque dé qu'il a enlevé du défi Plaquer.
+
+Rage (Monstre/Avancée): This player strikes back with
+a vengeance when attacked. If this player takes the action
+for this turn he may add two Momentum counters to the
+Momentum track if an Impact, Tackle, or Shove challenge
+was attempted against him on the opponent's previous turn
+(maximum of two counters earned total). Note: use of the
+abilities Cutblock, Steal, and Cheapshot against this player in the previous turn also count for triggering the Enrage ability.
+
+Écrasement (Monstre/Avancée): Ce joueur est un poids lourd. Ce joueur peut utiliser un Temps fort  au lieu du Mouvement pour avancer dans l'hexagone qu'occupé précédemment son adversaire immédiatement après un défi Pousser. Le mouvement peut ignorer tout défi Se Dégager nécessaire.
+
+Allonge (Garde/Basique): Ce joueur semble se saisir des balles en l'air avec aisance. Si la ligne d'interception passe à travers un hexagone adjacent à ce joueur, il peut tenter un défi d'interception. Cela inclut les hexagones d'atterrissage, du Lanceur, et les hexagones occupés par des adversaires.
+
+Interception (Garde/Avancée): Une fois que ce joueur a une chance d'intercepter ... tout est fini. Un entraîneur de l'équipe adverse ne peut pas utiliser de Temps fort pour remplacer un dé sur un défi d'interception tenté par ce joueur.
+
+Réaction (Garde/Avancée): Quick to respond to problems
+with the opposing team, this player may spend Momentum
+counters out of sequence when the opposing team suffers a
+Revirement de Situation. Each counter spent allows this player to move one hex if the player does not need to Disengage to move. This movement does not count as the team's action and a different player may take the team's action if desired.
+
+Subtiliser (Buteur/Basique): This player is a master ball thief. This player may attempt to steal the ball instead of knocking down the opponent during a Tackle challenge attempt. No Impact challenge is ever required for a Steal. If a Steal is attempted, replace "Slide Tackle. Both Tackler and Opponent are Down." with "Strip. Both players standing. Ball scatters". All results for one or more successes than needed are replaced with "Steal. Both players standing. The Tackling player gets possession of the ball." Only successes over three more than needed earn Momentum as with a normal Tackle challenge.
+
+Esquive (Buteur/Avancée): se glisser entre les plaqueurs est un art que ce joueur a maîtrisé. Ce joueur gagne le double du nombre de Temps fort sur les défis Se dégager.
+
+
+Jaillir (Buteur/Avancée): Ce joueur est rapide une fois la balle en main. Quand un joueur avec Jaillir prend possession de la balle après un défi Ramasser ou l'utilisation de la capacité Jaillir  il peut dépenser des Temps fort au lieu de son Mouvement pour se déplacer. Chaque compteur utilisé permet à ce joueur de se déplacer d'un hexagone si le joueur n'a pas besoin de se désengager pour se déplacer.
+
+Bras d'acier (Lanceur/Basique): Est-ce un bras sur ce Joueur. Un joueur avec cette capacité peut toujours tenter de lancer à 7 ou plus hexagones (même s'il s'est déplacé ou a effectué un autre défi.), Mais vous devez ajouter 1 au nombre de succès nécessaires au défi.
+
+Précision (Lanceur/Avancée): Qu'est-ce une spirale parfaite sur un lancer. Ce joueur gagne le double du nombre de compteurs de Temps fort sur un défis de Lancer.
+
+Lancer Précis (Lanceur/Avancée): This player really can
+give his receivers a jump on the opposition with his perfect
+throws. This player may spend Momentum counters to allow a player from his team that successfully catches a ball he has thrown to immediately move after catching the ball. Each counter spent allows the player that caught the ball to move one hex if the player does not need to Disengage to move. The player with Lead Pass can finish his action after the catching player has finished moving.
+
+Peur (Mort-vivant/Basique): Ce joueur dégage une aura qui effraie de nombreux adversaire. Tout défi Plaquer tenté par un adversaire de Force égal ou supérieur  ou l'utilisation des capacités Subtiliser et Charge contre ce joueur exige un défi Charger  de plus aucun Temps fort n'est gagné sur ce défi. Un adversaire avec l'aptitude Fou Furieux ou utilisant Vicieux peut ignorer l'effet de l'aptitude Peur. Tous les joueurs de l'équipe Samhaino peuvent acquérir cette capacité.
+
+Immortel (Mort-vivant/Avancée): Ce joueur met de côté, même les blessures les plus graves. L'entraîneur de l'équipe adverse ne peut pas utiliser de Temps fort pour remplacer un jet de dé lors d'un défi de blessure de ce joueur.
+
+Trainer les pieds (Mort-vivant/Avancée): Ce joueur a le célèbre mouvement lent imparable des morts-vivants. Ce joueur peut dépenser des Temps fort au lieu de son Mouvement pour se déplacer. Chaque deux points utilisés permettent à ce joueur de se déplacer d'un hexagone en ignorant tout défi Se Dégager qui seraient nécessaires.
+
+----
+==== General attribute abilites
+
+Steady (Jog/Basic):
+The player is steady on his feet even when pushing to move beyond his normal limits. Steady may be used once per action and allows you to replace one die of your choice from a Dash challenge (you must use the result from the new roll in place of the original die roll).
+
+Sprinter (Jog/Advanced)
+You may perform the Dash challenge as many times per action as you want without having or paying Momentum. Instead of Momentum paid, this player uses his Jog attribute to determine how many challenge dice can be rolled for the Dash challenge (maximum of 6). The number of successes needed for each Dash challenge is equal to number of Dash challenges the player has attempted this action plus 1. For example, if you are attempting your 3rd Dash challenge, you must roll 4 or more successes.
+
+Buff (Might/Basic)
+The player has spent an extensive amount of time weightlifting and developing muscle mass. Buff may be used once per action and during the Face-off challenge and allows you to replace one die of your choice from any challenge using the Might attribute (you must use
+the result from the new roll in place of the original die roll).
+
+Bonecrusher (Might/Advanced)
+The player hits like a ton of bricks often ending an opponent's career. Opponents roll one less challenge die for any Injury challenge from any tackle from this player.
+
+Grapple (Tackle/Basic)
+This player is focused on only one thing ... taking down the opposition. Grapple may be used once per action and allows you to replace one die of your choice from any challenge using the Tackle attribute (you must use the result from the new roll in place of the original die roll).
+
+Psycho (Tackle/Advanced)
+Frothing at the mouth from a self induced battle rage, this player fears no man or beast. This player rolls challenge dice equal to his opponent's Might for any Impact challenge required when attempting a Tackle challenge. He may also add 2 challenge dice to any Shove challenge he attempts (maximum of 6).
+
+Nimble (Dodge/Basic)
+This player is able to think on his feet and change plans quickly as conditions change on the
+field. Nimble may be used once per action and allows you to replace one die of your choice from any challenge using the Dodge attribute (you must use the result from the new roll in place of the original die roll).
+
+Slippery (Dodge/Advanced)
+This player is as difficult to lay a hand on as a greased pig. This player may ignore one opposing player modifying the number of successes of any challenge using the Dodge attribute and automatically succeeds (without rolling dice) any Disengage challenge where the successes needed would be zero or less (before it is normally increased to the one success required).
+
+Agile (Skill/Basic)
+Need the elfball to get where you want it to go ... call this player. Agile may be used once per action and allows you to replace one die of your choice from any challenge using the Skill attribute (you must use the result from the new roll in place of the original die roll).
+
+Bankshot (Skill/Advanced)
+The player has developed low level magical powers allowing him to control the bounce from the white repelling powder. Anytime this player performs a throw into a white line he may choose the direction it bounces back. In addition, he may add or subtract one hex from the number of hexes it bounces off the white line.
+
+Focused (Skill/Advanced)
+The player has ice water in his veins and is able to ignore opponents around him. This player may ignore one opposing player modifying the number of successes of any challenge using the Skill attribute.
+
+Resilient (Grit/Basic)
+Tough as nails ... this player is very difficult to take out of the game. Resilient may be used once per any player's action and allows you to replace one die of your choice from any challenge using the Grit attribute (you must use the result from the new roll in place of the original die roll).
+
+Rugged (Grit/Advanced)
+This player is immune to all but the most serious of hits. This player may treat 3 or more successes on a Grit challenge as being placed Down on the playing field. In addition, his Grit is considered one point higher for determining the Jog he needs to use to stand up.
+
+==== Type attribute abilities
+
+Cheapshot (Cheater/Basic)
+This player may attempt a dishonourable attack on an opponent. This player may attempt a Tackle challenge (no Impact challenge required) against a Down or Dazed opponent. Ignore modifiers for Rear facing or lack of Ball holding for this challenge. Replace the result "Slide Tackle. Both Tackler and Opponent are Down." with "Tackle has no effect." A Dazed opponent will become Down from a result of "Solid Hit. Opponent is Down." (you snapped him out of his daze).
+
+Malicious (Cheater/Advanced)
+This player takes great pleasure from inflicted pain. This player earns one Momentum counter any time he causes an opponent to become Dazed and two Momentum counters if he causes the opponent to leave the field from injury.
+
+Ruthless (Cheater/Advanced)
+This player is extremely bloodthirsty. This player may spend Momentum counters instead of Jog to move closer to a Down or Dazed opponent. Each counter spent allows this player to move one hex if the player does not need to Disengage to move.
+
+Clipping (Defender/Basic)
+Getting away from this player is very difficult. Any opponent with less Might than this player must roll an Impact challenge first to break free and attempt a Disengage challenge (the opponent may use his Dodge attribute instead of Might for this special Impact challenge). If you fail the Impact challenge without flopping, you may spend a pace of Jog to attempt the Impact challenge again to break away until you run out of Jog.
+
+Knockback (Defender/Advanced)
+This player hits like a freight train. This player earns double the number of Momentum counters from Shove challenges.
+
+Goalie (Defender/Advanced)
+This player is great at defending the goal circle. This player may spend Momentum counters instead of Jog to move closer to the goal circle his team is defending. Each counter spent allows this player to move one hex if the player does not need to Disengage to move.
+
+Cutblock (Hunter/Basic)
+If this player has moved at least one hex first, he may perform a Tackle challenge against any higher Might player without needing to roll an Impact challenge. A player using Cutblock is  placed Down regardless of the results of the Tackle challenge.
+
+Collision (Hunter/Advanced)
+Nothing psyches this player more than a crunching tackle. This player earns double the number of Momentum counters from Impact and Tackle challenges.
+
+Beeline (Hunter/Advanced)
+This player hunts down ball carriers with a passion. This player may spend Momentum counters instead of Jog to move closer to the opposing ball carrier. Each counter spent allows this player to move one hex if the player does not need to Disengage to move.
+
+Taunt (Little Guy/Basic)
+He may be small but he can be amazingly annoying (and insulting). This player may act out of sequence when the opposing team suffers a Shift in Momentum. This player may attempt to change the facing of an opponent within 6 hexes using a Taunt challenge.
+
+You may use the Taunt ability as many times as you can against as many opponents as you can until you run out of Momentum. Use of Taunt does not count as the team's action.
+
+
+Quickling (Little Guy/Advanced)
+Lightning reflexes in a small package especially with his tongue. If this player takes his action after a Shift in Momentum, he may double the current number of Momentum counters (this may occur before use of the Taunt ability).
+
+Swarm (Little Guy/Advanced)
+These little guys overwhelm opponents with numbers. During this player's action any standing player on his team with the Little Guy type may spend Momentum counters instead of Jog to move closer to any player from his team with an equal or lesser Might. Each counter spent allows a Little Guy type player to move one hex if the player does not need to Disengage to move. Multiple players may be moved from the use of Swarm.
+
+Rally (Midfielder/Basic)
+This player is never out of the action when down. This player may stand up when Dazed as if he was only Down.
+
+Helping Hand (Midfielder/Advanced)
+Always willing to lend a hand, this player can give a -1 modifier to the number of successes required for any challenge attempted by adjacent teammates even when he is not facing them.
+
+Teammate (Midfielder/Advanced)
+Always there for his teammates, this player may spend Momentum counters instead of Jog to move closer to another player from his team. Each counter spent allows this player to move one hex if the player does not need to Disengage to move.
+
+Pummel (Monster/Basic)
+This player may attempt to strike a crippling blow (but one that is easier to avoid). This player may choose to roll up to three fewer Challenge dice for the Tackle challenge. If the Tackle challenge results in an Injury challenge than he can remove one success from the Injury challenge roll for each Challenge dice he removed from the Tackle challenge.
+
+Enrage (Monster/Advanced)
+This player strikes back with a vengeance when attacked. If this player takes the action for this turn he may add two Momentum counters to the Momentum track if an Impact, Tackle, or Shove challenge was attempted against him on the opponent's previous turn (maximum of two counters earned total). Note: use of the abilities Cutblock, Steal, and Cheapshot against this player in the previous turn also count for triggering the Enrage ability.
+
+Plough (Monster/Advanced)
+This player is a juggernaut. This player may spend one Momentum counter instead of Jog to move into the hex his opponent was previously in immediately after a successful Shove challenge. The movement may ignore any required Disengage challenge.
+
+Reach (Safety/Basic)
+This player seems to snag balls from the air with ease. If the intercept line passes through a
+hex adjacent to this player, he may attempt an Intercept challenge. This includes hexes for the Thrower, landing hex and hexes with opponents in them.
+
+Cover (Safety/Advanced)
+Once this player has a chance to intercept ... it is all over. An opposing team manager may not use Momentum to replace rolls made for any Interception challenge by this player.
+
+React (Safety/Advanced)
+Quick to respond to problems with the opposing team, this player may spend Momentum counters out of sequence when the opposing team suffers a Shift in Momentum. Each counter spent allows this player to move one hex if the player does not need to Disengage to move. This movement does not count as the team's action and a different player may take the team's action if desired.
+
+Steal (Striker/Basic)
+This player is a master ball thief. This player may attempt to steal the ball instead of knocking down the opponent during a Tackle challenge attempt. No Impact challenge is ever required for a Steal. If a Steal is attempted, replace "Slide Tackle. Both Tackler and Opponent are Down." with "Strip. Both players standing. Ball scatters". All results for one or more successes than needed are replaced with "Steal. Both players standing. The Tackling player gets  possession of the ball." Only successes over three more than needed earn Momentum as with a normal Tackle challenge.
+
+Hotdog (Striker/Advanced)
+Weaving between tacklers is a fine art this player has mastered. This player earns double the number of Momentum counters from Disengage challenges.
+
+Burst (Striker/Advanced)
+This player really pours on the speed once he has the ball. When a player with Burst gets possession of the ball from a Pick-up challenge or use of the Steal ability he may spend Momentum counters instead of Jog to move. Each counter spent allows this player to move one hex if the player does not need to Disengage to move.
+
+Scramble (Thrower/Basic)
+What an arm on this player. A player with this ability may always attempt to throw 7 or more
+paces (i.e. even if he has moved or performed another challenge.), but you must add 1 to the number of successes needed for the Throw challenge.
+
+Bullet (Thrower/Advanced)
+What a perfect spiral on that throw. This player earns double the number of Momentum counters from Throw challenges.
+
+Lead Pass (Thrower/Advanced)
+This player really can give his receivers a jump on the opposition with his perfect throws. This player may spend Momentum counters to allow a player from his team that successfully catches a ball he has thrown to immediately move after catching the ball. Each counter spent allows the player that caught the ball to move one hex if the player does not need to Disengage to move. The player with Lead Pass can finish his action after the catching player has finished moving.
+
+Fear (Undead/Basic)
+This player radiates an aura that scares off many opponents with any sense. Any Tackle challenge by an equal or higher Might opponent or the use of the Steal and Cutblock abilities against this player requires an Impact challenge first however no Momentum counters are earned for this Impact challenge. An opponent with Psycho or using Cheapshot can ignore the effect of the Fear ability. Any player from the Samhaino race may gain this ability.
+
+Everlasting (Undead/Advanced)
+This player shrugs off even the most grievous injuries. The opposing team manager may not use Momentum to replace rolls made for any Injury challenge for this player.
+
+Shamble (Undead/Advanced)
+This player has the famed slow unstoppable movement of the undead. This player may spend Momentum counters instead of Jog to move. Each two counters spent allow this player to move one hex ignoring any Disengage challenge that would be required.
+
+
+.Elfball Abilites Map
+image
+----
