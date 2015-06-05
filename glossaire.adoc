@@ -23,5 +23,5 @@ un « *?* » à côté d'un mot signifie que la traduction proposée est discuta
 - Skill icon:arrow-circle-o-right[lg] Compétence
 - Tackle icon:arrow-circle-o-right[lg] Tacle
 - Team manager icon:arrow-circle-o-right[lg] Entraîneur
-- Type icon:times-circle-o[lg]
+- Type icon:arrow-circle-o-right[lg] Classe
 - Test icon:arrow-circle-o-right[lg] Essai

@@ -1,10 +1,6 @@
 = Régles alternatives
 
-Les règles qui suivent sont des règles facultatives pour elfball, il convient de se mettre d'accord avec son adversaire ou son commissaire de ligue avant d'utiliser ces règles.
-
-----
-The following rules are optional rules and teams for Elfball and need to be agreed upon by both you and your opponent OR your league commissioner to be used.
-----
+Les règles qui suivent sont des règles facultatives pour ElfBall, il convient de se mettre d'accord avec son adversaire ou son commissaire de ligue avant de les utiliser.
 
 === DUREE D'UN MATCH
 Si vous préférez utiliser une durée chronométré plutôt que la règle du premier à atteindre 1,2 ou 3 buts la règle suivante devrait vous intéressez. Prenez un jeu de carte à jouer standard (ou 2) posez le à cotés du plateau. À chaque fois qu'un joueur termine son tour retirer une carte de la pioche. Lorsqu'il n'y a plus de cartes le match est fini. Le jeu de cartes '2-minutes Warning' est un excellent moyen de mettre en place cette option avec en prime des événements spéciaux qui animent le jeu (vendu séparément).

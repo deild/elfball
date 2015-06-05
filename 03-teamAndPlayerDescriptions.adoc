@@ -1,6 +1,6 @@
 == Descriptions des équipes & joueurs
 
-La majorité des équipes de Elfball sont composées de plusieurs type standard de joueurs spécialisés. Certaines races utilisent d’autres types de joueurs spécialisés et quelques une aucun. La section <<25-advancedRules.adoc#_Contruire/Développer_votre_équipe,construie et développer votr équipe>> donne tous les détails à utiliser pour bâtir une équipe et y ajouter des extras. Votre équipe est composée de joueurs parmit une seule des listes d'équipes. Vous ne devez pas mélanger les joueurs de plus d'une équipe de la liste pour créer votre propre équipe.
+La majorité des équipes de Elfball sont composées de plusieurs classe standard de joueurs spécialisés. Certaines races utilisent d’autres classes de joueurs spécialisés et quelques une aucune. La section <<25-advancedRules.adoc#_Contruire/Développer_votre_équipe,construie et développer votr équipe>> donne tous les détails à utiliser pour bâtir une équipe et y ajouter des extras. Votre équipe est composée de joueurs parmit une seule des listes d'équipes. Vous ne devez pas mélanger les joueurs de plus d'une équipe de la liste pour créer votre propre équipe.
 
 === Milieux de terrain
 Les milieux de terrain sont les joueurs bouche trou d’une équipe de Elfball. De vrai touche-à-tout ils n'excellent dans rien de spécifique, mais ils n’ont pas non plus de vraies faiblesses.
