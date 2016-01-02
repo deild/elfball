@@ -27,8 +27,8 @@ Traduire les sections :
 - [ ] https://github.com/deild/elfball/tree/[]17
 - [ ] https://github.com/deild/elfball/tree/[]18
 - [ ] https://github.com/deild/elfball/tree/[]19
-- [ ] https://github.com/deild/elfball/tree/[]20
-- [ ] https://github.com/deild/elfball/tree/[]21
+- [x] https://github.com/deild/elfball/tree/20-replacements.adoc[20-replacements.adoc]
+- [x] https://github.com/deild/elfball/tree/21-conceding.adoc[21-conceding.adoc]
 - [ ] https://github.com/deild/elfball/tree/[]22
 - [ ] https://github.com/deild/elfball/tree/[]23
 - [ ] https://github.com/deild/elfball/tree/[]24

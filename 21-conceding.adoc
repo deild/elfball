@@ -1,2 +1,2 @@
 == Concéder le match
-Un joueur peut concéder le match à son adversaire à n'importe quel moment. Si c'est le cas, chaque joueur de l'équipe adversaire n'étant pas à l'infirmerie reçoit un point d'expérience. De plus, le score de l'équipe adverse est ajusté de telle sorte qu'ils aient marqué un nombre de buts suffisants pour gagner ce match.
+Un joueur peut concéder le match à son adversaire à n'importe quel moment. Si c'est le cas, chaque joueur de l'équipe adverse n'étant pas à l'infirmerie reçoit un point d'expérience. De plus, le score de l'équipe adverse est ajusté de telle sorte qu'ils aient marqué un nombre de buts suffisants pour gagner ce match.
