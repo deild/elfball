@@ -1,5 +1,4 @@
 = Régles alternatives
-
 Les règles qui suivent sont des règles facultatives pour ElfBall, il convient de se mettre d'accord avec son adversaire ou son commissaire de ligue avant de les utiliser.
 
 === DUREE D'UN MATCH
@@ -21,7 +20,8 @@ During each team's turn, two players may be moved instead of just one each team 
 
 CHANGER LE RESULTAT DU DE DE DEFI
 
-NOTE: Cette règle optionnelle est FORTEMENT recommandé dans vos premiers matchs de Elfball pour un apprentissage des règles. Quand Vous utilisez cette règle ignorer tous les commentaires sur les succès conditionnels dans le livret de règles, la face étoile compte désormais pour deux succès au lieu d'un succès conditionnel.
+[NOTE]
+Cette règle optionnelle est FORTEMENT recommandé dans vos premiers matchs de Elfball pour un apprentissage des règles. Quand Vous utilisez cette règle ignorer tous les commentaires sur les succès conditionnels dans le livret de règles, la face étoile compte désormais pour deux succès au lieu d'un succès conditionnel.
 
 ----
 == Change to challenge dice results
@@ -32,17 +32,19 @@ The star symbol represents a major success and counts as two successes.
 NOTE: This optional rule is HEAVILY recommended for your first few games of Elfball to get used to the rules. When using this rule ignore any comments in the rulebook about conditional successes as the star face now counts as two successes instead of a conditional success.
 ----
 
-MISE EN JEU
-Note: Cette règle optionnelle est FORTEMENT recommandé dans vos premiers matchs de Elfball pour un apprentissage des règles. Remplacer entièrement la section Mise en Jeu par celle ci:
+== MISE EN JEU
+[NOTE]
+Cette règle optionnelle est FORTEMENT recommandé dans vos premiers matchs de Elfball pour un apprentissage des règles. Remplacer entièrement la section Mise en Jeu par celle ci:
 
 Un Test commence toujours par une mise en jeu entre les deux joueurs positionnés dans le cercle central. Chaque entraineurs lancent les dés pour un défi de mise en jeu. Le joueur avec le plus grand nombre de succès (y compris zéro si votre adversaire est en échec) gagne la mise en jeu. En cas d'égalité, relancer les dés. Continuer à lancer les dés jusqu'à ce qu'un joueur gagne la mise en jeu ou que les deux échoue. Un joueur qui échoue trébuche et est placé à terre. Si les deux joueurs échouent, une nouvelle mise en jeu est lancée avec la même configuration de départ pour les deux équipes. Si le joueur qui remporte la mise en jeu a une force plus élevé que son habileté, il doit se déplacer à l'intérieur du cercle de deux hexagones pour automatiquement Plaquer son adversaire et le placer à terre ( aucun défi Charger/Plaquer ou Courage nécessaire). Si son habileté est plus élevé que sa force, il prend automatiquement possession de la balle (déplacé le jeton sur sa base). Si ces deux attributs sont égaux, alors il peut choisir l'événement qui se produit. Après la mise en jeu, l'équipe du vainqueur commence son tour normal. Tout joueur (y compris le gagnant de la mise en jeu) est éligible à être déplacé dans le cadre de cette première action.
 
-
+----
 == The face off
 NOTE: This optional rule is HEAVILY recommended for your first few games of Elfball to get used to the rules. Replace this entire section for the Face-Off up to Turn
 Sequence with:
 
 Play for a Test beings with a face-off between the two players set up on the centre circle. Each Team Manager rolls 6 challenge dice for Face-off. The player with the highest number of successes (including zero if your opponent flopped) has won the face-off. In the event of a tie, roll another face-off. Continue rolling tie-break face-offs until either one player wins or both players flop. A player who flops a face-off challenge has tripped and is placed Down on the field. If both players flop the face-off, a new face-off is started with the same starting setup for each team. If the player who wins the face-off has a Might higher than his Skill, he must move up to two hexes inside the Face-off circle and automatically succeed in tackling his opponent resulting in his opponent becoming Down (roll no dice for Impact, Tackle, or Grit challenges). If his Skill is higher than his Might he automatically gains possession of the elfball (place the elfball token on his base to indicate that he has the ball). If the winning player's Might and Skill attributes are equal, then he may choose which of these two events occurs. After the Face-Off, the team of the winner of the face-off goes first to take his normal turn. Any player (including the face-off winner) is eligible to be moved as part of this first action.
+----
 
 ----
 == SAMHAINO HORROR
@@ -50,7 +52,7 @@ Instead of fielding a Deadwood, a Samhaino team may field a Samhaino Horror. The
 Jog 4 / Might 4 / Tackle 5 / Dodge 1 / Skill 1 / Grit 6 Type: Defender
 ----
 
-ROULEAU COMPRESSEUR
+== ROULEAU COMPRESSEUR
 L'équipe Nain des marteaux de tonnerre peut utiliser le redoutable Rouleau compresseur. En outre l'équipe de Gnome peut aussi en utiliser un à la place d'une machine gnome. Le Rouleau compresseur existe uniquement pour éliminer les adversaires du jeu, en particulier ceux sur le terrain. Les arbitres en général détestent les Rouleau compresseur, donc après chaque tour où le Rouleau compresseur a été le joueur en action, lancer un dé de défi. Sur un fiasco, l'arbitre décide d'exclure le Rouleau compresseur du terrain. Retirez le Rouleau compresseur du terrain et il ne pourra plus être alignés pour le reste du match. Le Rouleau compresseur si elle fait partie de l'équipe ne peut gagner des points d'expériences, ne peut pas apprendre de nouvelles aptitudes, et ne peut utiliser des potions magiques. Le Rouleau compresseur a les aptitudes Vicieux, Impitoyable, Roué de coup et Écrasement.
 
 ----

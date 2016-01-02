@@ -1,4 +1,4 @@
-==
+== Désengagement
 
 Désengagement : Un joueur dans un hexagone adjacent à un adversaire lui faisant face et souhaitant de déplacer à besoin de se désengager.
 

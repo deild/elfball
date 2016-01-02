@@ -32,8 +32,8 @@ La plupart des joueurs développent des aptitudes après avoir jouer plusieurs m
 
 include::25b-attribute.adoc[]
 
-----
 
+----
 = ADVANCED RULES
 
 == Team building rules

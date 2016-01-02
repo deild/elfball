@@ -1,5 +1,4 @@
 == Types de défis
-
 Quand un joueur effectue une action, il peut choisir différents types de défis. Le joueur actif peut tenter chaque défi (autre que charger/Plaquer et pousser) autant de fois qu’il le désire durant son action. A chaque déplacement  du joueur d’un hexagone à un autre il utilise un de ces points de mouvement. Tenter un défi ne consomme aucun point de mouvement et vous pouvez tenter des défis après avoir utilisé le dernier point de mouvement. La liste suivante montre les types de défi:
 
 *Se désengager* : se déplacer sur un hexagone adjacent avec un adversaire qui vous fait face. +
