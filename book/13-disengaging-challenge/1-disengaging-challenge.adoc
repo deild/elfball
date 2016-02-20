@@ -1,0 +1,26 @@
+== Désengagement
+
+Désengagement : Un joueur dans un hexagone adjacent à un adversaire lui faisant face et souhaitant de déplacer à besoin de se désengager.
+
+Se désengager
+Attribut:	Esquive
+# de succès nécessaire	(Le plus haut attribut Tacle des adversaires de face dans un hexagone adjacent à votre joueur) -2
+Modificateur de succès
+Pour chaque équipier debout face à votre joueur	-1
+Pour chaque adversaire debout face à votre joueur, sans compter  le premier	+1
+Résultat:
+Échec:	Joueur sonné. RdS
+Nombre de succès insuffisant:	Joueur à terre. RdS.
+Nombre de succès suffisant:	Joueur se désengage.
+
+NOTE: Vous essayez de vous désengager avec un joueur dont l'Esquive est de 4 avec deux adversaires qui lui font faces ayant un attribut Tacle de 3 et2. Le # de succès nécessaire est de 2 (3-2+1). Vous obtenez un fiasco et 3 succès. Ce qui vous donnes 2 succès vous réussissez à vous désengager.
+
+////
+== Disengage challenge
+Disengaging: A player who is in adjacent hex with a forward facing standing opposing player and who wishes to move into any other hex needs to make a Disengage challenge.
+
+
+Disengage Challenge Table
+
+Example: You attempt to disengage with a player with a Dodge attribute of 4 from two adjacent forward facing opponents with Tackle attributes of 3 and 2. So the # of successes needed is 2 (3 -2 +1)). You roll a flop and 3 successes. This gives you two successes so you manage to disengage successfully.
+////

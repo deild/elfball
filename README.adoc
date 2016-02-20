@@ -1,37 +1,66 @@
-:authors: Tolvä
-:doctitle: ElfBall : Livre des régles, seconde édition. Effort de traduction française
-:email: <smur (at) free (dot) fr>
+= ElfBall : Livre des régles, seconde édition. image:https://i.creativecommons.org/l/by/4.0/80x15.png[Licence, link="http://creativecommons.org/licenses/by/4.0/"]
 :uri-github-repo: https://github.com/deild/elfball
-:icons: font
-:source-highlighter: coderay
-ifdef::backend-pdf[:notitle:]
-ifdef::backend-pdf[]
-:pdf-page-size: A4
-[discrete]
-= {doctitle}
-endif::[]
 
-Ce dépot concerne l'effort de traduction en français de la seconde édition des régles d'ElfBall.
+Ce dépot concerne l'effort de traduction en français de la seconde édition des régles d'elfBall.
 
+////
 Voilà le livre de règle est terminé. Je ne suis pas mécontent d'avoir terminé, après un bon nombre d'heures passées dans l'espoir de donner accès au plus grand nombre à une version française digne de ce nom et surtout le plus proche possible de la version originale.
+////
 
 J'ai trouvé intéressant d'ajouter également quelques annexes, pour ceux qui passent de l'anglais au français régulièrement en consultant les sites dédiés, ceci permettra de connaître les termes ayant servi à cette traduction et leurs correspondances.
 
 Bien sûr ce document est encore perfectible, et je compte sur vous, si vous y découvrez des coquilles, pour me les signaler afin de parfaire le document.
 
-J'espère que ce document pourra rendre service aux francophones de tout pays et vous permettra de passer de bons moments avec ce merveilleux jeu le elfball.
+J'espère que ce document pourra rendre service aux francophones de tout pays et vous permettra de passer de bons moments avec ce merveilleux jeu qu'est elfball.
 
 == Diffusion
 
-Si vous travaillez ou souhaitez travailler sur la traduction française, faites-nous le savoir, de sorte à ne pas dupliquer le travail.
+Si vous travaillez ou souhaitez travailler sur la traduction française, faites le savoir, de sorte à ne pas dupliquer le travail.
 
 == Workflow
 
-Pour simplifier la gestion et utiliser pleinement les capacités de Git et Github, la manière la plus directe de collaborer consiste à faire un fork sur Github du dépôt *{uri-github-repo}* sur votre propre compte pour y générer vos modifications, si possible sur une branche thématique (link:TODO.adoc[TODO]).
+Pour simplifier la gestion et utiliser pleinement les capacités de Git et Github, la manière la plus directe de contribuer consiste à dupliquer (_fork_) le dépôt *{uri-github-repo}* pour y générer vos modifications, si possible sur une branche thématique.
 
-Ensuite, il suffit de lancer une _pull request_ pour nous avertir que les modifications peuvent être revues et intégrées.
+Ensuite, il suffit de fournir la contribution au dépôt originel en créant une requête de tirage (_Pull Request_). Ceci ouvre un fil de discussion avec possibilité de revue, pour que le propriétaire et le contributeur puissent discuter et modifier la proposition jusqu'à ce que le propriétaire soit satisfait du résultat et le fusionne dans le dépôt originel.
 
 ** http://pioupioum.fr/developpement/git-alias-productivite.html
+
+== Comment générer le livre
+
+Il y a deux façons de générer le livre aux formats PDF, ePub, Mobi et HTML.
+
+La façon la plus facile est tout simplement de nous laisser le faire. Vous pouvez trouver la dernière publication en PDF, Mobi (format Kindle), ePub (format iBooks) ou HTML.
+
+image:icons/pdf.png[PDF,50,50, link="https://www.dropbox.com/s/pzpxkzeiahzc9uy/elfball.pdf.7z?dl=0"]
+image:icons/mobi.png[MOBI,50,50, link="https://www.dropbox.com/s/ik1c6tb3xqe7zl6/elfball.mobi.7z?dl=0"]
+image:icons/epub.png[EPUB,50,50, link="https://www.dropbox.com/s/aoqydbdqutcufxa/elfball.epub.7z?dl=0"]
+image:icons/html.png[HTML,50,50, link="https://www.dropbox.com/s/w7ofb0rlyr1jufg/elfball.html.7z?dl=0"]
+
+L'autre façon de générer les différentes versions du livre est de le faire manuellement avec Asciidoctor. Pour cela, vous devez installer les paquets `ruby` et `bundler` s'ils ne sont pas déjà installés.
+
+Vous ne lancerez la commande suivante qu'une seule fois :
+
+----
+$ bundle install
+----
+
+Ensuite, lorsque de nouvelles versions sont publiées, vous générerez le livre aux formats PDF, Epub, Mobi et HTML avec la commande suivante :
+
+----
+$ bundle exec rake book:build
+Converting to HTML...
+ -- HTML output at elfball.html
+Converting to EPub...
+ -- Epub output at elfball.epub
+Converting to Mobi (kf8)...
+ -- Mobi output at elfball.mobi
+Converting to PDF...
+ -- PDF  output at elfball.pdf
+----
+
+Cela utilise les projets `asciidoctor`, `asciidoctor-pdf` et `asciidoctor-epub`.
+
+Pour plus d'informations, veuillez vous référer à link:generer_livre.adoc[générer le livre].
 
 == Références pour la traduction
 
@@ -58,7 +87,3 @@ Voici ci-dessous quelques liens :
 
 ** http://www.dsi.univ-paris5.fr/typo.html
 ** http://jacques-andre.fr/faqtypo/lessons.pdf
-
-== release notes
-
-link:RELEASE-NOTES.adoc[change log]

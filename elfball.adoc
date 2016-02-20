@@ -1,47 +1,91 @@
-:doctitle: ElfBall : Livre des régles, seconde édition.
-:doctype: book
+= ElfBall : Livre des régles, seconde édition.
+Tolvä <smur@free.fr>
+:doctype:   book
 :docinfo:
 :toc: macro
+:toclevels: 2
 :toc-title: Table des matiéres
-:username: tolva
-//:front-cover-image: image:cover.png[width=1050,height=1600]
-:source-highlighter: coderay
-:figure-caption!:
-:imagesdir: .
-ifdef::backend-pdf[:notitle:]
+:front-cover-image: image:book/cover.png[width=1050,height=1600]
+:revnumber: 0.0.6
+:revdate: Février 20, 2016
+:version-label!:
+:icons: font
 ifdef::backend-pdf[]
 :pdf-page-size: A4
-[discrete]
-= {doctitle}
 endif::[]
 
-include::00-preface.adoc[]
-include::00-credits.adoc[]
-include::01-gameComponents.adoc[]
-include::02-objectiveOfTheGame.adoc[]
-include::03-teamAndPlayerDescriptions.adoc[]
-include::04-playerAttributes.adoc[]
-include::05-playerFacing.adoc[]
-include::06-actionAndChallenge.adoc[]
-include::07-beginningATest.adoc[]
-include::08-TheFace-off.adoc[]
-include::09-turnSequence.adoc[]
-include::10-challengeTypes.adoc[]
-include::11-momemtum.adoc[]
-include::12-standingAPlayerUp.adoc[]
-include::13-disangageChallenge.adoc[]
-include::14-pick-upChallenge.adoc[]
-include::15-throwCatchInterceptChallenges.adoc[]
-include::16-tackleChallenge.adoc[]
-include::17-shoveChallenge.adoc[]
-include::18-dashChallenge.adoc[]
-include::19-injuries.adoc[]
-include::20-replacements.adoc[]
-include::21-conceding.adoc[]
-include::22-referee.adoc[]
-include::23-playExample1.adoc[]
-include::24-playExample2.adoc[]
-include::25-advancedRules.adoc[]
-include::26-teamLists.adoc[]
-include::27-optionalRules.adoc[]
-include::28-tournamentPlay.adoc[]
+[preface]
+image::images/elfball.png[elfball,align="center"]
+Un des grands mystères de ce sport le Elfball est où a-t-il vu le jour, et comment il a obtenu son nom. Les elfes de la nuit originaires des sombre forêts de Westerland prétendent qu’ils jouent à ce sport depuis la nuit des temps, et qu’ils ont nommés ce jeu en leur honneur. Depuis leur terre natales arides les gnolls nomades du désert le revendiquent aussi et insistent sur le fait que le nom du jeu viendrait du type de tête le plus adapté pour y jouer. En fait de nombreuses races revendiquent être à l'origine du jeu et beaucoup des guerres les plus meurtrières de l’histoire du monde ont étés déclarées à cause de ces revendications. Les hommes des royaumes du milieu ignorent ces pitoyables conflits, et préfèrent appeler le jeu « le cirque ».
+
+Aujourd'hui le ElfBall est joué par chaque nation, race et tribu du monde. Tandis que la plupart préfèrent le terrain distintif de norme circulaire, il existe d’autres variations pour jouer dans les centre-ville ou sur les plages de sable tout au tour du monde. Toutefois à sa base, le ballon distinctif et les règles du jeu sont toutes très standardisés.
+
+toc::[]
+
+[frame="none",grid="none"]
+|===
+
+^a|[big]#*CREDITS*# +
+Rules Design : _Tom Anders, Phil Bowen, Max Haider and
+Eric Reiter_ +
+Rulebook Editor : _Tom Anders_ +
+Board, Cutout and Logo Graphics : _Eric Reiter_ +
+Cover and Rulebook Graphics : _Melvin de Voor_ +
+[small]#Copyright 2007, Impact! Miniatures. All Rights Reserved +
+Second Edition - June 30, 2010#  +
+[small]#`Traduction française par Tolvä.`#
+|===
+
+include::book/01-game-components/1-game-components.adoc[]
+
+include::book/02-objective-of-the-game/1-objective-of-the-game.adoc[]
+
+include::book/03-team-and-player-descriptions/1-team-and-player-descriptions.adoc[]
+
+include::book/04-player-attributes/1-player-attributes.adoc[]
+
+include::book/05-player-facing/1-player-facing.adoc[]
+
+include::book/06-actions-and-challenges/1-actions-and-challenges.adoc[]
+
+include::book/07-beginning-a-test/1-beginning-a-test.adoc[]
+
+include::book/08-the-face-off/1-the-face-off.adoc[]
+
+include::book/09-turn-sequence/1-turn-sequence.adoc[]
+
+include::book/10-challenge-types/1-challenge-types.adoc[]
+
+include::book/11-momentum/1-momentum.adoc[]
+
+include::book/12-standing-a-player-up/1-standing-a-player-up.adoc[]
+
+include::book/13-disengaging-challenge/1-disengaging-challenge.adoc[]
+
+include::book/14-pick-up-challenge/1-pick-up-challenge.adoc[]
+
+include::book/15-throw-challenge/1-throw-challenge.adoc[]
+
+include::book/16-tackle-challenge/1-tackle-challenge.adoc[]
+
+include::book/17-shove-challenge/1-shove-challenge.adoc[]
+
+include::book/18-dash-challenge/1-dash-challenge.adoc[]
+
+include::book/19-injuries/1-injuries.adoc[]
+
+include::book/20-replacements/1-replacements.adoc[]
+
+include::book/21-conceding/1-conceding.adoc[]
+
+include::book/22-referee/1-referee.adoc[]
+
+include::book/23-play-by-play-example-1/1-play-by-play-example-1.adoc[]
+
+include::book/24-play-by-play-example-2/1-play-by-play-example-2.adoc[]
+
+include::book/25-team-building-rules/1-team-building-rules.adoc[]
+
+include::book/29-team-lists/1-team-lists.adoc[]
+
+include::book/A-abstract/abstract.adoc[]

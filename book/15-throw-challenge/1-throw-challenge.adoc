@@ -1,0 +1,64 @@
+== Lancer, receptionner et intercepter
+
+*Lancer le ballon* : Un joueur avec la balle peu essayer de la lancer. Un lancer long a une portée maximum de 18 hexagones mais un joueur ne peut pas bouger ou tenter un autre défi avant ou après un tel lancer. Un lancer court à une portée maximum de 6 hexagones mais le joueur peut se déplacer ou tenter d'autres défis avant ou après le lancer. Le joueur doit lancer la balle dans la direction qui lui fait face soit dans les 3 hexagones qui lui font face (Note: vous pouvez lancer la balle dans un hexagone vide du terrain).
+
+Lancer
+Attribut:	Habileté
+# de succès nécessaire	1
+Modificateur de succès
+Pour chaque équipier debout face à votre joueur	-1
+Pour chaque adversaire debout face à votre joueur	+1
+Lancer la balle à plus de la moitié de la portée maximum (+4 à 6 ou +10 à 18 )	+2
+Résultat:
+Échec:	La balle rebondit d'un hexagone (direction D6) depuis la position du lanceur. RdS.
+Nombre de succès insuffisant:	Le lancer est ratée et arrive a D6 hexagones dans une direction D6 depuis la cible. RdS si la balle n'est rattrapée par aucun de vos joueurs.
+Exactement le nombre de succès nécessaire:	Le lancer est un peu imprécis. Le joueur doit tenté de réceptionner la balle tant que celui ci n'est pas dans un hexagone adjacent au lanceur (dans ce cas la réception est automatique)
+Plus de succès que nécessaire:	Une spiral parfaite! Le joueur à la réception réussit automatiquement (même après un rebond).
+
+*Intercepter le ballon* : un lancer peut être intercepter par un joueur debout entre le lanceur et la cible. Après un succès ou un échec mais avant la réception, l'un des joueurs occupant un hexagone traversé par la trajectoire de la balle peut essayer d'intercepter le lancer.
+
+
+Intercepter
+Attribut:	Habileté
+# de succès nécessaire	2
+Modificateur de succès
+Pour chaque équipier debout face à votre joueur	-1
+Pour chaque adversaire debout face à votre joueur	+1
+Résultat:
+Échec:	Le joueur chute et est à terre. Le lancer est résolu normalement.
+Nombre de succès insuffisant:	L'interception est raté, le lancer est résolu normalement.
+Nombre de succès suffisant:	L'interception est réussit le joueur attrape la balle.
+
+*Réceptionner la balle* :  Un joueur debout peut essayer de réceptionner une balle arrivant dans son hexagone après un lancer imprécis ou un rebond . Un joueur peut volontairement raté la réception la balle rebondit alors d'un hexagone depuis sa position et c'est considéré comme une perte de balle.
+
+Réceptionner
+Attribut:	Habileté
+# de succès nécessaire	2
+Modificateur de succès
+Pour chaque équipier debout face à votre joueur	-1
+Pour chaque adversaire debout face à votre joueur	+1
+Résultat:
+Échec:	Le joueur chute et est à terre. La balle rebondit d'un hexagone depuis cette position.*
+Nombre de succès insuffisant:	Réception échoue la balle rebondit d'un hexagone depuis cette position.*
+Nombre de succès suffisant:	La réception réussit.
+* RdS si l'échec a lieu pendant votre tour ou si un adversaire récupère la balle à la fin de l'action.
+
+NOTE: Vous essayez de réceptionner une passe avec une Habileté de 3 et un adversaire debout vous faisant face (de plus vous avez 3 marqueurs de Temps fort). Vous avez besoin de 3 succès pour réceptionner la balle (2+1). vous lancez un fiasco, un vide et un succès. Vous utilisez deux Temps fort pour relancer le fiasco et le vide et vous obtenez 2 vides. Vous ne pouvez pas utiliser un Temps fort pour relancer un dé plus d'une fois vous arrêter donc là avec un succès, 1 temps fort restant et une réception ratée.
+
+////
+== Throw, catch & intercept challenges
+
+Throwing the Ball - A player with the ball may attempt to throw the ball to another player on his team. If he tries to throw 7 or more paces away from his hex (maximum of 18), he may not move or perform a challenge before or after the Throw challenge. If he wants to move or perform a challenge before or after the throw he may throw up to a maximum of 6 paces. The player must throw the ball in a direction matching his current facing using a Throw challenge (note: you can throw the ball to empty hex on the playing field).
+
+Throw challenge table
+
+Intercepting the Ball - A thrown ball might be intercepted by a standing player between the thrower and the landing hex. After a successful or missed throw but before any Catch challenge, lay the passing string flat on the path (including any bounce off a white line) between the thrower's hex and the hex the ball is landing in. Any one opposing standing player (intercepting coach's choice) who has any part of a hex he occupies crossed by the passing string may attempt to intercept the ball by rolling an Intercept challenge.
+
+Interception challenge table
+
+Catching the Ball - A standing player who has a ball land in his hex from a wobbly throw or bouncing ball may attempt to perform a Catch challenge to catch the ball. A player can choose to automatically fail a catch roll in which case it will bounce 1 pace in a D6 direction from his position and is treated as a dropped ball.
+
+Catch challenge table
+
+Example: You try to catch a throw with a Skill attribute of 3 with one adjacent forward facing standing opponent (however you have three Momentum counters from extra successes on the Throw challenge). You'll need 3 successes to successfully catch the ball (2+1). You roll one flop, one blank, and one success. You use two Momentum counters to replace the flop and blank and roll two blanks. You cannot use Momentum more than once per a roll so you end up with 1 success, 1 point of Momentum left, and a failed catch.
+////

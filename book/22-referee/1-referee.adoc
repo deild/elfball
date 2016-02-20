@@ -1,0 +1,17 @@
+== Arbitre
+
+Beaucoup de jeux professionnels ont un arbitre ou souvent un joueur sur le banc de chaque équipe pour s'assurer que certaines règles ne sont pas enfreintes.
+
+* Tout joueur qui pénètre sur un hexagone traversé par une ligne blanche qui délimite le bord du terrain (y compris s'il y est poussé) est immédiatement contraint de quitter le terrain et de s'assoir sur le banc pour le reste du test. Si le joueur avait la balle, il est exclus pour le reste du match par l'arbitre. En outre, l'arbitre siffle et gèle le jeu (aucun déplacement), il emporte la balle pour la déposé dans l'hexagone de Mise en jeu et le jeu peut alors reprendre (c. à d. une course folle pour revenir au milieu et obtenir la balle). Si un joueur se trouve dans l'hexagone central, l'arbitre lui confie la balle (aucun jet nécessaire).
+* Tout joueur qui entre dans l'hexagone du cercle but à n'importe quel moment (y compris poussé dans l'hexagone) sans tenir le ballon est immédiatement contraint de quitter le terrain et de s'asseoir sur le banc pour le reste du Test. Si le joueur qui a le ballon pénètre ou est poussé dans son propre but il est immédiatement contraints de quitter le terrain et la balle rebondit sur un hexagone adjacent.
+* Aucun Joueur de classe Monstre ne peut prendre part à la Mise en jeu.
+
+////
+== Referee
+
+Many professional games have a referee or often a player on the bench from each team act to ensure the rules are not broken. The referee serves to really only enforce three rules.
+
+Any player who enters a hex with the white line running through it around the outside of the playing field at any point (including being shoved into the hex) is immediately forced to leave the playing field and sit on the Bench for the rest of the Test. If the player had the ball, he is ejected by the referee for the remainder of the game as an extra penalty.  In addition, the referee blows the whistle and freezes play (no players are moved), grabs the ball from the ejected player and places it on the yellow dot in the face-off hex and play resumes (i.e. a mad scramble to get back to the middle hex to get the ball). If there is already a player in the middle hex, the referee hands the ball to this player (no challenge roll needed.)
+Any player who enters the goal circle hex at any point (including being shoved into the hex) without holding the ball is immediately forced to leave the playing field and sit on the Bench for the rest of the Test. If the player had the ball and enters or is shoved into his own goal hex then he is immediately forced to leave the playing field and the ball bounces to an adjacent hex.
+No player with an attribute Type of Monster is allowed to set up for a face-off.
+////

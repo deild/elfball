@@ -1,4 +1,12 @@
-*.html
+# build artifacts
+/*.html
 *.pdf
 *.pdfmarks
 *.epub
+*-kf8.epub
+*.mobi
+*.7z
+*.gz
+
+output
+/images/

@@ -1,0 +1,6 @@
+= Régles alternatives
+
+Les règles qui suivent sont des règles facultatives pour elfBall, il convient de se mettre d'accord avec son adversaire ou son commissaire de ligue avant de les utiliser.
+
+include::sections/1-optionalRules.adoc[]
+include::sections/2-tournamentPlay.adoc[]
