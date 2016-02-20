@@ -31,10 +31,10 @@ Il y a deux façons de générer le livre aux formats PDF, ePub, Mobi et HTML.
 
 La façon la plus facile est tout simplement de nous laisser le faire. Vous pouvez trouver la dernière publication en PDF, Mobi (format Kindle), ePub (format iBooks) ou HTML.
 
-image:icons/pdf.png[PDF,50,50, link="https://www.dropbox.com/s/pzpxkzeiahzc9uy/elfball.pdf.7z?dl=0"]
-image:icons/mobi.png[MOBI,50,50, link="https://www.dropbox.com/s/ik1c6tb3xqe7zl6/elfball.mobi.7z?dl=0"]
-image:icons/epub.png[EPUB,50,50, link="https://www.dropbox.com/s/aoqydbdqutcufxa/elfball.epub.7z?dl=0"]
-image:icons/html.png[HTML,50,50, link="https://www.dropbox.com/s/w7ofb0rlyr1jufg/elfball.html.7z?dl=0"]
+image:icons/pdf.png[PDF,50, link="https://www.dropbox.com/s/pzpxkzeiahzc9uy/elfball.pdf.7z?dl=0"]
+image:icons/mobi.png[MOBI,50, link="https://www.dropbox.com/s/ik1c6tb3xqe7zl6/elfball.mobi.7z?dl=0"]
+image:icons/epub.png[EPUB,50, link="https://www.dropbox.com/s/aoqydbdqutcufxa/elfball.epub.7z?dl=0"]
+image:icons/html.png[HTML,50, link="https://www.dropbox.com/s/w7ofb0rlyr1jufg/elfball.html.7z?dl=0"]
 
 L'autre façon de générer les différentes versions du livre est de le faire manuellement avec Asciidoctor. Pour cela, vous devez installer les paquets `ruby` et `bundler` s'ils ne sont pas déjà installés.
 
