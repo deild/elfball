@@ -1,3 +1,4 @@
+[chapter]
 = REGLES AVANCEES
 
 == Règles de construction de l'équipe

@@ -66,7 +66,7 @@ Pour plus d'informations, veuillez vous référer à link:generer_livre.adoc[gé
 
 === Fichier glossaire
 
-Le fichier glossaire.adoc tente de rassembler les traductions choisies pour les termes spécifiques à ElfBall.
+Le fichier glossaire.adoc tente de rassembler les traductions choisies pour les termes spécifiques à elfBall.
 Si d'autres termes nécessitent une uniformisation, il ne faut pas hésiter à les y ajouter.
 De même, il est toujours possible de changer les termes déjà renseignés si une meilleure traduction est proposée.
 

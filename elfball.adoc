@@ -13,6 +13,7 @@ Tolvä <smur@free.fr>
 ifdef::backend-pdf[]
 :pdf-page-size: A4
 endif::[]
+:last-update-label: Dernière mise à jour
 
 [preface]
 image::images/elfball.png[elfball,align="center"]
