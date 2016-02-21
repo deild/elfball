@@ -1,3 +1,7 @@
 # build artifacts
 *.7z
 *.gz
+
+*epub*
+*mobi*
+*pdf*
