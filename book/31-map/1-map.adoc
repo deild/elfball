@@ -1,1 +1,1 @@
-images::map.png[Map,align="center"]
+image::map.png[Map,align="center"]

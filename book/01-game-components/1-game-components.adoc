@@ -39,17 +39,17 @@ elfball se joue normalement avec 6 dés de défi particulier et un dé à 6 face
 Elfball is normally played with six special Challenge dice and one 6-sided dice. A Challenge die has 4 different faces detailed in the next column.
 ////
 
-image:images/RTEmagicC_challenge_die_flop_10.jpg[Flop,role="left"] Le symbole X représente un fiasco. Un fiasco est un échec et efface un succès de votre jet. Trop de fiasco et de mauvaises choses arrivent à votre joueur essayant d'exécuter l'action.
+image:RTEmagicC_challenge_die_flop_10.jpg[Flop,role="left"] Le symbole X représente un fiasco. Un fiasco est un échec et efface un succès de votre jet. Trop de fiasco et de mauvaises choses arrivent à votre joueur essayant d'exécuter l'action.
 
 [cols="^,<",frame="none",options="autowidth"]
 |======
-| image:images/RTEmagicC_challenge_die_flop_10.jpg[Flop] |Le symbole X représente un fiasco. Un fiasco est un échec et efface un succès de votre jet. Trop de fiasco et de mauvaises choses arrivent à votre joueur essayant d'exécuter l'action.
+| image:RTEmagicC_challenge_die_flop_10.jpg[Flop] |Le symbole X représente un fiasco. Un fiasco est un échec et efface un succès de votre jet. Trop de fiasco et de mauvaises choses arrivent à votre joueur essayant d'exécuter l'action.
 
-| image:images/RTEmagicC_challenge_die_blank_15.jpg[Blank] |Une face vide représente aucun résultat. Ce n’est ni un succès, ni  un fiasco.
+| image:RTEmagicC_challenge_die_blank_15.jpg[Blank] |Une face vide représente aucun résultat. Ce n’est ni un succès, ni  un fiasco.
 
-| image:images/RTEmagicC_challenge_die_star_11.jpg[Star] |L'étoile représente un succès conditionnel. Ça compte pour un succès et vous permet de lancer un dé supplémentaire.
+| image:RTEmagicC_challenge_die_star_11.jpg[Star] |L'étoile représente un succès conditionnel. Ça compte pour un succès et vous permet de lancer un dé supplémentaire.
 
-| image:images/RTEmagicC_challenge_die_bullseye_23.jpg[Bullseye] |Le symbole de l'œil de bœuf représente un succès.
+| image:RTEmagicC_challenge_die_bullseye_23.jpg[Bullseye] |Le symbole de l'œil de bœuf représente un succès.
 |======
 
 TIP: Si vous n'avez pas de dés défi ElfBall vous pouvez utiliser un D6 normal le 1 étant X, 2 & 3 sont vides, 4 comme succès conditionnel, et 5 & 6 sont un succès.

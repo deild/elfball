@@ -101,4 +101,6 @@ include::book/29-team-lists/1-team-lists.adoc[]
 
 include::book/30-alternate-tournament-rules/1-alternate-tournament-rules.adoc[]
 
+include::book/31-map/1-map.adoc[]
+
 include::book/A-abstract/abstract.adoc[]
