@@ -1,0 +1,2336 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 1.5.4">
+<meta name="copyright" content="CC-BY-SA 4.0">
+<title>ElfBall : Livre des régles, seconde édition.</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<style>
+/* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
+/* Remove comment around @import statement below when using as a custom stylesheet */
+/*@import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700";*/
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
+audio,canvas,video{display:inline-block}
+audio:not([controls]){display:none;height:0}
+[hidden],template{display:none}
+script{display:none!important}
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+body{margin:0}
+a{background:transparent}
+a:focus{outline:thin dotted}
+a:active,a:hover{outline:0}
+h1{font-size:2em;margin:.67em 0}
+abbr[title]{border-bottom:1px dotted}
+b,strong{font-weight:bold}
+dfn{font-style:italic}
+hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
+mark{background:#ff0;color:#000}
+code,kbd,pre,samp{font-family:monospace;font-size:1em}
+pre{white-space:pre-wrap}
+q{quotes:"\201C" "\201D" "\2018" "\2019"}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-.5em}
+sub{bottom:-.25em}
+img{border:0}
+svg:not(:root){overflow:hidden}
+figure{margin:0}
+fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
+legend{border:0;padding:0}
+button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
+button,input{line-height:normal}
+button,select{text-transform:none}
+button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}
+button[disabled],html input[disabled]{cursor:default}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+textarea{overflow:auto;vertical-align:top}
+table{border-collapse:collapse;border-spacing:0}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+html,body{font-size:100%}
+body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;font-weight:400;font-style:normal;line-height:1;position:relative;cursor:auto}
+a:hover{cursor:pointer}
+img,object,embed{max-width:100%;height:auto}
+object,embed{height:100%}
+img{-ms-interpolation-mode:bicubic}
+.left{float:left!important}
+.right{float:right!important}
+.text-left{text-align:left!important}
+.text-right{text-align:right!important}
+.text-center{text-align:center!important}
+.text-justify{text-align:justify!important}
+.hide{display:none}
+body{-webkit-font-smoothing:antialiased}
+img,object,svg{display:inline-block;vertical-align:middle}
+textarea{height:auto;min-height:50px}
+select{width:100%}
+.center{margin-left:auto;margin-right:auto}
+.spread{width:100%}
+p.lead,.paragraph.lead>p,#preamble>.sectionbody>.paragraph:first-of-type p{font-size:1.21875em;line-height:1.6}
+.subheader,.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{line-height:1.45;color:#7a2518;font-weight:400;margin-top:0;margin-bottom:.25em}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6,pre,form,p,blockquote,th,td{margin:0;padding:0;direction:ltr}
+a{color:#2156a5;text-decoration:underline;line-height:inherit}
+a:hover,a:focus{color:#1d4b8f}
+a img{border:none}
+p{font-family:inherit;font-weight:400;font-size:1em;line-height:1.6;margin-bottom:1.25em;text-rendering:optimizeLegibility}
+p aside{font-size:.875em;line-height:1.35;font-style:italic}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{font-family:"Open Sans","DejaVu Sans",sans-serif;font-weight:300;font-style:normal;color:#ba3925;text-rendering:optimizeLegibility;margin-top:1em;margin-bottom:.5em;line-height:1.0125em}
+h1 small,h2 small,h3 small,#toctitle small,.sidebarblock>.content>.title small,h4 small,h5 small,h6 small{font-size:60%;color:#e99b8f;line-height:0}
+h1{font-size:2.125em}
+h2{font-size:1.6875em}
+h3,#toctitle,.sidebarblock>.content>.title{font-size:1.375em}
+h4,h5{font-size:1.125em}
+h6{font-size:1em}
+hr{border:solid #ddddd8;border-width:1px 0 0;clear:both;margin:1.25em 0 1.1875em;height:0}
+em,i{font-style:italic;line-height:inherit}
+strong,b{font-weight:bold;line-height:inherit}
+small{font-size:60%;line-height:inherit}
+code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;color:rgba(0,0,0,.9)}
+ul,ol,dl{font-size:1em;line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
+ul,ol,ul.no-bullet,ol.no-bullet{margin-left:1.5em}
+ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0;font-size:1em}
+ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
+ul.square{list-style-type:square}
+ul.circle{list-style-type:circle}
+ul.disc{list-style-type:disc}
+ul.no-bullet{list-style:none}
+ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
+dl dt{margin-bottom:.3125em;font-weight:bold}
+dl dd{margin-bottom:1.25em}
+abbr,acronym{text-transform:uppercase;font-size:90%;color:rgba(0,0,0,.8);border-bottom:1px dotted #ddd;cursor:help}
+abbr{text-transform:none}
+blockquote{margin:0 0 1.25em;padding:.5625em 1.25em 0 1.1875em;border-left:1px solid #ddd}
+blockquote cite{display:block;font-size:.9375em;color:rgba(0,0,0,.6)}
+blockquote cite:before{content:"\2014 \0020"}
+blockquote cite a,blockquote cite a:visited{color:rgba(0,0,0,.6)}
+blockquote,blockquote p{line-height:1.6;color:rgba(0,0,0,.85)}
+@media only screen and (min-width:768px){h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2}
+h1{font-size:2.75em}
+h2{font-size:2.3125em}
+h3,#toctitle,.sidebarblock>.content>.title{font-size:1.6875em}
+h4{font-size:1.4375em}}
+table{background:#fff;margin-bottom:1.25em;border:solid 1px #dedede}
+table thead,table tfoot{background:#f7f8f7;font-weight:bold}
+table thead tr th,table thead tr td,table tfoot tr th,table tfoot tr td{padding:.5em .625em .625em;font-size:inherit;color:rgba(0,0,0,.8);text-align:left}
+table tr th,table tr td{padding:.5625em .625em;font-size:inherit;color:rgba(0,0,0,.8)}
+table tr.even,table tr.alt,table tr:nth-of-type(even){background:#f8f8f7}
+table thead tr th,table tfoot tr th,table tbody tr td,table tr td,table tfoot tr td{display:table-cell;line-height:1.6}
+body{tab-size:4}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2;word-spacing:-.05em}
+h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title strong,h4 strong,h5 strong,h6 strong{font-weight:400}
+.clearfix:before,.clearfix:after,.float-group:before,.float-group:after{content:" ";display:table}
+.clearfix:after,.float-group:after{clear:both}
+*:not(pre)>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background-color:#f7f7f8;-webkit-border-radius:4px;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed}
+pre,pre>code{line-height:1.45;color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;text-rendering:optimizeSpeed}
+.keyseq{color:rgba(51,51,51,.8)}
+kbd{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background-color:#f7f7f7;border:1px solid #ccc;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em white inset;box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em #fff inset;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
+.keyseq kbd:first-child{margin-left:0}
+.keyseq kbd:last-child{margin-right:0}
+.menuseq,.menu{color:rgba(0,0,0,.8)}
+b.button:before,b.button:after{position:relative;top:-1px;font-weight:400}
+b.button:before{content:"[";padding:0 3px 0 2px}
+b.button:after{content:"]";padding:0 2px 0 3px}
+p a>code:hover{color:rgba(0,0,0,.9)}
+#header,#content,#footnotes,#footer{width:100%;margin-left:auto;margin-right:auto;margin-top:0;margin-bottom:0;max-width:62.5em;*zoom:1;position:relative;padding-left:.9375em;padding-right:.9375em}
+#header:before,#header:after,#content:before,#content:after,#footnotes:before,#footnotes:after,#footer:before,#footer:after{content:" ";display:table}
+#header:after,#content:after,#footnotes:after,#footer:after{clear:both}
+#content{margin-top:1.25em}
+#content:before{content:none}
+#header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
+#header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #ddddd8}
+#header>h1:only-child,body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #ddddd8;padding-bottom:8px}
+#header .details{border-bottom:1px solid #ddddd8;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:-ms-flexbox;display:-webkit-flex;display:flex;-ms-flex-flow:row wrap;-webkit-flex-flow:row wrap;flex-flow:row wrap}
+#header .details span:first-child{margin-left:-.125em}
+#header .details span.email a{color:rgba(0,0,0,.85)}
+#header .details br{display:none}
+#header .details br+span:before{content:"\00a0\2013\00a0"}
+#header .details br+span.author:before{content:"\00a0\22c5\00a0";color:rgba(0,0,0,.85)}
+#header .details br+span#revremark:before{content:"\00a0|\00a0"}
+#header #revnumber{text-transform:capitalize}
+#header #revnumber:after{content:"\00a0"}
+#content>h1:first-child:not([class]){color:rgba(0,0,0,.85);border-bottom:1px solid #ddddd8;padding-bottom:8px;margin-top:0;padding-top:1rem;margin-bottom:1.25rem}
+#toc{border-bottom:1px solid #efefed;padding-bottom:.5em}
+#toc>ul{margin-left:.125em}
+#toc ul.sectlevel0>li>a{font-style:italic}
+#toc ul.sectlevel0 ul.sectlevel1{margin:.5em 0}
+#toc ul{font-family:"Open Sans","DejaVu Sans",sans-serif;list-style-type:none}
+#toc li{line-height:1.3334;margin-top:.3334em}
+#toc a{text-decoration:none}
+#toc a:active{text-decoration:underline}
+#toctitle{color:#7a2518;font-size:1.2em}
+@media only screen and (min-width:768px){#toctitle{font-size:1.375em}
+body.toc2{padding-left:15em;padding-right:0}
+#toc.toc2{margin-top:0!important;background-color:#f8f8f7;position:fixed;width:15em;left:0;top:0;border-right:1px solid #efefed;border-top-width:0!important;border-bottom-width:0!important;z-index:1000;padding:1.25em 1em;height:100%;overflow:auto}
+#toc.toc2 #toctitle{margin-top:0;margin-bottom:.8rem;font-size:1.2em}
+#toc.toc2>ul{font-size:.9em;margin-bottom:0}
+#toc.toc2 ul ul{margin-left:0;padding-left:1em}
+#toc.toc2 ul.sectlevel0 ul.sectlevel1{padding-left:0;margin-top:.5em;margin-bottom:.5em}
+body.toc2.toc-right{padding-left:0;padding-right:15em}
+body.toc2.toc-right #toc.toc2{border-right-width:0;border-left:1px solid #efefed;left:auto;right:0}}
+@media only screen and (min-width:1280px){body.toc2{padding-left:20em;padding-right:0}
+#toc.toc2{width:20em}
+#toc.toc2 #toctitle{font-size:1.375em}
+#toc.toc2>ul{font-size:.95em}
+#toc.toc2 ul ul{padding-left:1.25em}
+body.toc2.toc-right{padding-left:0;padding-right:20em}}
+#content #toc{border-style:solid;border-width:1px;border-color:#e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;-webkit-border-radius:4px;border-radius:4px}
+#content #toc>:first-child{margin-top:0}
+#content #toc>:last-child{margin-bottom:0}
+#footer{max-width:100%;background-color:rgba(0,0,0,.8);padding:1.25em}
+#footer-text{color:rgba(255,255,255,.8);line-height:1.44}
+.sect1{padding-bottom:.625em}
+@media only screen and (min-width:768px){.sect1{padding-bottom:1.25em}}
+.sect1+.sect1{border-top:1px solid #efefed}
+#content h1>a.anchor,h2>a.anchor,h3>a.anchor,#toctitle>a.anchor,.sidebarblock>.content>.title>a.anchor,h4>a.anchor,h5>a.anchor,h6>a.anchor{position:absolute;z-index:1001;width:1.5ex;margin-left:-1.5ex;display:block;text-decoration:none!important;visibility:hidden;text-align:center;font-weight:400}
+#content h1>a.anchor:before,h2>a.anchor:before,h3>a.anchor:before,#toctitle>a.anchor:before,.sidebarblock>.content>.title>a.anchor:before,h4>a.anchor:before,h5>a.anchor:before,h6>a.anchor:before{content:"\00A7";font-size:.85em;display:block;padding-top:.1em}
+#content h1:hover>a.anchor,#content h1>a.anchor:hover,h2:hover>a.anchor,h2>a.anchor:hover,h3:hover>a.anchor,#toctitle:hover>a.anchor,.sidebarblock>.content>.title:hover>a.anchor,h3>a.anchor:hover,#toctitle>a.anchor:hover,.sidebarblock>.content>.title>a.anchor:hover,h4:hover>a.anchor,h4>a.anchor:hover,h5:hover>a.anchor,h5>a.anchor:hover,h6:hover>a.anchor,h6>a.anchor:hover{visibility:visible}
+#content h1>a.link,h2>a.link,h3>a.link,#toctitle>a.link,.sidebarblock>.content>.title>a.link,h4>a.link,h5>a.link,h6>a.link{color:#ba3925;text-decoration:none}
+#content h1>a.link:hover,h2>a.link:hover,h3>a.link:hover,#toctitle>a.link:hover,.sidebarblock>.content>.title>a.link:hover,h4>a.link:hover,h5>a.link:hover,h6>a.link:hover{color:#a53221}
+.audioblock,.imageblock,.literalblock,.listingblock,.stemblock,.videoblock{margin-bottom:1.25em}
+.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{text-rendering:optimizeLegibility;text-align:left;font-family:"Noto Serif","DejaVu Serif",serif;font-size:1rem;font-style:italic}
+table.tableblock>caption.title{white-space:nowrap;overflow:visible;max-width:0}
+.paragraph.lead>p,#preamble>.sectionbody>.paragraph:first-of-type p{color:rgba(0,0,0,.85)}
+table.tableblock #preamble>.sectionbody>.paragraph:first-of-type p{font-size:inherit}
+.admonitionblock>table{border-collapse:separate;border:0;background:none;width:100%}
+.admonitionblock>table td.icon{text-align:center;width:80px}
+.admonitionblock>table td.icon img{max-width:none}
+.admonitionblock>table td.icon .title{font-weight:bold;font-family:"Open Sans","DejaVu Sans",sans-serif;text-transform:uppercase}
+.admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #ddddd8;color:rgba(0,0,0,.6)}
+.admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
+.exampleblock>.content{border-style:solid;border-width:1px;border-color:#e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;-webkit-border-radius:4px;border-radius:4px}
+.exampleblock>.content>:first-child{margin-top:0}
+.exampleblock>.content>:last-child{margin-bottom:0}
+.sidebarblock{border-style:solid;border-width:1px;border-color:#e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;-webkit-border-radius:4px;border-radius:4px}
+.sidebarblock>:first-child{margin-top:0}
+.sidebarblock>:last-child{margin-bottom:0}
+.sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
+.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
+.literalblock pre,.listingblock pre:not(.highlight),.listingblock pre[class="highlight"],.listingblock pre[class^="highlight "],.listingblock pre.CodeRay,.listingblock pre.prettyprint{background:#f7f7f8}
+.sidebarblock .literalblock pre,.sidebarblock .listingblock pre:not(.highlight),.sidebarblock .listingblock pre[class="highlight"],.sidebarblock .listingblock pre[class^="highlight "],.sidebarblock .listingblock pre.CodeRay,.sidebarblock .listingblock pre.prettyprint{background:#f2f1f1}
+.literalblock pre,.literalblock pre[class],.listingblock pre,.listingblock pre[class]{-webkit-border-radius:4px;border-radius:4px;word-wrap:break-word;padding:1em;font-size:.8125em}
+.literalblock pre.nowrap,.literalblock pre[class].nowrap,.listingblock pre.nowrap,.listingblock pre[class].nowrap{overflow-x:auto;white-space:pre;word-wrap:normal}
+@media only screen and (min-width:768px){.literalblock pre,.literalblock pre[class],.listingblock pre,.listingblock pre[class]{font-size:.90625em}}
+@media only screen and (min-width:1280px){.literalblock pre,.literalblock pre[class],.listingblock pre,.listingblock pre[class]{font-size:1em}}
+.literalblock.output pre{color:#f7f7f8;background-color:rgba(0,0,0,.9)}
+.listingblock pre.highlightjs{padding:0}
+.listingblock pre.highlightjs>code{padding:1em;-webkit-border-radius:4px;border-radius:4px}
+.listingblock pre.prettyprint{border-width:0}
+.listingblock>.content{position:relative}
+.listingblock code[data-lang]:before{display:none;content:attr(data-lang);position:absolute;font-size:.75em;top:.425rem;right:.5rem;line-height:1;text-transform:uppercase;color:#999}
+.listingblock:hover code[data-lang]:before{display:block}
+.listingblock.terminal pre .command:before{content:attr(data-prompt);padding-right:.5em;color:#999}
+.listingblock.terminal pre .command:not([data-prompt]):before{content:"$"}
+table.pyhltable{border-collapse:separate;border:0;margin-bottom:0;background:none}
+table.pyhltable td{vertical-align:top;padding-top:0;padding-bottom:0;line-height:1.45}
+table.pyhltable td.code{padding-left:.75em;padding-right:0}
+pre.pygments .lineno,table.pyhltable td:not(.code){color:#999;padding-left:0;padding-right:.5em;border-right:1px solid #ddddd8}
+pre.pygments .lineno{display:inline-block;margin-right:.25em}
+table.pyhltable .linenodiv{background:none!important;padding-right:0!important}
+.quoteblock{margin:0 1em 1.25em 1.5em;display:table}
+.quoteblock>.title{margin-left:-1.5em;margin-bottom:.75em}
+.quoteblock blockquote,.quoteblock blockquote p{color:rgba(0,0,0,.85);font-size:1.15rem;line-height:1.75;word-spacing:.1em;letter-spacing:0;font-style:italic;text-align:justify}
+.quoteblock blockquote{margin:0;padding:0;border:0}
+.quoteblock blockquote:before{content:"\201c";float:left;font-size:2.75em;font-weight:bold;line-height:.6em;margin-left:-.6em;color:#7a2518;text-shadow:0 1px 2px rgba(0,0,0,.1)}
+.quoteblock blockquote>.paragraph:last-child p{margin-bottom:0}
+.quoteblock .attribution{margin-top:.5em;margin-right:.5ex;text-align:right}
+.quoteblock .quoteblock{margin-left:0;margin-right:0;padding:.5em 0;border-left:3px solid rgba(0,0,0,.6)}
+.quoteblock .quoteblock blockquote{padding:0 0 0 .75em}
+.quoteblock .quoteblock blockquote:before{display:none}
+.verseblock{margin:0 1em 1.25em 1em}
+.verseblock pre{font-family:"Open Sans","DejaVu Sans",sans;font-size:1.15rem;color:rgba(0,0,0,.85);font-weight:300;text-rendering:optimizeLegibility}
+.verseblock pre strong{font-weight:400}
+.verseblock .attribution{margin-top:1.25rem;margin-left:.5ex}
+.quoteblock .attribution,.verseblock .attribution{font-size:.9375em;line-height:1.45;font-style:italic}
+.quoteblock .attribution br,.verseblock .attribution br{display:none}
+.quoteblock .attribution cite,.verseblock .attribution cite{display:block;letter-spacing:-.025em;color:rgba(0,0,0,.6)}
+.quoteblock.abstract{margin:0 0 1.25em 0;display:block}
+.quoteblock.abstract blockquote,.quoteblock.abstract blockquote p{text-align:left;word-spacing:0}
+.quoteblock.abstract blockquote:before,.quoteblock.abstract blockquote p:first-of-type:before{display:none}
+table.tableblock{max-width:100%;border-collapse:separate}
+table.tableblock td>.paragraph:last-child p>p:last-child,table.tableblock th>p:last-child,table.tableblock td>p:last-child{margin-bottom:0}
+table.tableblock,th.tableblock,td.tableblock{border:0 solid #dedede}
+table.grid-all th.tableblock,table.grid-all td.tableblock{border-width:0 1px 1px 0}
+table.grid-all tfoot>tr>th.tableblock,table.grid-all tfoot>tr>td.tableblock{border-width:1px 1px 0 0}
+table.grid-cols th.tableblock,table.grid-cols td.tableblock{border-width:0 1px 0 0}
+table.grid-all *>tr>.tableblock:last-child,table.grid-cols *>tr>.tableblock:last-child{border-right-width:0}
+table.grid-rows th.tableblock,table.grid-rows td.tableblock{border-width:0 0 1px 0}
+table.grid-all tbody>tr:last-child>th.tableblock,table.grid-all tbody>tr:last-child>td.tableblock,table.grid-all thead:last-child>tr>th.tableblock,table.grid-rows tbody>tr:last-child>th.tableblock,table.grid-rows tbody>tr:last-child>td.tableblock,table.grid-rows thead:last-child>tr>th.tableblock{border-bottom-width:0}
+table.grid-rows tfoot>tr>th.tableblock,table.grid-rows tfoot>tr>td.tableblock{border-width:1px 0 0 0}
+table.frame-all{border-width:1px}
+table.frame-sides{border-width:0 1px}
+table.frame-topbot{border-width:1px 0}
+th.halign-left,td.halign-left{text-align:left}
+th.halign-right,td.halign-right{text-align:right}
+th.halign-center,td.halign-center{text-align:center}
+th.valign-top,td.valign-top{vertical-align:top}
+th.valign-bottom,td.valign-bottom{vertical-align:bottom}
+th.valign-middle,td.valign-middle{vertical-align:middle}
+table thead th,table tfoot th{font-weight:bold}
+tbody tr th{display:table-cell;line-height:1.6;background:#f7f8f7}
+tbody tr th,tbody tr th p,tfoot tr th,tfoot tr th p{color:rgba(0,0,0,.8);font-weight:bold}
+p.tableblock>code:only-child{background:none;padding:0}
+p.tableblock{font-size:1em}
+td>div.verse{white-space:pre}
+ol{margin-left:1.75em}
+ul li ol{margin-left:1.5em}
+dl dd{margin-left:1.125em}
+dl dd:last-child,dl dd:last-child>:last-child{margin-bottom:0}
+ol>li p,ul>li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
+ul.unstyled,ol.unnumbered,ul.checklist,ul.none{list-style-type:none}
+ul.unstyled,ol.unnumbered,ul.checklist{margin-left:.625em}
+ul.checklist li>p:first-child>.fa-square-o:first-child,ul.checklist li>p:first-child>.fa-check-square-o:first-child{width:1em;font-size:.85em}
+ul.checklist li>p:first-child>input[type="checkbox"]:first-child{width:1em;position:relative;top:1px}
+ul.inline{margin:0 auto .625em auto;margin-left:-1.375em;margin-right:0;padding:0;list-style:none;overflow:hidden}
+ul.inline>li{list-style:none;float:left;margin-left:1.375em;display:block}
+ul.inline>li>*{display:block}
+.unstyled dl dt{font-weight:400;font-style:normal}
+ol.arabic{list-style-type:decimal}
+ol.decimal{list-style-type:decimal-leading-zero}
+ol.loweralpha{list-style-type:lower-alpha}
+ol.upperalpha{list-style-type:upper-alpha}
+ol.lowerroman{list-style-type:lower-roman}
+ol.upperroman{list-style-type:upper-roman}
+ol.lowergreek{list-style-type:lower-greek}
+.hdlist>table,.colist>table{border:0;background:none}
+.hdlist>table>tbody>tr,.colist>table>tbody>tr{background:none}
+td.hdlist1,td.hdlist2{vertical-align:top;padding:0 .625em}
+td.hdlist1{font-weight:bold;padding-bottom:1.25em}
+.literalblock+.colist,.listingblock+.colist{margin-top:-.5em}
+.colist>table tr>td:first-of-type{padding:0 .75em;line-height:1}
+.colist>table tr>td:last-of-type{padding:.25em 0}
+.thumb,.th{line-height:0;display:inline-block;border:solid 4px #fff;-webkit-box-shadow:0 0 0 1px #ddd;box-shadow:0 0 0 1px #ddd}
+.imageblock.left,.imageblock[style*="float: left"]{margin:.25em .625em 1.25em 0}
+.imageblock.right,.imageblock[style*="float: right"]{margin:.25em 0 1.25em .625em}
+.imageblock>.title{margin-bottom:0}
+.imageblock.thumb,.imageblock.th{border-width:6px}
+.imageblock.thumb>.title,.imageblock.th>.title{padding:0 .125em}
+.image.left,.image.right{margin-top:.25em;margin-bottom:.25em;display:inline-block;line-height:0}
+.image.left{margin-right:.625em}
+.image.right{margin-left:.625em}
+a.image{text-decoration:none;display:inline-block}
+a.image object{pointer-events:none}
+sup.footnote,sup.footnoteref{font-size:.875em;position:static;vertical-align:super}
+sup.footnote a,sup.footnoteref a{text-decoration:none}
+sup.footnote a:active,sup.footnoteref a:active{text-decoration:underline}
+#footnotes{padding-top:.75em;padding-bottom:.75em;margin-bottom:.625em}
+#footnotes hr{width:20%;min-width:6.25em;margin:-.25em 0 .75em 0;border-width:1px 0 0 0}
+#footnotes .footnote{padding:0 .375em 0 .225em;line-height:1.3334;font-size:.875em;margin-left:1.2em;text-indent:-1.05em;margin-bottom:.2em}
+#footnotes .footnote a:first-of-type{font-weight:bold;text-decoration:none}
+#footnotes .footnote:last-of-type{margin-bottom:0}
+#content #footnotes{margin-top:-.625em;margin-bottom:0;padding:.75em 0}
+.gist .file-data>table{border:0;background:#fff;width:100%;margin-bottom:0}
+.gist .file-data>table td.line-data{width:99%}
+div.unbreakable{page-break-inside:avoid}
+.big{font-size:larger}
+.small{font-size:smaller}
+.underline{text-decoration:underline}
+.overline{text-decoration:overline}
+.line-through{text-decoration:line-through}
+.aqua{color:#00bfbf}
+.aqua-background{background-color:#00fafa}
+.black{color:#000}
+.black-background{background-color:#000}
+.blue{color:#0000bf}
+.blue-background{background-color:#0000fa}
+.fuchsia{color:#bf00bf}
+.fuchsia-background{background-color:#fa00fa}
+.gray{color:#606060}
+.gray-background{background-color:#7d7d7d}
+.green{color:#006000}
+.green-background{background-color:#007d00}
+.lime{color:#00bf00}
+.lime-background{background-color:#00fa00}
+.maroon{color:#600000}
+.maroon-background{background-color:#7d0000}
+.navy{color:#000060}
+.navy-background{background-color:#00007d}
+.olive{color:#606000}
+.olive-background{background-color:#7d7d00}
+.purple{color:#600060}
+.purple-background{background-color:#7d007d}
+.red{color:#bf0000}
+.red-background{background-color:#fa0000}
+.silver{color:#909090}
+.silver-background{background-color:#bcbcbc}
+.teal{color:#006060}
+.teal-background{background-color:#007d7d}
+.white{color:#bfbfbf}
+.white-background{background-color:#fafafa}
+.yellow{color:#bfbf00}
+.yellow-background{background-color:#fafa00}
+span.icon>.fa{cursor:default}
+.admonitionblock td.icon [class^="fa icon-"]{font-size:2.5em;text-shadow:1px 1px 2px rgba(0,0,0,.5);cursor:default}
+.admonitionblock td.icon .icon-note:before{content:"\f05a";color:#19407c}
+.admonitionblock td.icon .icon-tip:before{content:"\f0eb";text-shadow:1px 1px 2px rgba(155,155,0,.8);color:#111}
+.admonitionblock td.icon .icon-warning:before{content:"\f071";color:#bf6900}
+.admonitionblock td.icon .icon-caution:before{content:"\f06d";color:#bf3400}
+.admonitionblock td.icon .icon-important:before{content:"\f06a";color:#bf0000}
+.conum[data-value]{display:inline-block;color:#fff!important;background-color:rgba(0,0,0,.8);-webkit-border-radius:100px;border-radius:100px;text-align:center;font-size:.75em;width:1.67em;height:1.67em;line-height:1.67em;font-family:"Open Sans","DejaVu Sans",sans-serif;font-style:normal;font-weight:bold}
+.conum[data-value] *{color:#fff!important}
+.conum[data-value]+b{display:none}
+.conum[data-value]:after{content:attr(data-value)}
+pre .conum[data-value]{position:relative;top:-.125em}
+b.conum *{color:inherit!important}
+.conum:not([data-value]):empty{display:none}
+dt,th.tableblock,td.content,div.footnote{text-rendering:optimizeLegibility}
+h1,h2,p,td.content,span.alt{letter-spacing:-.01em}
+p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
+p,blockquote,dt,td.content,span.alt{font-size:1.0625rem}
+p{margin-bottom:1.25rem}
+.sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
+.exampleblock>.content{background-color:#fffef7;border-color:#e0e0dc;-webkit-box-shadow:0 1px 4px #e0e0dc;box-shadow:0 1px 4px #e0e0dc}
+.print-only{display:none!important}
+@media print{@page{margin:1.25cm .75cm}
+*{-webkit-box-shadow:none!important;box-shadow:none!important;text-shadow:none!important}
+a{color:inherit!important;text-decoration:underline!important}
+a.bare,a[href^="#"],a[href^="mailto:"]{text-decoration:none!important}
+a[href^="http:"]:not(.bare):after,a[href^="https:"]:not(.bare):after{content:"(" attr(href) ")";display:inline-block;font-size:.875em;padding-left:.25em}
+abbr[title]:after{content:" (" attr(title) ")"}
+pre,blockquote,tr,img,object,svg{page-break-inside:avoid}
+thead{display:table-header-group}
+svg{max-width:100%}
+p,blockquote,dt,td.content{font-size:1em;orphans:3;widows:3}
+h2,h3,#toctitle,.sidebarblock>.content>.title{page-break-after:avoid}
+#toc,.sidebarblock,.exampleblock>.content{background:none!important}
+#toc{border-bottom:1px solid #ddddd8!important;padding-bottom:0!important}
+.sect1{padding-bottom:0!important}
+.sect1+.sect1{border:0!important}
+#header>h1:first-child{margin-top:1.25rem}
+body.book #header{text-align:center}
+body.book #header>h1:first-child{border:0!important;margin:2.5em 0 1em 0}
+body.book #header .details{border:0!important;display:block;padding:0!important}
+body.book #header .details span:first-child{margin-left:0!important}
+body.book #header .details br{display:block}
+body.book #header .details br+span:before{content:none!important}
+body.book #toc{border:0!important;text-align:left!important;padding:0!important;margin:0!important}
+body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-break-before:always}
+.listingblock code[data-lang]:before{display:block}
+#footer{background:none!important;padding:0 .9375em}
+#footer-text{color:rgba(0,0,0,.6)!important;font-size:.9em}
+.hide-on-print{display:none!important}
+.print-only{display:block!important}
+.hide-for-print{display:none!important}
+.show-for-print{display:inherit!important}}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body class="book">
+<div id="header">
+<h1>ElfBall : Livre des régles, seconde édition.</h1>
+<div class="details">
+<span id="revnumber"> 0.0.6,</span>
+<span id="revdate">Février 21, 2016</span>
+</div>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="imageblock" style="text-align: center">
+<div class="content">
+<img src="images/elfball.png" alt="elfball">
+</div>
+</div>
+<div class="paragraph">
+<p>Un des grands mystères de ce sport le Elfball est où a-t-il vu le jour, et comment il a obtenu son nom. Les elfes de la nuit originaires des sombre forêts de Westerland prétendent qu’ils jouent à ce sport depuis la nuit des temps, et qu’ils ont nommés ce jeu en leur honneur. Depuis leur terre natales arides les gnolls nomades du désert le revendiquent aussi et insistent sur le fait que le nom du jeu viendrait du type de tête le plus adapté pour y jouer. En fait de nombreuses races revendiquent être à l&#8217;origine du jeu et beaucoup des guerres les plus meurtrières de l’histoire du monde ont étés déclarées à cause de ces revendications. Les hommes des royaumes du milieu ignorent ces pitoyables conflits, et préfèrent appeler le jeu « le cirque ».</p>
+</div>
+<div class="paragraph">
+<p>Aujourd&#8217;hui le ElfBall est joué par chaque nation, race et tribu du monde. Tandis que la plupart préfèrent le terrain distintif de norme circulaire, il existe d’autres variations pour jouer dans les centre-ville ou sur les plages de sable tout au tour du monde. Toutefois à sa base, le ballon distinctif et les règles du jeu sont toutes très standardisés.</p>
+</div>
+<div id="toc" class="toc">
+<div id="toctitle" class="title">Table des matiéres</div>
+<ul class="sectlevel1">
+<li><a href="#_composants_du_jeu">Composants du jeu</a>
+<ul class="sectlevel2">
+<li><a href="#_aire_de_jeu">Aire de jeu</a></li>
+<li><a href="#_ballon">Ballon</a></li>
+<li><a href="#_joueurs">Joueurs</a></li>
+<li><a href="#_dés">Dés</a></li>
+<li><a href="#_gabarit_de_passe">Gabarit de passe</a></li>
+<li><a href="#_marqueurs">Marqueurs</a></li>
+<li><a href="#_entraineur">Entraineur</a></li>
+</ul>
+</li>
+<li><a href="#_objectif_du_jeu">Objectif du jeu</a></li>
+<li><a href="#_descriptions_des_équipes_joueurs">Descriptions des équipes &amp; joueurs</a>
+<ul class="sectlevel2">
+<li><a href="#_milieux_de_terrain">Milieux de terrain</a></li>
+<li><a href="#_gardes">Gardes</a></li>
+<li><a href="#_chasseurs">Chasseurs</a></li>
+<li><a href="#_buteurs">Buteurs</a></li>
+<li><a href="#_lanceurs">Lanceurs</a></li>
+<li><a href="#_défenseurs">Défenseurs</a></li>
+<li><a href="#_autres_joueurs">Autres joueurs</a></li>
+</ul>
+</li>
+<li><a href="#_joueurs_attributs">Joueurs attributs</a></li>
+<li><a href="#_orientation_du_joueur">Orientation du joueur</a></li>
+<li><a href="#_actions_défis">Actions &amp; Défis</a></li>
+<li><a href="#_débuter_un_essai">Débuter un essai</a></li>
+<li><a href="#_mise_en_jeu_ou_face_à_face">Mise en Jeu ou face-à-face</a></li>
+<li><a href="#_séquence_du_tour">Séquence du tour</a></li>
+<li><a href="#_types_de_défis">Types de défis</a></li>
+<li><a href="#_temps_fort">Temps fort</a></li>
+<li><a href="#_se_relever">Se relever</a></li>
+<li><a href="#_désengagement">Désengagement</a></li>
+<li><a href="#_ramassage">Ramassage</a></li>
+<li><a href="#_lancer_receptionner_et_intercepter">Lancer, receptionner et intercepter</a></li>
+<li><a href="#_charger_et_plaquer">Charger et plaquer</a></li>
+<li><a href="#_pousser">Pousser</a></li>
+<li><a href="#_se_lancer_se_jetter">Se lancer / Se Jetter</a></li>
+<li><a href="#_blessures">Blessures</a></li>
+<li><a href="#_remplacements">Remplacements</a></li>
+<li><a href="#_concéder_le_match">Concéder le match</a></li>
+<li><a href="#_arbitre">Arbitre</a></li>
+<li><a href="#_play_by_play_example_1">Play-by-play-example #1</a></li>
+<li><a href="#_play_by_play_example_2">Play-by-play example #2</a></li>
+<li><a href="#_regles_avancees">REGLES AVANCEES</a>
+<ul class="sectlevel1">
+<li><a href="#_règles_de_construction_de_l_équipe">Règles de construction de l&#8217;équipe</a>
+<ul class="sectlevel2">
+<li><a href="#_batir_votre_equipe">BATIR VOTRE EQUIPE</a></li>
+<li><a href="#_soutient">SOUTIENT</a></li>
+<li><a href="#_attribut_d_aptitudes_génerales">Attribut d&#8217;aptitudes génerales</a></li>
+<li><a href="#_attribut_d_aptitudes_de_classe">Attribut d&#8217;aptitudes de classe</a></li>
+</ul>
+</li>
+<li><a href="#_listes_des_equipes">LISTES DES EQUIPES</a></li>
+<li><a href="#_régles_alternatives">Régles alternatives</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<table class="tableblock frame-none grid-none spread">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><div><div class="paragraph">
+<p><span class="big"><strong>CREDITS</strong></span><br>
+Rules Design : <em>Tom Anders, Phil Bowen, Max Haider and
+Eric Reiter</em><br>
+Rulebook Editor : <em>Tom Anders</em><br>
+Board, Cutout and Logo Graphics : <em>Eric Reiter</em><br>
+Cover and Rulebook Graphics : <em>Melvin de Voor</em><br>
+<span class="small">Copyright 2007, Impact! Miniatures. All Rights Reserved<br>
+Second Edition - June 30, 2010</span> <br>
+<span class="small"><code>Traduction française par Samuel Marcaille.</code></span></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_composants_du_jeu">Composants du jeu</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Chaque partie d&#8217;elfBall nécessite quelques éléments très simples pour jouer au jeu rapidement et facilement.</p>
+</div>
+<div class="sect2">
+<h3 id="_aire_de_jeu">Aire de jeu</h3>
+<div class="imageblock right text-left">
+<div class="content">
+<img src="images/playingField.png" alt="Aire de jeu">
+</div>
+<div class="title">Figure 1. ElfBall l&#8217;aire de jeu</div>
+</div>
+<div class="paragraph">
+<p>Un terrain standard de elfball est un cercle de 21 cases de diamètre (une case est représentée par un hexagone sur le plateau). Dans ce cercle, il y a 9 autres cercles plus petits. Le cercle du centre est placé exactement au milieu du terrain. Il y a 2 autres petits cercles blanc, qui représentent les buts, placés chacun au fond d’une partie du terrain. Devant le petit cercle de but se trouve un autre petit cercle jaune, qui est la zone de départ du Garde qui protège les buts de votre équipe. Puis, il y a quatre larges cercles jaunes, deux de chaque coté du terrain, qui sont la zone de départ de la majorité de votre équipe. Il y a deux zones hors terrain pour placer ses joueurs. L&#8217;une est votre banc ou vous pouvez placer vos joueurs qui ne sont pas sur le terrain et l&#8217;autre votre zone de repos ou reste les joueurs touché jusqu&#8217;au prochain Test. Quand le jeu parle d&#8217;infirmerie les joueurs sont complètement enlevé du plateau pour ce match.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_ballon">Ballon</h3>
+<div class="paragraph">
+<p>La balle de Elfball est toute désignée pour tester les capacités des joueurs sur le terrain. Elle est construite d’une sphère en bois légèrement oblongue à l&#8217;intérieur d’une vessie en cuir gonflé qui est graissée avant le jeu. Elle rebondit irrégulièrement, glisse… Ce qui est assez énervant pour les joueurs, mais qui plait beaucoup au public.
+La balle peut être représentée par n’importe quel objet de petite taille. Utiliser un ballon sculpté et peint est tout de même plus sympathique !</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_joueurs">Joueurs</h3>
+<div class="paragraph">
+<p>Toutes les figurines que vous pourrez trouver en 25mm (ou 30mm pour les joueurs plus large) peuvent représenter sans problèmes les joueurs de votre équipe.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_dés">Dés</h3>
+<div class="paragraph">
+<p>elfball se joue normalement avec 6 dés de défi particulier et un dé à 6 face. Un dé de défi a 4 faces différentes détaillées dans les colonnes suivantes.</p>
+</div>
+<div class="paragraph">
+<p><span class="image left"><img src="images/images/RTEmagicC_challenge_die_flop_10.jpg" alt="Flop"></span> Le symbole X représente un fiasco. Un fiasco est un échec et efface un succès de votre jet. Trop de fiasco et de mauvaises choses arrivent à votre joueur essayant d&#8217;exécuter l&#8217;action.</p>
+</div>
+<table class="tableblock frame-none grid-all">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="images/images/RTEmagicC_challenge_die_flop_10.jpg" alt="Flop"></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Le symbole X représente un fiasco. Un fiasco est un échec et efface un succès de votre jet. Trop de fiasco et de mauvaises choses arrivent à votre joueur essayant d&#8217;exécuter l&#8217;action.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="images/images/RTEmagicC_challenge_die_blank_15.jpg" alt="Blank"></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Une face vide représente aucun résultat. Ce n’est ni un succès, ni  un fiasco.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="images/images/RTEmagicC_challenge_die_star_11.jpg" alt="Star"></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">L&#8217;étoile représente un succès conditionnel. Ça compte pour un succès et vous permet de lancer un dé supplémentaire.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="images/images/RTEmagicC_challenge_die_bullseye_23.jpg" alt="Bullseye"></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Le symbole de l&#8217;œil de bœuf représente un succès.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+Si vous n&#8217;avez pas de dés défi ElfBall vous pouvez utiliser un D6 normal le 1 étant X, 2 &amp; 3 sont vides, 4 comme succès conditionnel, et 5 &amp; 6 sont un succès.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_gabarit_de_passe">Gabarit de passe</h3>
+<div class="paragraph">
+<p>Le jeu utilise une réglette en matière souple de 3/16" pour représenter les hexagones qui permettent d&#8217;interceptés quand un lancé est tenté.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_marqueurs">Marqueurs</h3>
+<div class="paragraph">
+<p>Deux petit marqueurs sont utilisés pour indiqué le dernier joueur en action de chaque équipe. 5 marqueurs sont aussi nécessaires durant le match pour tracer les Temps forts, les Potions et le score.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_entraineur">Entraineur</h3>
+<div class="paragraph">
+<p>Vous avez en tant que joueur le rôle d&#8217;entraîneur de votre équipe. Toute référence à l&#8217;entraîneur dans les règles se réfèrre à vous.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_objectif_du_jeu">Objectif du jeu</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Le jeu se décompose en une série d&#8217;essais. Le gagnant de chaque essai est la première équipe qui marque un but ce qui conclu l&#8217;essai. Le jeu continu jusqu’à ce qu’une équipe gagne un nombre prédéterminé d&#8217;essai. Le jeu de base peut se jouer jusqu’au premier but gagnant, mais les règles avancées se joue en 2 ou 3 buts gagnant. Assurez vous de vous être entendu avec votre adversaire sur la condition de victoire avant d’avoir commencé le match. Pour marqué un but un joueur portant le ballon doit terminer son action dans l’hexagone contenant le cercle délimitant le but adverse.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+Lors de vos premiers match de Elfball pour appréhender au mieux et plus rapidement les règles du jeu vous devriez joués en un but gagnant avec les règles facultatives de Mise en jeu et de changement de résultat étoile sur le dé de défi.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_descriptions_des_équipes_joueurs">Descriptions des équipes &amp; joueurs</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>La majorité des équipes de Elfball sont composées de plusieurs classe standard de joueurs spécialisés. Certaines races utilisent d’autres classes de joueurs spécialisés et quelques une aucune. La section <a href="25-advancedRules.html#_Contruire/Développer_votre_équipe">construie et développer votr équipe</a> donne tous les détails à utiliser pour bâtir une équipe et y ajouter des extras. Votre équipe est composée de joueurs parmit une seule des listes d&#8217;équipes. Vous ne devez pas mélanger les joueurs de plus d&#8217;une équipe de la liste pour créer votre propre équipe.</p>
+</div>
+<div class="sect2">
+<h3 id="_milieux_de_terrain">Milieux de terrain</h3>
+<div class="paragraph">
+<p>Les milieux de terrain sont les joueurs bouche trou d’une équipe de Elfball. De vrai touche-à-tout ils n&#8217;excellent dans rien de spécifique, mais ils n’ont pas non plus de vraies faiblesses.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_gardes">Gardes</h3>
+<div class="paragraph">
+<p>Le boulot d’un Garde est de rapidement  rattraper les adversaires qui ont la balle et d’essayer de la leur prendre ou de les sortir. Ils sont normalement les joueurs les plus rapides de Elfball.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_chasseurs">Chasseurs</h3>
+<div class="paragraph">
+<p>Les Chasseurs sont des plaqueurs qualifié de force moyenne. Ils ne sont pas très agiles mais très efficaces lorsqu’il s’agit de libérer la balle.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_buteurs">Buteurs</h3>
+<div class="paragraph">
+<p>Éviter toute opposition et attraper la balle sont les principales fonctions d’un Buteur. Cependant ils ont quelques problèmes avec les objets plus grand qu&#8217;une balle et ils ne sont pas aussi robuste que d’autres joueurs ni aussi talentueux pour mettre à mal leur adversaire.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_lanceurs">Lanceurs</h3>
+<div class="paragraph">
+<p>Besoin d&#8217;un meilleur plaqueur qu’un Buteur pour rester au fond du terrain et envoyer la balle devant? Le lanceur est le bon joueur pour ça.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_défenseurs">Défenseurs</h3>
+<div class="paragraph">
+<p>Les Défenseurs sont les muscles de l&#8217;équipe. Exceptionnellement fort, un coup porté par un Défenseur est généralement suffisant pour assommer un joueur.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_autres_joueurs">Autres joueurs</h3>
+<div class="paragraph">
+<p>Beaucoup d’autres créatures, vivantes ou non  jouent à Elfball. Elles sont toutes de tailles (de géante à minuscule), de forces et d’endurances différentes, c’est pour cela qu’il est difficile de les classer parmi les joueurs standards.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_joueurs_attributs">Joueurs attributs</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Tous les joueurs de Elfball ont 7 attributs qui définissent leurs performances sur le terrain.</p>
+</div>
+<div class="paragraph">
+<p><strong>Mouvement</strong> : C’est le nombre maximum de pas (hexagones)  dont un joueur est capable de se déplacer en un tour.</p>
+</div>
+<div class="paragraph">
+<p><strong>Tacle</strong> : Il représente la capacité d&#8217;un joueur à mettre à terre un adversaire (Plaquer) et à empêcher les adversaires de s&#8217;éloigner de lui</p>
+</div>
+<div class="paragraph">
+<p><strong>Force</strong> : Cet attribut permet de mesurer la force brute d’un  joueur,  la puissance avec laquelle il peut frapper, ainsi que la force nécessaire pour le plaquer.</p>
+</div>
+<div class="paragraph">
+<p><strong>Esquive</strong> : représente la capacité d&#8217;un joueur à se désengager d’un adversaire et à se défendre face aux plaquages.</p>
+</div>
+<div class="paragraph">
+<p><strong>Habileté</strong> : Cet attribut représente l’habileté qu’a un joueur à lancer, attraper et ramasser la balle.</p>
+</div>
+<div class="paragraph">
+<p><strong>Courage</strong> : C’est la ténacité du joueur, sa capacité à rester dans le jeu et à résister à la douleur.</p>
+</div>
+<div class="paragraph">
+<p><strong>Type</strong> : Ceci définit la catégorie de base du joueur et détermine quelles sont les aptitudes qu&#8217;il peut acquérir dans le cadre des règles avancées.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_orientation_du_joueur">Orientation du joueur</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Chaque joueur a une face avant et arrière. Charger un adversaire dans le dos ou essayer de l&#8217;éviter quand il regarde dans la direction opposée est plus facile que le faire face à lui. Chaque fois qu&#8217;un joueur commence ou finit un mouvement, un défi ou une action, vous devez orienter les yeux du joueur dans la direction que vous souhaitez qu&#8217;il regarde. S&#8217;il est peu clair de déterminer où regarde un joueur (c.à-d. il regarde une ligne), l&#8217;entraîneur adverse peut décider à quel hexagone il fait face.</p>
+</div>
+<div class="imageblock right text-center">
+<div class="content">
+<img src="images/playerFacing.jpg" alt="facing">
+</div>
+</div>
+<div class="paragraph">
+<p>L&#8217;orientation est déterminée sur la base de l&#8217;illustration de droite. L’hexagone que les yeux du joueur regardent et les 2 hexagones de chaque côté sont sa face avant. On considère tous les autres hexagones comme arrière.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_actions_défis">Actions &amp; Défis</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Une action est définie par une série de défis et de mouvements que le joueur peut effectuer jusqu&#8217;à ce qu&#8217;il n&#8217;est plus de point de Mouvement ou que son action se termine sur un Revirement de Situation (cf Temps fort). Note: Quand un joueur lance la balle, la réception d’un autre joueur fait partit de la même action. Quand un joueur tente de réaliser une activité physique nécessitant un jet de dé pour déterminé si il réussit ou échoue, c&#8217;est un défi.</p>
+</div>
+<div class="paragraph">
+<p>Pour effectuer un défi, vous devez lancer un nombre de dé égal à l’attribut correspondant au défi et obtenir un nombre de succès  nécessaire pour réussir le défi. (On traite toute difficulté inférieure à 1 comme demandant un succès). Chaque dé qui donne un succès conditionnel doit être relancé et le nouveau résultat ajouté aux jets déjà obtenu. Chaque dé qui donne un succès conditionnel sur ce second jet est relancé et ajouté aux jets déjà obtenu jusqu&#8217;à ce que le résultat soit autre chose qu&#8217;un succès conditionnel.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+: utiliser des dès de rechange ou les dés sans résultat est un bon moyen pour relancer les succès conditionnel sans oublier les résultats des autres jets
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>NOTE:</p>
+</div>
+<div class="paragraph">
+<p>Vous devez garder une trace du nombre de dé qui donne un fiasco. Si le nombre de fiasco est plus important que le nombre de succès, le joueur a échoué, entrainant des résultats parfois désastreux.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Vous essayer de Ramasser la balle sur le terrain sans adversaire autour de vous, votre attribut d&#8217;Habilité est de 3 et vous avez besoin d&#8217;un succès. Vous jeter un fiasco, un vide et un succès conditionnel. Vous relancez le succès conditionnel et vous obtenez un fiasco. Pour ce défi vous avez jeté deux fiascos, un vide et un succès conditionnel, vous échouez au défi puisque vous avez deux fiascos et seulement un succès.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_débuter_un_essai">Débuter un essai</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Au début du match ou après chaque but marqué, vous replacez votre équipe pour le prochain Test avec les restrictions suivantes:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>La balle est placée sur le point jaune au centre du terrain.</p>
+</li>
+<li>
+<p>Pour le premier Test, chaque joueur lance un D6. Le perdant doit placer la totalité de son équipe sur le terrain. Ensuite son adversaire fait de même. Lors des autres Test c’est l’équipe qui a marqué le dernier but qui doit se replacer en premier.</p>
+</li>
+<li>
+<p>Un joueur doit être placé de votre coté du cercle jaune central pour la mise en jeu, il doit faire face à l’hexagone contenant la balle. Pas plus de un joueur de votre équipe ne peut être dans cette zone. Les joueurs avec un attribut de type monstre ne peuvent pas prendre part à la Mise en jeu. Si vous ne pouvez pas placer un joueur pour la Mise en jeu vous perdez le Test. Si aucune des équipes ne peut placer de joueur  dans le cercle central le jeu se termine sur une égalité. Votre joueur doit être à l&#8217;intérieur du cercle il ne peut pas être sur un hexagone traversé par une ligne blanche ou jaune.</p>
+</li>
+<li>
+<p>Un joueur doit être placé dans le cercle du Garde. Ce cercle jaune est juste devant le cercle blanc du but. Votre joueur doit être à l&#8217;intérieur du cercle et non sur un hexagone traversé par le cercle jaune.</p>
+</li>
+<li>
+<p>Jusqu&#8217;à deux joueurs peuvent être placés dans chacun des grands cercles jaunes de votre moitié de terrain. Vos joueurs doivent être placé à l&#8217;intérieur du cercle et non pas dans un hexagone traversé par la ligne jaune.</p>
+</li>
+<li>
+<p>Tous les joueurs sont placés dans des cercles jaunes dans votre moitié de terrain et vous ne pouvez pas placer plus de 6 joueurs pour un Test. Tous les joueurs supplémentaires sont placés sur le banc des remplaçants.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_mise_en_jeu_ou_face_à_face">Mise en Jeu ou face-à-face</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Un Test commence toujours par une mise en jeu entre les deux joueurs positionnés dans le cercle central. Chaque entraineurs lancent les dés pour un défi de Mise en jeu. Le joueur avec le plus grand nombre de succès (y compris zéro si votre adversaire est en échec) gagne la mise en jeu. En cas d&#8217;égalité, relancer les dés. Continuer à lancer les dés jusqu&#8217;à ce qu&#8217;un joueur gagne la mise en jeu ou que les deux joueurs échoues. Un joueur qui échoue trébuche et est à terre. Si les deux joueurs échouent, une nouvelle mise en jeu est lancée avec la même configuration de départ pour les deux équipes. Le joueur qui gagne la Mise en jeu prend une décision. Le vainqueur peut soit :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Avancer de deux hexagones dans le cercle jaune de Mise en jeu tant que les cases sont vides pour tenter soit une poussée soit un plaquage sur son adversaire.</p>
+</li>
+<li>
+<p>Ou avancé sur la case contenant la balle pour essayer de la Ramasser.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Si le vainqueur de la mise en jeu a une force inférieur à son adversaire il reçoit un Temps fort pour chaque point de force d&#8217;écart avant de tenter son défi.</p>
+</div>
+<div class="paragraph">
+<p>Après cela, , l&#8217;équipe du vainqueur commence son tour normal. Tout joueur (y compris le gagnant de la mise en jeu) est éligible à être déplacé dans le cadre de cette première action. Tout Temps fort obtenu pendant la mise en jeu peut être utilisé pendant cette première action (même si c&#8217;est un autre joueur qui effectue l&#8217;action)</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_séquence_du_tour">Séquence du tour</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>L&#8217;équipe du joueur qui gagne la mise en jeu doit être la première à exécuter une action. Une fois l’action résolue, l&#8217;entraîneur adverse peut choisir n&#8217;importe lequel de ses joueurs pour exécuter une action à son tour. Jouez alternativement comme cela jusqu&#8217;à ce qu’un but soit marqué. L&#8217;entraîneur peut choisir n&#8217;importe lequel de ses joueurs pour exécuter une action pendant son tour sauf le tout dernier joueur qu’il a utilisé (i.e. le même joueur ne peut être utilisé deux fois de suite).</p>
+</div>
+<div class="paragraph">
+<p>Si une équipe n’a plus qu’un joueur sur le terrain, celui ci peut alors effectuer une action durant plusieurs tours consécutifs.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_types_de_défis">Types de défis</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Quand un joueur effectue une action, il peut choisir différents types de défis. Le joueur actif peut tenter chaque défi (autre que charger/Plaquer et pousser) autant de fois qu’il le désire durant son action. A chaque déplacement  du joueur d’un hexagone à un autre il utilise un de ces points de mouvement. Tenter un défi ne consomme aucun point de mouvement et vous pouvez tenter des défis après avoir utilisé le dernier point de mouvement. La liste suivante montre les types de défi:</p>
+</div>
+<div class="paragraph">
+<p><strong>Se désengager</strong> : se déplacer sur un hexagone adjacent avec un adversaire qui vous fait face.<br>
+<strong>Ramasser</strong> : Ramasser la balle après s’être déplacé sur l’hexagone  dans lequel elle est au sol.<br>
+<strong>Lancer</strong> : Lancer la balle à un autre joueur. Un joueur ne peut pas bouger ou entreprendre un  défi avant ou après un lancer de plus de 7 hexagones.<br>
+<strong>Charger/Plaquer</strong> : Une fois par action vous pouvez Plaquer un adversaire sur un hexagone adjacent.<br>
+<strong>Pousser</strong> : tenter de pousser un adversaire dans l’hexagone adjacent inoccupée directement derrière lui. Le nombre de Pousser est limité à la moitié de votre Mouvement (arrondi supérieur).
+Réceptionner/Intercepter: attraper la balle lancer dans votre hexagone ou la passe ratée d’un adversaire qui passe dans votre hexagone.<br>
+<strong>Se lancer</strong> : c’est un défi qui ne peut être tenté qu’une fois par action. Quand votre action normale est finit si vous avez des marqueurs de Temps fort de cotés vous pouvez tenté un défi Se lancer pour finir votre action. Un succès vous permet de réaliser un défi supplémentaire avec un dé supplémentaire ou un Plaquer/Pousser supplémentaire ou de vous déplacer d&#8217;un hexagone supplémentaire (incluant le désengager/ramasser si nécessaire)<br></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_temps_fort">Temps fort</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Durant un match de Elfball, il y a des moments chaud ou tout semble se passer pour le mieux. Ces moments sont représentés par le compteur de Temps fort. Un marqueur est placé sur le zéro au début de chaque Test et après chaque action qui  ne se termine pas par un Revirement de Situation ( nous utiliserons l&#8217;abréviation RdS).</p>
+</div>
+<div class="paragraph">
+<p>À chaque fois que vous résolvez un défi (autre que Se lancer ou Mise en jeu ou un défi durant l&#8217;action adverse) et que vous obtenez plus de succès que nécessaire, cela vous autorise à incrémenter le marqueur de Temps fort de plusieurs points (jusqu&#8217;à un maximum de 6). Les Temps fort sont une chose importante dans le jeu. Chaque fois qu&#8217;un joueur de votre équipe tente un défi durant votre action il peut utiliser vos marqueurs de Temps fort pour relancer des dés après que l&#8217;utilisation de ses aptitudes (cf page 12) ont bien été résolut sans échec. Le nouveau jet remplace l&#8217;ancien. Vous pouvez aussi utiliser les Temps fort pour forcer votre adversaire à relancer un de ses dés durant votre action. Le compteur de Temps fort revient toujours à zéro au début de l&#8217;action de votre adversaire sauf si un Revirement de Situation se produit dans ce cas votre adversaire gagne tout vos marqueurs de Temps fort pour son action. Voici la liste des action dont la fin amène un RdS :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Échoué a un défi Ramasser la balle.</p>
+</li>
+<li>
+<p>Aucune réception de l&#8217;un de vos joueurs après un lancer.</p>
+</li>
+<li>
+<p>Échoué a un défi Se lancer.</p>
+</li>
+<li>
+<p>Fiasco à un défi (aucun marqueur de Temps fort ne peut être utilisé pour changer un fiasco à un défi)</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_se_relever">Se relever</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Un joueur qui est tombé ou qui a été jeté à terre est représenté de deux façons sur le terrain de jeu : à terre ou sonné. Dans cet état vous ne pouvez bouger ou tenter un défi sans vous levez. Vous ne pouvez relever qu&#8217;un joueur par tour. Vous ne pouvez pas vous relever après un RdS.</p>
+</div>
+<div class="paragraph">
+<p>A terre: Un joueur à terre n&#8217;est pas blessé, mais il est temporairement indisponible. Pour représenter un joueur à terre, placez votre figurine sur le dos à l&#8217;endroit où elle a été mise à terre.</p>
+</div>
+<div class="paragraph">
+<p>Sonné: Un joueur sonné met un moment avant que les effets du coup ne se soient dissipés. Pour représenté un joueur sonné placer la figurine face contre terre dans l&#8217;hexagone où elle est  tombée.</p>
+</div>
+<div class="paragraph">
+<p>Si A terre : dépenser 5 - Courage en Mouvement pour se relever<br>
+Si Sonné : dépenser 8 - Courage en Mouvement pour se relever<br>
+Chaque coéquipier adjacent de face réduit le besoin de 1<br>
+Chaque adversaire adjacent de face augmente le besoin de 1<br>
+Si vous n&#8217;avez pas les points de mouvement nécessaires vous ne vous relevez pas. Si le nombre de point de Mouvement nécessaire est zéro ou moins alors le joueur peut se relever sans perdre de point de Mouvement.</p>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Warning"></i>
+</td>
+<td class="content">
+vous ne pouvez pas utiliser de défi Se lancer pour gagner un point de mouvement afin de vous relever.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_désengagement">Désengagement</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Désengagement : Un joueur dans un hexagone adjacent à un adversaire lui faisant face et souhaitant de déplacer à besoin de se désengager.</p>
+</div>
+<div class="paragraph">
+<p>Se désengager
+Attribut:	Esquive
+# de succès nécessaire	(Le plus haut attribut Tacle des adversaires de face dans un hexagone adjacent à votre joueur) -2
+Modificateur de succès
+Pour chaque équipier debout face à votre joueur	-1
+Pour chaque adversaire debout face à votre joueur, sans compter  le premier	+1
+Résultat:
+Échec:	Joueur sonné. RdS
+Nombre de succès insuffisant:	Joueur à terre. RdS.
+Nombre de succès suffisant:	Joueur se désengage.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Vous essayez de vous désengager avec un joueur dont l&#8217;Esquive est de 4 avec deux adversaires qui lui font faces ayant un attribut Tacle de 3 et2. Le # de succès nécessaire est de 2 (3-2+1). Vous obtenez un fiasco et 3 succès. Ce qui vous donnes 2 succès vous réussissez à vous désengager.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_ramassage">Ramassage</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Ramasser le ballon - Quand vous vous déplacez dans un hexagone contenant la balle vous devez essayer de la ramasser (une poussée n&#8217;est pas considéré comme un déplacement dans l&#8217;hexagone). Ramassé la balle nécessite un défi.</p>
+</div>
+<div class="paragraph">
+<p>Ramasser la balle
+Attribut:	Habileté
+# de succès nécessaire	1
+Modificateur de succès
+Pour chaque équipier debout face à votre joueur	-1
+Pour chaque adversaire debout face à votre joueur	+1
+Résultat:
+Échec:	Le joueur trébuche et se retrouve à terre. La balle rebondit d&#8217;un hexagone dans une direction D6. RdS.
+Nombre de succès insuffisant :	La balle échappe au joueur et rebondit d&#8217;un hexagone dans la direction D6. RdS.
+Nombre de succès suffisant :	Le joueur ramasse la balle avec succès.</p>
+</div>
+<div class="paragraph">
+<p>Si vous ratez votre ramassage, votre action est terminé et c&#8217;est un RdS.</p>
+</div>
+<div class="paragraph">
+<p><strong>Rebond de balle</strong> : si un joueur rate un ramassage ou une réception, ou encore qu&#8217;un joueur avec la balle soit mis à terre ou sonné pour n&#8217;importe quelle raison, ou qu&#8217;un joueur soit poussé dans l&#8217;hexagone dans lequel repose la balle, que la balle rebondit sur un joueur à terre ou sonné, ou qu&#8217;un joueur rate un lancer, la balle est immédiatement disperser d&#8217;un hexagone  à l&#8217;aide d&#8217;un D6 (comme indiqué dans le coin du plateau). Si la balle rebondit sur l&#8217;hexagone d&#8217;un joueur debout, celui ci peut essayer de la réceptionner (cf réception).  Le joueur peut choisir de rater automatiquement cette réception dans ce cas elle rebondira à nouveau de cette position et sera toujours traité comme une balle à terre. Si enfin la balle arrive dans un hexagone inoccupé elle reste dans celui-ci.</p>
+</div>
+<div class="paragraph">
+<p><strong>Les lignes blanches du terrain</strong> : les sorciers des royaumes du milieu ont découvert il y a longtemps un moyen de convertir saleté et poussière en une poudre blanche qui répandu sur le sol repousse les petites masses volantes ou rampantes pendant une demi-journée. Le sortilège protège les aventuriers des vampires, des serpents venimeux et des flèches d&#8217;assassins, mais il est facile de trouver aussi d&#8217;autres usages &#8230;&#8203; comme par exemple en gardant une balle sur le terrain et en forçant les joueurs a courir avec la balle à travers la ligne médiane ou la ligne de but.</p>
+</div>
+<div class="paragraph">
+<p>À chaque fois que la balle rebondit ou qu&#8217;elle est lancée son mouvement s&#8217;arrête si elle entre dans un hexagone traversé par une ligne blanche. La balle est alors renvoyée d&#8217;une distance d&#8217;un D6 hexagones dans une direction d&#8217;un D6 depuis l&#8217;hexagone traversée par cette ligne blanche. Note: si un joueur est debout dans un hexagone traversé par une ligne blanche il peut réceptionner la balle avant que celle ci ne soit renvoyer par magie. Vous pouvez lancer la balle depuis un hexagone traversé par une ligne blanche sans pénalité.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_lancer_receptionner_et_intercepter">Lancer, receptionner et intercepter</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>Lancer le ballon</strong> : Un joueur avec la balle peu essayer de la lancer. Un lancer long a une portée maximum de 18 hexagones mais un joueur ne peut pas bouger ou tenter un autre défi avant ou après un tel lancer. Un lancer court à une portée maximum de 6 hexagones mais le joueur peut se déplacer ou tenter d&#8217;autres défis avant ou après le lancer. Le joueur doit lancer la balle dans la direction qui lui fait face soit dans les 3 hexagones qui lui font face (Note: vous pouvez lancer la balle dans un hexagone vide du terrain).</p>
+</div>
+<div class="paragraph">
+<p>Lancer
+Attribut:	Habileté
+# de succès nécessaire	1
+Modificateur de succès
+Pour chaque équipier debout face à votre joueur	-1
+Pour chaque adversaire debout face à votre joueur	+1
+Lancer la balle à plus de la moitié de la portée maximum (+4 à 6 ou +10 à 18 )	+2
+Résultat:
+Échec:	La balle rebondit d&#8217;un hexagone (direction D6) depuis la position du lanceur. RdS.
+Nombre de succès insuffisant:	Le lancer est ratée et arrive a D6 hexagones dans une direction D6 depuis la cible. RdS si la balle n&#8217;est rattrapée par aucun de vos joueurs.
+Exactement le nombre de succès nécessaire:	Le lancer est un peu imprécis. Le joueur doit tenté de réceptionner la balle tant que celui ci n&#8217;est pas dans un hexagone adjacent au lanceur (dans ce cas la réception est automatique)
+Plus de succès que nécessaire:	Une spiral parfaite! Le joueur à la réception réussit automatiquement (même après un rebond).</p>
+</div>
+<div class="paragraph">
+<p><strong>Intercepter le ballon</strong> : un lancer peut être intercepter par un joueur debout entre le lanceur et la cible. Après un succès ou un échec mais avant la réception, l&#8217;un des joueurs occupant un hexagone traversé par la trajectoire de la balle peut essayer d&#8217;intercepter le lancer.</p>
+</div>
+<div class="paragraph">
+<p>Intercepter
+Attribut:	Habileté
+# de succès nécessaire	2
+Modificateur de succès
+Pour chaque équipier debout face à votre joueur	-1
+Pour chaque adversaire debout face à votre joueur	+1
+Résultat:
+Échec:	Le joueur chute et est à terre. Le lancer est résolu normalement.
+Nombre de succès insuffisant:	L&#8217;interception est raté, le lancer est résolu normalement.
+Nombre de succès suffisant:	L&#8217;interception est réussit le joueur attrape la balle.</p>
+</div>
+<div class="paragraph">
+<p><strong>Réceptionner la balle</strong> :  Un joueur debout peut essayer de réceptionner une balle arrivant dans son hexagone après un lancer imprécis ou un rebond . Un joueur peut volontairement raté la réception la balle rebondit alors d&#8217;un hexagone depuis sa position et c&#8217;est considéré comme une perte de balle.</p>
+</div>
+<div class="paragraph">
+<p>Réceptionner
+Attribut:	Habileté
+# de succès nécessaire	2
+Modificateur de succès
+Pour chaque équipier debout face à votre joueur	-1
+Pour chaque adversaire debout face à votre joueur	+1
+Résultat:
+Échec:	Le joueur chute et est à terre. La balle rebondit d&#8217;un hexagone depuis cette position.*
+Nombre de succès insuffisant:	Réception échoue la balle rebondit d&#8217;un hexagone depuis cette position.*
+Nombre de succès suffisant:	La réception réussit.
+* RdS si l&#8217;échec a lieu pendant votre tour ou si un adversaire récupère la balle à la fin de l&#8217;action.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Vous essayez de réceptionner une passe avec une Habileté de 3 et un adversaire debout vous faisant face (de plus vous avez 3 marqueurs de Temps fort). Vous avez besoin de 3 succès pour réceptionner la balle (2+1). vous lancez un fiasco, un vide et un succès. Vous utilisez deux Temps fort pour relancer le fiasco et le vide et vous obtenez 2 vides. Vous ne pouvez pas utiliser un Temps fort pour relancer un dé plus d&#8217;une fois vous arrêter donc là avec un succès, 1 temps fort restant et une réception ratée.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_charger_et_plaquer">Charger et plaquer</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Un joueur debout peut tenter un défi de Charger/Plaquer contre un adversaire adjacent lui faisant face une fois par action. Tout d&#8217;abord vous devez comparez la force de votre joueur avec celle de son adversaire. Si la force de votre joueur est inférieure vous devez commencer par un défi de charge avant de pouvoir éventuellement pouvoir réalisé un défi Plaquer.</p>
+</div>
+<div class="paragraph">
+<p>Charger
+Attribut:	Force
+# de succès nécessaire	Force adverse - 2
+Modificateur de succès
+Pour chaque équipier debout face à votre joueur	-1
+Pour chaque adversaire debout face à votre joueur autre que la cible	"+1
+"
+Charger un adversaire dans le dos	-1
+Résultat:
+Échec:	Votre joueur est à terre. RdS
+Nombre de succès insuffisant:	La charge échoue et vous devez utiliser un point de mouvement avant de bouger ou de faire une action autre qu&#8217;un Placage .
+Nombre de succès suffisant:	Succès; vous pouvez Plaquer votre adversaire.</p>
+</div>
+<div class="paragraph">
+<p>En cas de succès lors du défi charger ou si votre force est supérieur ou égal à votre adversaire vous pouvez réaliser un défi Plaquer contre lui.</p>
+</div>
+<div class="paragraph">
+<p>Plaquer
+Attribut:	Tacle
+# de succès nécessaire	Esquive adverse - 2
+Modificateur de succès
+Pour chaque équipier debout face à votre joueur	-1
+Pour chaque adversaire debout face à votre joueur autre que la cible	"+1
+"
+Plaquer un adversaire sans la balle	1
+Plaquer un adversaire dans le dos	-1
+Résultat:
+Échec:	Le plaqueur est à terre. RdS
+Nombre de succès insuffisant:	Le placage échoue il est sans effet.
+Exactement le nombre de succès nécessaire:	Plaque glissant; le plaqueur et son adversaire sont à terre.
+Un succès de plus que nécessaire:	Bon coup. L&#8217;adversaire est à terre.
+Deux succès de plus que nécessaire:	Punition. L&#8217;adversaire doit lancer un défi de blessure comme si il avait un attribut Courage de 6
+Trois succès ou plus que nécessaire:	Handicap. L&#8217;adversaire doit lancer un défi de blessure.</p>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Warning"></i>
+</td>
+<td class="content">
+seul les succès au dessus de trois compte comme succès supplémentaires pour un Temps fort.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_pousser">Pousser</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Un joueur réalisant une action peut tenter un nombre de poussée égale à la moitié de son mouvement (arrondi supérieur) par action. Un joueur debout peut tenter de pousser un adversaire debout dans un hexagone adjacent qui lui fait face vers un hexagone en ligne droite si aucun autre joueur n&#8217;est dedans. Si cette poussée envois l&#8217;adversaire dans un hexagone avec une ligne blanche marquant le bord du terrain ou le but, l&#8217;arbitre expulse l&#8217;adversaire. Si la poussée envoie l&#8217;adversaire dans un hexagone contenant la balle, celle ci est traitée comme une balle qui rebondit.</p>
+</div>
+<div class="paragraph">
+<p>Pousser
+Attribut:	Force
+# de succès nécessaire	Force adverse - 2
+Modificateur de succès
+Pour chaque équipier debout face à votre joueur	-1
+Pour chaque adversaire debout face à votre joueur autre que la cible	"+1
+"
+Pousser un adversaire dans le dos	-1
+Résultat:
+Échec:	Le joueur est à terre. RdS
+Nombre de succès insuffisant:	La poussée échoue. L&#8217;adversaire de bouge pas. Vous perdez un point de mouvement pour continuer à bouger ou tenter un autre défi.
+Nombre de succès suffisant:	Succès; Vous le poussez avec suffisamment de force pour qu&#8217;il bouge d&#8217;un hexagone</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_se_lancer_se_jetter">Se lancer / Se Jetter</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>SE LANCER</p>
+</div>
+<div class="paragraph">
+<p>C&#8217;est un défi spécifique qui peut être effectué seulement une fois par action. Vous devez dépenser des marqueurs de Temps fort lorsque vous entreprenez un défi Se lancer. Le défi réussi vous permet de choisir une des 2 options:
+1. Vous déplacez d&#8217;un hexagone supplémentaire même si vous avez dépensé tous vos points de mouvement (pas d&#8217;autre défi que Désengager ou Ramasser).
+<strong>Ou</strong> 2. Exécutez un seul Défi avec un dé supplémentaire. Si vous avez déjà utilisé toutes vos Poussées et/ou Plaquage, vous pouvez en exécuter un autre mais  sans dés en bonus. Cette option met toujours fin à votre tour même si vous avez encore des points de mouvement.</p>
+</div>
+<div class="paragraph">
+<p>Choisir la 2e option et exécuter un défi Charger/Plaquer vous permet d&#8217;ajouter le dé supplémentaire a un de ces défis (pas pour les deux.) Le nombre des marqueurs de Temps fort que vous consacrez à tenter le défi Se lancer est utilisé pour représenter le score d&#8217;attribut. Vous pouvez consacrer un Temps fort restant pour remplacer un dé comme normalement..</p>
+</div>
+<div class="paragraph">
+<p>Se lancer
+Attribut:	# de Temps fort utilisé
+# de succès nécessaire	1
+Modificateur de succès: Aucun
+Résultat:
+Échec:	Le joueur est sonné. RdS
+Nombre de succès insuffisant:	Le joueur est à terre. RdS.
+Nombre de succès suffisant:	Le joueur peut effectuer un défi supplémentaire avec un extra-dé OU un tacle/poussée supplémentaire OU bouger d&#8217;un hexagone (incluant le désengagement ou le ramassage)
+Note: les succès supplémentaires n&#8217;apportent pas de Temps fort</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_blessures">Blessures</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Un joueur peut être blessé sur un placage sévère. Pour connaitre la gravité de la blessure, lancer un défi de Blessure. Si un joueur avec la balle subit un défi de Blessure,  résolvez ce défi avant la dispersion de la balle.</p>
+</div>
+<div class="paragraph">
+<p>Blessure
+Attribut:	Courage
+# de succès nécessaire	Voir en dessous
+Modificateur de succès : Aucun
+Résultat:
+Échec:	Le joueur est indisponible pour le reste du match. Placer le à l&#8217;infirmerie. Sa blessure met fin à sa carrière retirer le de votre équipe.
+0 succès:	Le joueur est indisponible pour le reste du match. Placer le à l&#8217;infirmerie. La blessure est permanente. Le joueur voit son attribut le plus élevé réduit d&#8217;un point , en cas d&#8217;égalité l&#8217;entraineur choisit.
+1 succès:	Le joueur est indisponible pour le reste du match.
+2 succès:	Le joueur est KO. Placé le dans la zone de repos. Après le prochain Test il pourra rejoindre le banc.
+3 succès:	Le joueur est placé sur le banc et rate le reste du Test en cours
+4 succès:	Le joueur est sonné
+5 ou + succès:	Le joueur est à terre</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_remplacements">Remplacements</h2>
+<div class="sectionbody">
+<div class="imageblock right text-center">
+<div class="content">
+<img src="images/replacements.png" alt="Zone de remplacement">
+</div>
+</div>
+<div class="paragraph">
+<p>Si vous avez moins de 6 joueurs sur le terrain, à votre tour au lieu d&#8217;entreprendre une action avec un joueur sur le terrain vous pouvez prendre un joueur de votre zone de banc (pas de la zone de repos ou de l&#8217;infirmerie) et le placer dans un hexagone sans joueur à 3 hexagones de distance de l&#8217;entré de votre aire. (la zone en bleu sur l&#8217;image). Le joueur peut ramasser la balle mais ne peut entreprendre aucun autre défi durant ce tour. Ce joueur est marqué comme le dernier joueur en action.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_concéder_le_match">Concéder le match</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Un joueur peut concéder le match à son adversaire à n&#8217;importe quel moment. Si c&#8217;est le cas, chaque joueur de l&#8217;équipe adverse n&#8217;étant pas à l&#8217;infirmerie reçoit un point d&#8217;expérience. De plus, le score de l&#8217;équipe adverse est ajusté de telle sorte qu&#8217;ils aient marqué un nombre de buts suffisants pour gagner ce match.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_arbitre">Arbitre</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Beaucoup de jeux professionnels ont un arbitre ou souvent un joueur sur le banc de chaque équipe pour s&#8217;assurer que certaines règles ne sont pas enfreintes.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Tout joueur qui pénètre sur un hexagone traversé par une ligne blanche qui délimite le bord du terrain (y compris s&#8217;il y est poussé) est immédiatement contraint de quitter le terrain et de s&#8217;assoir sur le banc pour le reste du test. Si le joueur avait la balle, il est exclus pour le reste du match par l&#8217;arbitre. En outre, l&#8217;arbitre siffle et gèle le jeu (aucun déplacement), il emporte la balle pour la déposé dans l&#8217;hexagone de Mise en jeu et le jeu peut alors reprendre (c. à d. une course folle pour revenir au milieu et obtenir la balle). Si un joueur se trouve dans l&#8217;hexagone central, l&#8217;arbitre lui confie la balle (aucun jet nécessaire).</p>
+</li>
+<li>
+<p>Tout joueur qui entre dans l&#8217;hexagone du cercle but à n&#8217;importe quel moment (y compris poussé dans l&#8217;hexagone) sans tenir le ballon est immédiatement contraint de quitter le terrain et de s&#8217;asseoir sur le banc pour le reste du Test. Si le joueur qui a le ballon pénètre ou est poussé dans son propre but il est immédiatement contraints de quitter le terrain et la balle rebondit sur un hexagone adjacent.</p>
+</li>
+<li>
+<p>Aucun Joueur de classe Monstre ne peut prendre part à la Mise en jeu.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_play_by_play_example_1">Play-by-play-example #1</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>A Dryad from the Timberline Elf team is taking an action. She is going to tackle the Imp with the ball. She has a 5 paces of Jog remaining after moving into the hex shown in Figure 1. Her next move is to move away from her opponent and move into the hex next to the Imp (movement shown by the yellow arrow) (see figure 1). She rolls a Disengage challenge to get away from the Striker. She rolls 4 challenge dice since her Dodge attribute is 4 and since there are no modifiers she needs only 1 success (Striker&#8217;s Tackle of 2 - 2) (remember if a challenge is less than 1 success needed than it needs 1). The dice rolls for the Disengage challenge are  (a flop and 2 successes means 1 success). One success means the Disengage is successful and the Dryad now has 4 paces of Jog remaining as the move cost one Jog and the Disengage challenge has no Jog cost.</p>
+</div>
+<div class="paragraph">
+<p>The Dryad now tries a Shove challenge against the Imp (figure 2). She rolls 4 challenge dice since her Might attribute is 4. She needs 1 success as the Imp&#8217;s Might is 2 (so its 2-2=0 which means 1 success is needed).
+The dice rolls are  (3 successes). Since only 1 success was needed this means the Dryad player now has 2 Momentum counters (3-1). This success means the Imp is pushed back one square in a straight line from the direction of the Shove challenge. The Dryad now has 3 paces of Jog remaining after the Shove challenge.</p>
+</div>
+<div class="paragraph">
+<p>The Dryad now moves one hex in the direction of the yellow arrow (figure 3) leaving the Dryad with 2 paces of Jog remaining.</p>
+</div>
+<div class="paragraph">
+<p>Now the Dryad attempts a Tackle challenge against the evasive Imp (figure 4). The Timberline Elf coach realizes that this is a gamble but he feels like the Dryad is ready to come through for the team. The Dryad has a Tackle attribute of 1 so she&#8217;ll roll just 1 challenge die for the Tackle challenge. She does not need to roll an Impact challenge since her Might is more than the Imp&#8217;s. She needs 1 success for the Tackle challenge as the Imp has a Dodge of 5 but she has a forward facing standing player from her team adjacent to the Imp and she is tackling the Imp from his rear facing (so 5-2- 1-1=1 success). The die roll is . This would mean the tackle was not a success so she uses one of her 2 Momentum counters to replace this roll. The replacement roll is a . She has now rolled 1  success on the Tackle challenge resulting in a Slide Tackle which places both players  Down. This knocks the elfball loose. She rolls the D6 for the ball&#8217;s bounce direction and rolls a 5 which means it lands in the hex to the left of the Imp. She now has 1 Momentum counter and 1 pace of Jog remaining.</p>
+</div>
+<div class="paragraph">
+<p>Next the Dryad spends 1 pace of Jog to stand up (see Figure 5). She has a Grit attribute of 4 so she&#8217;ll need to spend only one point of Jog to stand (5-4). This leaves her with 1 Momentum counter and she is standing with no Jog remaining. This ends her normal action.</p>
+</div>
+<div class="paragraph">
+<p>However, the Dryad still has 1 Momentum so she decides to try to extend her turn with a Dash challenge. She spends the one Momentum counter for the Dash challenge so she rolls 1 challenge D6 needing 1 success. The roll is a . Success! The Dash challenge lets her extend her action and she decides to use the move one hex and take a free challenge option to move into the hex with the ball and attempt a Pick-up challenge (see figure 6).</p>
+</div>
+<div class="paragraph">
+<p>She moves into the hex with the ball (figure 6) and attempts a Pick-up challenge. She needs 1 success to pick up the ball and has a Skill of 2. She rolls which gives her one success and allows her to pick up the ball.</p>
+</div>
+<div class="paragraph">
+<p>The Timberline Elf coach grins at his demonstration that even a Tackle 1 Dryad can be effective at freeing the ball from his opponent&#8217;s hands. He has the Dryad slowly stretch her limbs taunting the downed Imp and sets her final facing to protect against tackles and ends her action (figure 7). It is now the opponent&#8217;s turn and he has to figure out how to get the ball back.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_play_by_play_example_2">Play-by-play example #2</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The Thunder Mountain Dwarves are playing the Black Widows and the Thunder Mountain ball carrier is about to be surrounded if he cannot get out of trouble (figure 1). In an effort to score the winning goal, the coach calls for a risky passing play. However the  Thunder Hammer coach is hoping to build up a little momentum for his player first and calls for him to shove the biggest threat away from him. Using his superior Might the Dwarf uses a Shove challenge against the Black Widows Widowmaker. The Dwarf&#8217;s Might is 4 so he&#8217;ll roll 4 challenge dice. The Widowmaker&#8217;s Might is 3 and since there is one of her team-mates forward facing and adjacent to the Dwarf he&#8217;ll need 2 successes for the Shove challenge to be a success (3-2+1).</p>
+</div>
+<div class="paragraph">
+<p>The dice rolls are . With 3 successes Shove challenge is a success (even earning a point of Momentum) and the Dwarf turns his facing to make the throw (see figure 2).</p>
+</div>
+<div class="paragraph">
+<p>Now the  coach is faced with a difficult decision. He has 3 paces of Jog left but that will not get him very far. Should he change his plans or go for the risky throw? He decides that he is feeling lucky and decides to go for it and spends the pace of Jog for the Throw challenge leaving him with 2 paces of Jog. The Throw challenge to get to the other Thunder Hammer Dwarf will be based on his Skill attribute of 3 so he&#8217;ll get 3 dice for the throw. Since he performed the Shove challenge first, he can only throw a maximum of 6 hexes. His Dwarf team-mate is 4 hexes away which is one over half the maximum which means he&#8217;ll need two extra successes. Add in the Hunter adjacent to him adding an extra needed success and he&#8217;ll need 4 successes to make the successful pass with only 3 challenge dice. He mutters a choice oath and then a prayer to his coffers of gold at home and rolls the dice. The rolls are . He might have done it! He rolls again for the conditional successes and rolls . This gives him 2 conditional successes and 2 successes for 4 total successes (2+2). The throw is a bit wobbly but he made it!</p>
+</div>
+<div class="paragraph">
+<p>Now that we know the landing location of the elfball we put the passing string between  the two hexes (figure 3) and see if any opponents can try to intercept. The passing string covers part of the hexes for both the Black Widows Hunter and Midfielder and the opposing coach decides to have the Midfielder attempt an Interception challenge. The  skill of the Midfielder is 3 so she rolls 3 challenge dice and with the modifier from her  forward facing adjacent team-mate she only needs 1 success to intercept the ball (2-1). The dice rolls are  - success! (2-1=1) The Dwarf coach realizes that an interception at this time would ruin his grand plan and uses his one counter of Momentum to force the Black Widows Midfielder to replace one of the success die rolls. The replacement roll is a . This means the final result is 1 success and 2 flops. Since the Midfielder now has more flops than successes, she goes Down from the Interception challenge. This means the Dwarf  team is now clear to try and catch the pass.</p>
+</div>
+<div class="paragraph">
+<p>The Dwarf trying to catch the ball has a Skill attribute of 3 and so will roll 3 challenge dice for the Catch. Since there are no modifiers, he needs 2 successes in order to catch the  ball. His dice rolls are  . Success! He rolled the 2 successes he needed to catch the ball and now the Dwarf coach can smell victory and practically taste the barrels of ale that await him and his team after they win this game.</p>
+</div>
+<div class="paragraph">
+<p>Now if the Dwarf coach wanted he could pay the pace of Jog to perform another challenge with the Dwarf that threw the ball but decides that he cannot do much with the two paces of Jog he has left and would rather stay adjacent to the Black Widows Hunter next to him than shove her away. So with that decision the Dwarf coach ends his action. Note: if the Dwarf hypothetically was out of Jog after the Throw challenge, he could not have performed a Dash challenge since he has no Momentum.</p>
+</div>
+</div>
+</div>
+<h1 id="_regles_avancees" class="sect0">REGLES AVANCEES</h1>
+<div class="sect1">
+<h2 id="_règles_de_construction_de_l_équipe">Règles de construction de l&#8217;équipe</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Les pages que vous venez de parcourir vous ont permis d&#8217;abordé les règles indispensables pour jouer un match de elfball. Les règles qui vont suivre vous donnes les détails pour bâtir votre propre équipe et jouer de nombreuses parties faisant ainsi progresser votre jeu.</p>
+</div>
+<div class="sect2">
+<h3 id="_batir_votre_equipe">BATIR VOTRE EQUIPE</h3>
+<div class="paragraph">
+<p>Quand vous bâtissez votre équipe vous recevez 180 points pour au plus 12 joueurs (Note:votre ligue peut changer cette limite de 180 points). Vous n&#8217;êtes pas obligé d&#8217;utiliser les 180 points pour construire votre équipe mais vous ne pouvez jamais les dépasser. Chaque nouveau joueur débutant sans aptitude coute 15 points.</p>
+</div>
+<div class="paragraph">
+<p>Cependant les joueurs ne sont pas les seuls éléments que vous pouvez avoir dans votre équipe. Sur cette page, vous trouverez d&#8217;autres soutien professionnel pour votre équipe ou des objets que vous pouvez acheter pour votre équipe et ce qu&#8217;il coute en point d&#8217;équipe de les ajouter (souvenez vous la valeur de votre équipe ne peut dépasser 180 points).</p>
+</div>
+<div class="paragraph">
+<p>Tant que votre équipe joue vos joueurs progressent et apprennent de nouvelles aptitudes. Gagner ces aptitudes ajoutent des points à votre équipe. Si le gain de ces aptitudes amène votre équipe au delà des 180 points, vous devez vous débarrassez de quelque chose ou quelqu&#8217;un afin de garder le joueur qui a gagné une aptitude. Note: Vous ne pouvez jamais avoir moins de 6 joueurs. À tout moment vous pouvez vous débarrassez de joueurs de votre équipe ( et utiliser leur valeur pour autre chose) ou ajouter un débutant à votre équipe pour le coup habituel de 15 points (une dernière fois, votre équipe ne peut excédé la valeur de 180 points)</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_soutient">SOUTIENT</h3>
+<div class="paragraph">
+<p><strong>Arbitre Corrompu</strong> (5 points, 1 permis) : Vous avez payé l&#8217;arbitre pour regarder de l&#8217;autre coté pendant que votre équipe joue. Avoir un arbitre corrompu vous permet de placer un joueur de Type Monstre dans le cercle de mise en jeu et permet à vos joueurs sans ballon de terminer leur action à l&#8217;intérieur de l&#8217;un des cercles de but. Toutefois, avant votre première action après la mise en jeu avec un joueur de Type Monstre ou au début d&#8217;un tour de votre équipe lorsque vous avez un joueur à l&#8217;intérieur d&#8217;un cercle de but, lancez un dé de défi. Si vous échoué, le résultat est que l&#8217;arbitre ne supporte pas l&#8217;infraction plus longtemps. Le joueur en infraction est exclus pour le reste du jeu, votre équipe perd la capacité d&#8217;exécuter quoi que ce soit durant ce tour (cela compte comme un RdS) et vous ne pouvez plus briser l&#8217;une de ces règles pour le reste de la partie.</p>
+</div>
+<div class="paragraph">
+<p><strong>Pom-pom girl</strong> (5 points chaque, 4 permis) : Chaque Pom-pom girl peut être utilisé une fois par test au début d&#8217;une action pour ajouter un marquer au compteur de Temps fort.</p>
+</div>
+<div class="paragraph">
+<p><strong>Fûts de Zlurpee</strong> (5 points chaque, 2 permis) : Votre équipe peut consacré quelques points à acheter des fûts de Zlurpee et des serveurs. Le Zlurpee est une boisson énergisante disponible dans divers arômes du citron à l&#8217;or Nain ou plus exotique du sang de tigre apprécié par les Deadlings. Le Zlurpee aide les joueurs a évité certaine blessures qui les rendraient indisponible pour un Test ou pour le reste du match. Pour chaque Fût dans votre équipe, vous pouvez ajouté un succès à tout défi de Blessures durant le match qui n&#8217;est pas en échec et qui n&#8217;est pas à 0 succès après avoir utilisé un Temps forts. Chaque Fûts peut être utilisé une fois par Test.</p>
+</div>
+<div class="paragraph">
+<p><strong>Potions Magiques</strong> ( 5 points chaque, 3 permis ) : Votre équipe peut dépenser ses points pour s&#8217;allouer les services d&#8217;alchimistes afin de préparer des potions magiques pour aider votre équipe. Mais utiliser la magie n&#8217;est  pas sans risque. Vous pouvez utilisez une ou plusieurs potions sur n&#8217;importe quel joueur non présent sur le terrain avant  le placement d&#8217;un Test, durant un Test  ou après chaque but. Pour utiliser une potion, lancer deux dés de défi et consultez cet table. Si le jet dit que vous gagnez une aptitude basique ou avancée vous ne pouvez choisir qu&#8217;une aptitude d&#8217;Attribut. Un joueur ne  peut prendre qu&#8217;une potion par match.</p>
+</div>
+<div class="paragraph">
+<p>GAGNER DES POINTS D&#8217;EXPERIENCES ET DES APTITUDES</p>
+</div>
+<div class="paragraph">
+<p>La plupart des joueurs développent des aptitudes après avoir jouer plusieurs matchs de Elfball. Tandis que beaucoup de joueurs ne se changent jamais en stars, chaque équipe peut avoir la chance d&#8217;accueillir le joueur à qui tous les enfants rêvent  de ressembler. Les joueurs gagnent le potentiel pour apprendre de nouvelles aptitudes par les points d&#8217;expérience</p>
+</div>
+<div class="paragraph">
+<p><strong>Points expériences</strong> : comptabiliser les points d&#8217;expérience est assez Simple. À chaque fois que votre équipe marque un but, donnez deux points au buteur et un point à tous les autres joueurs sur le terrain.</p>
+</div>
+<div class="paragraph">
+<p><strong>Gagner de nouvelles aptitudes</strong> : Pour chaque tranche de 5 points d&#8217;expériences votre joueur peut apprendre une nouvelle aptitude basique ou avancée (i.e. Une aptitude à 5 points, une seconde à 10 points, etc&#8230;&#8203;) un joueur ne peut apprendre une aptitude en dehors du tableau des aptitudes. Un joueur peut apprendre une aptitude après chaque match si il a les points nécessaire. Par exemple, un joueur gagne son 10iéme points d&#8217;expériences et 3 match plus tard l&#8217;entraineur décide de lui apprendre une nouvelle aptitude basique. Une aptitude apprise ne peut être supprimé.</p>
+</div>
+<div class="paragraph">
+<p><strong>Aptitudes basiques et avancées</strong> : chaque attribut et type de joueur donne accès à une aptitude basique et une ou plusieurs aptitudes avancées que chaque joueur peut apprendre quand il a les points d&#8217;expériences suffisant. Une aptitude avancée ne peut être apprise que si le joueur a déjà apprise l&#8217;aptitude basique de cette attribut.  Une aptitude ne peut être apprise qu&#8217;une fois par un joueur. Les aptitudes sont décrites avec leur nom, l&#8217;attribut sur lequel elle se base et si elle est basique ou avancée. Tous les joueurs peuvent apprendre une aptitude basé sur un attribut général mais uniquement les joueurs du bon type peuvent apprendre les aptitudes basé sur un type.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_attribut_d_aptitudes_génerales">Attribut d&#8217;aptitudes génerales</h3>
+<div class="paragraph">
+<p>Équilibre (Mouvement/Basique): Le joueur est ferme sur ses pieds, même en le poussant au-delà de ses limites. Équilibre peut être utilisé une fois par action et vous permet de remplacer un dé de votre choix lors du défi Se lancer (le nouveau résultat remplace l&#8217;ancien).</p>
+</div>
+<div class="paragraph">
+<p>Sprinter (Mouvement/Avancée): Vous pouvez effectuer  autant de  défi Se lancer que vous souhaitez sans dépenser de Temps fort, au lieu de cela le joueur utilise son Mouvement pour déterminer le nombre de dés à lancer (Maximum 6). Le nombre de succès nécessaires pour chaque défi est égal au nombre de défi tenté plus 1. Par exemple, si vous tentez votre 3ieme Se lancer vous devez  obtenir 4 succès.</p>
+</div>
+<div class="paragraph">
+<p>Muscle (Force/Basique): Le joueur a passé beaucoup de temps dans la salle de musculation. Muscle peut être utilisé une fois par action ainsi que pendant la mise en jeu, il permet de  relancer un dé lors d&#8217;un défi basé sur la Force (le nouveau résultat remplace l&#8217;ancien)</p>
+</div>
+<div class="paragraph">
+<p>Broyeur d&#8217;os (Force/Avancée): Le joueur a une frappe de mule. L&#8217;adversaire  lance un dé de moins pour résoudre le défi de blessure de votre adversaire lors d&#8217;un plaquage.</p>
+</div>
+<div class="paragraph">
+<p>Lutte (Tacle/Basique): Le joueur se concentre sur une seule chose … mettre à terre son adversaire. Lutte peut être utilisée une fois par action pour remplacer un dé lors d&#8217;un défi Plaquer (le nouveau résultat remplace l&#8217;ancien)</p>
+</div>
+<div class="paragraph">
+<p>Fou Furieux (Tacle/Avancée): Écume de Rage à la bouche, ce joueur ne craint ni homme ni bête. Ce joueur lance des dés de défi égal à la Force de son adversaire pour n&#8217;importe quel défi de charge nécessaire avant de plaquer. Il peut également ajouter 2 dés défi pour tout défi de Pousser qu&#8217;il tente (maximum de 6).</p>
+</div>
+<div class="paragraph">
+<p>Vif (Esquive/Basique): Ce joueur est capable de bouger ses pieds comme il pense et de changer de plans aussi rapidement que les conditions changent sur le terrain. Vif peut être utilisé une fois par action et vous permet de remplacer un dé de votre choix pour n&#8217;importe quel défi utilisant l&#8217;attribut Esquive (le nouveau résultat remplace l&#8217;ancien).</p>
+</div>
+<div class="paragraph">
+<p>Insaisissable (Esquive/Avancée): Il est aussi difficile de mettre la main sur ce joueur que sur un cochon graissé. Ce joueur peut ignorer les modifications provoquées par les joueurs adverse pour tous les défi utilisant l&#8217;attribut Esquive et il réussit automatiquement (sans jeter les dés) les défis Se désengager dont la difficulté nécessaire serait de zéro ou moins (avant qu&#8217;elle ne soit normalement ramené à une difficulté de un comme requis ).</p>
+</div>
+<div class="paragraph">
+<p>Agile (Habileté/Basique): Besoin du Elfball pour arriver là où vous voulez aller &#8230;&#8203; appeler ce joueur. Agile peut être utilisé une fois par action et vous permet de remplacer un dé de votre choix pour n&#8217;importe quel défi utilisant l&#8217;attribut Habileté (le nouveau résultat remplace l&#8217;ancien).</p>
+</div>
+<div class="paragraph">
+<p>Passe passe (Habileté/Avancée): Le joueur a développé un faible niveau de ses pouvoirs magiques lui permettant de contrôler le rebond provoquer par la poudre blanche. Chaque fois que ce joueur effectue un lancer coupant une ligne blanche, il peut choisir la direction du rebond. En outre, il peut ajouter ou soustraire un hexagone au nombre de cases du rebond depuis la ligne blanche.</p>
+</div>
+<div class="paragraph">
+<p>Nerf d&#8217;acier (Habileté/Avancée): Le joueur a du sang glacé dans les veines et est capable d&#8217;ignorer les adversaires autour de lui. Ce joueur peut ignorer  le modificateur de joueur adverse quand il tente un défi utilisant l&#8217;attribut Habileté.</p>
+</div>
+<div class="paragraph">
+<p>Résilient (Courage/Basique): Résistant au choc &#8230;&#8203; ce joueur est très difficile à sortir de la partie. Résilient peut être utilisé qu&#8217;une seule fois par action et vous permet de remplacer un dé de votre choix pour n&#8217;importe quel défi utilisant l&#8217;attribut Courage (le nouveau résultat remplace l&#8217;ancien).</p>
+</div>
+<div class="paragraph">
+<p>Rude (Courage/Avancée): Ce joueur est à l&#8217;abri de tous, sauf des blessures les plus grave. Ce joueur peut traiter tout résultat de 3 ou plus lors d&#8217;un défi de Blessure comme étant à terre. En outre, son Courage est augmenté d&#8217;un point lors de la détermination du coût de mouvement nécessaire pour se relever.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_attribut_d_aptitudes_de_classe">Attribut d&#8217;aptitudes de classe</h3>
+<div class="paragraph">
+<p>Vicieux (Truqueur/Basique): Ce joueur peut tenter une attaque malhonnête sur un adversaire. Ce joueur peut tenter un défi Plaquer (aucun défi Charger requis) contre un adversaire à terre ou sonné. Ignorer les modificateurs  face à l&#8217;arrière ou l&#8217;absence de Balle pour ce défi. Remplacer le résultat "tacles glissés. Plaqueur et son adversaire sont à terre" par «Plaquer n&#8217;a aucun effet." Un adversaire sonné deviendra à terre sur  un résultat de «Bon coup. L&#8217;adversaire est à terre." (Vous avez mis fin à sa stupeur).</p>
+</div>
+<div class="paragraph">
+<p>Malveillant (Truqueur/Avancée): Ce Joueur prend beaucoup de plaisir à infliger la souffrance. Ce joueur gagne un marqueur de temps fort pour chaque adversaire qu&#8217;il sonne et deux marqueurs si un adversaire quitte le terrain sur  blessure.</p>
+</div>
+<div class="paragraph">
+<p>Impitoyable (Truqueur/Avancée): Ce joueur est extrêmement sanguinaires. Ce joueur peut dépenser les compteurs de temps fort au lieu de son Mouvement pour se rapprocher d&#8217;un adversaire à terre ou sonné. Chaque compteur utilisé permet à ce joueur d&#8217;avancer d&#8217;une case si le joueur n&#8217;a pas besoin de se désengager pour se déplacer.</p>
+</div>
+<div class="paragraph">
+<p>Champ de vision (Défenseur/Basique): S&#8217;éloigner de ce joueur est très difficile. Tout adversaire avec moins de Force que ce joueur doit lancer un défi Charge avant de se libérer et de tenter un défi Se dégager (l&#8217;adversaire peut utiliser son attribut Esquive au lieu de Force pour ce défi Charger spécial). Si il échoue sans que se soit un fiasco, il peut utiliser un point de Mouvement  pour tenter à nouveau le défi Charger jusqu&#8217;à ce qu&#8217;il n&#8217;est plus de Mouvement ou qu&#8217;il réussisse.</p>
+</div>
+<div class="paragraph">
+<p>Cogner (Défenseur/Avancée): Ce joueur frappe comme un train de marchandises. Ce joueur gagne le double du nombre de Temps fort lors des défis de Pousser.</p>
+</div>
+<div class="paragraph">
+<p>Garde (Défenseur/Avancée): Ce joueur est très fort pour défendre le cercle but. Ce joueur peut dépenser des compteurs de Temps fort au lieu de son Mouvement pour se rapprocher du cercle but que son équipe défend. Chaque compteur utilisé permet à ce joueur à avancer d&#8217;une case si le joueur n&#8217;a pas besoin de se désengager pour se déplacer.</p>
+</div>
+<div class="paragraph">
+<p>Charge (Chasseur/Basique): Si ce joueur c&#8217;est déplacé au moins d&#8217;un hexagone, il peut effectuer un défi Plaquer contre tout joueur ayant plus de Force sans avoir besoin de tenter un défi Charger. Un joueur qui utilise Charge est à terre indépendamment des résultats du défi Plaquer.</p>
+</div>
+<div class="paragraph">
+<p>Collision (Chasseur/Avancée): Rien ne satisfait plus ce joueur qu&#8217;un craquement lors d&#8217;un Plaquage. Ce joueur gagne le double du nombre de compteurs de temps fort lors de défi Charger/Plaquer.</p>
+</div>
+<div class="paragraph">
+<p>Traque (Chasseur/Avancée): Ce Joueur traque le porteur de la balle avec passion. Ce joueur peut dépenser des compteurs de Temps fort au lieu du Mouvement pour se rapprocher du porteur du ballon adverse. Chaque compteur passé permet à ce joueur de se déplacer d&#8217;un hexagone si le joueur n&#8217;a pas besoin de se désengager pour se déplacer.</p>
+</div>
+<div class="paragraph">
+<p>Provocation (Petit Gens/Basique): Il peut être petit, mais il peut être étonnamment ennuyeux (et insultant). Ce Joueur peut agir hors de la séquence lorsque l&#8217;équipe adverse subit un Revirement de situation. Ce joueur peut tenter de changer l&#8217;orientation d&#8217;un adversaire à une distance de 6 cases en utilisant un défi Provocation.</p>
+</div>
+<div class="paragraph">
+<p>Vous pouvez utiliser la Provocation autant de fois que vous voulez contre autant d&#8217;adversaires jusqu&#8217;à ce que vous manquiez de Temps fort. L&#8217;utilisation de Provocation ne compte pas comme une action de l&#8217;équipe.</p>
+</div>
+<div class="paragraph">
+<p>Rapidité (Petit Gens/Avancée): Réflexes éclairs dans un petit paquet en particulier avec sa langue. Si ce joueur commence son action après un Revirement de situation, il peut doubler le nombre actuel de Temps fort (cela peut se produire avant l&#8217;utilisation de la capacité Provocation).</p>
+</div>
+<div class="paragraph">
+<p>Essaim (Petit Gens/Avancée): Ces petits gars submergent leurs adversaires par le nombre. Au cours de l&#8217;action de ce joueur tout joueur debout de son équipe de type Petits Gens peut utiliser des Temps forts au lieu de son Mouvement pour se rapprocher de n&#8217;importe quel joueur de son équipe avec une Force égale ou moindre. Chaque compteur passé permet à un joueur de type Petis Gens d&#8217;avancer d&#8217;un hexagone si le joueur n&#8217;a pas besoin de se désengager pour se déplacer. Plusieurs joueurs peuvent être déplacés par l&#8217;utilisation d&#8217;Essaim.</p>
+</div>
+<div class="paragraph">
+<p>Crâne d&#8217;acier (Milieu de terrain/Basique): Ce joueur n&#8217;est jamais mit au sol sur un résultat à terre. Ce joueur peut se lever quand il est sonné comme s&#8217;il n&#8217;était qu&#8217;à terre.</p>
+</div>
+<div class="paragraph">
+<p>Coup de main (Milieu de terrain/Avancée): Toujours prêt à donner un coup de main, ce joueur peut donner un modificateur de -1 au nombre de succès nécessaires à n&#8217;importe quel défi tenté par ses coéquipiers à côté, même quand il n&#8217;est pas face à eux.</p>
+</div>
+<div class="paragraph">
+<p>Coéquipier (Milieu de terrain/Avancée): Toujours là pour ses coéquipiers, ce joueur peut dépenser des compteurs de Temps fort au lieu du Mouvement pour se rapprocher d&#8217;un autre joueur de son équipe. Chaque compteur utilisé permet à ce joueur de se déplacer d&#8217;un hexagone si le joueur n&#8217;a pas besoin de se désengager pour se déplacer.</p>
+</div>
+<div class="paragraph">
+<p>Roué de coup (Monstre/Basique): Ce joueur peut tenter de porter un coup écrasant (mais qui est plus facile à éviter). Ce joueur peut choisir de lancer jusqu&#8217;à trois dés de moins sur un Défi Plaquer. Si le résultat du défi demande un défi de blessure, sur ce défi de blessure il peut supprimer un succès pour chaque dé qu&#8217;il a enlevé du défi Plaquer.</p>
+</div>
+<div class="paragraph">
+<p>Rage (Monstre/Avancée): This player strikes back with
+a vengeance when attacked. If this player takes the action
+for this turn he may add two Momentum counters to the
+Momentum track if an Impact, Tackle, or Shove challenge
+was attempted against him on the opponent&#8217;s previous turn
+(maximum of two counters earned total). Note: use of the
+abilities Cutblock, Steal, and Cheapshot against this player in the previous turn also count for triggering the Enrage ability.</p>
+</div>
+<div class="paragraph">
+<p>Écrasement (Monstre/Avancée): Ce joueur est un poids lourd. Ce joueur peut utiliser un Temps fort  au lieu du Mouvement pour avancer dans l&#8217;hexagone qu&#8217;occupé précédemment son adversaire immédiatement après un défi Pousser. Le mouvement peut ignorer tout défi Se Dégager nécessaire.</p>
+</div>
+<div class="paragraph">
+<p>Allonge (Garde/Basique): Ce joueur semble se saisir des balles en l&#8217;air avec aisance. Si la ligne d&#8217;interception passe à travers un hexagone adjacent à ce joueur, il peut tenter un défi d&#8217;interception. Cela inclut les hexagones d&#8217;atterrissage, du Lanceur, et les hexagones occupés par des adversaires.</p>
+</div>
+<div class="paragraph">
+<p>Interception (Garde/Avancée): Une fois que ce joueur a une chance d&#8217;intercepter &#8230;&#8203; tout est fini. Un entraîneur de l&#8217;équipe adverse ne peut pas utiliser de Temps fort pour remplacer un dé sur un défi d&#8217;interception tenté par ce joueur.</p>
+</div>
+<div class="paragraph">
+<p>Réaction (Garde/Avancée): Quick to respond to problems
+with the opposing team, this player may spend Momentum
+counters out of sequence when the opposing team suffers a
+Revirement de Situation. Each counter spent allows this player to move one hex if the player does not need to Disengage to move. This movement does not count as the team&#8217;s action and a different player may take the team&#8217;s action if desired.</p>
+</div>
+<div class="paragraph">
+<p>Subtiliser (Buteur/Basique): This player is a master ball thief. This player may attempt to steal the ball instead of knocking down the opponent during a Tackle challenge attempt. No Impact challenge is ever required for a Steal. If a Steal is attempted, replace "Slide Tackle. Both Tackler and Opponent are Down." with "Strip. Both players standing. Ball scatters". All results for one or more successes than needed are replaced with "Steal. Both players standing. The Tackling player gets possession of the ball." Only successes over three more than needed earn Momentum as with a normal Tackle challenge.</p>
+</div>
+<div class="paragraph">
+<p>Esquive (Buteur/Avancée): se glisser entre les plaqueurs est un art que ce joueur a maîtrisé. Ce joueur gagne le double du nombre de Temps fort sur les défis Se dégager.</p>
+</div>
+<div class="paragraph">
+<p>Jaillir (Buteur/Avancée): Ce joueur est rapide une fois la balle en main. Quand un joueur avec Jaillir prend possession de la balle après un défi Ramasser ou l&#8217;utilisation de la capacité Jaillir  il peut dépenser des Temps fort au lieu de son Mouvement pour se déplacer. Chaque compteur utilisé permet à ce joueur de se déplacer d&#8217;un hexagone si le joueur n&#8217;a pas besoin de se désengager pour se déplacer.</p>
+</div>
+<div class="paragraph">
+<p>Bras d&#8217;acier (Lanceur/Basique): Est-ce un bras sur ce Joueur. Un joueur avec cette capacité peut toujours tenter de lancer à 7 ou plus hexagones (même s&#8217;il s&#8217;est déplacé ou a effectué un autre défi.), Mais vous devez ajouter 1 au nombre de succès nécessaires au défi.</p>
+</div>
+<div class="paragraph">
+<p>Précision (Lanceur/Avancée): Qu&#8217;est-ce une spirale parfaite sur un lancer. Ce joueur gagne le double du nombre de compteurs de Temps fort sur un défis de Lancer.</p>
+</div>
+<div class="paragraph">
+<p>Lancer Précis (Lanceur/Avancée): This player really can
+give his receivers a jump on the opposition with his perfect
+throws. This player may spend Momentum counters to allow a player from his team that successfully catches a ball he has thrown to immediately move after catching the ball. Each counter spent allows the player that caught the ball to move one hex if the player does not need to Disengage to move. The player with Lead Pass can finish his action after the catching player has finished moving.</p>
+</div>
+<div class="paragraph">
+<p>Peur (Mort-vivant/Basique): Ce joueur dégage une aura qui effraie de nombreux adversaire. Tout défi Plaquer tenté par un adversaire de Force égal ou supérieur  ou l&#8217;utilisation des capacités Subtiliser et Charge contre ce joueur exige un défi Charger  de plus aucun Temps fort n&#8217;est gagné sur ce défi. Un adversaire avec l&#8217;aptitude Fou Furieux ou utilisant Vicieux peut ignorer l&#8217;effet de l&#8217;aptitude Peur. Tous les joueurs de l&#8217;équipe Samhaino peuvent acquérir cette capacité.</p>
+</div>
+<div class="paragraph">
+<p>Immortel (Mort-vivant/Avancée): Ce joueur met de côté, même les blessures les plus graves. L&#8217;entraîneur de l&#8217;équipe adverse ne peut pas utiliser de Temps fort pour remplacer un jet de dé lors d&#8217;un défi de blessure de ce joueur.</p>
+</div>
+<div class="paragraph">
+<p>Trainer les pieds (Mort-vivant/Avancée): Ce joueur a le célèbre mouvement lent imparable des morts-vivants. Ce joueur peut dépenser des Temps fort au lieu de son Mouvement pour se déplacer. Chaque deux points utilisés permettent à ce joueur de se déplacer d&#8217;un hexagone en ignorant tout défi Se Dégager qui seraient nécessaires.</p>
+</div>
+<div class="imageblock left">
+<div class="content">
+<img src="images/ElfballAbilityMap.jpg" alt="ElfballAbilityMap">
+</div>
+<div class="title">Cartographie des aptitudes d&#8217;ElfBall</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_listes_des_equipes">LISTES DES EQUIPES</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>VEUVES NOIRES</strong>
+Les veuves noires sont célèbres dans le circuit d&#8217;elfball. Cette équipe de demi-elfes, toutes des femmes, est reconnue pour son jeu de passe qui est l&#8217;un des meilleurs de la ligue. Plusieurs équipes ont été pris au dépourvu quand un joueur a été victime d&#8217;une attaque d&#8217;une Widowmaker et les veuves saisissent ce moment pour lancer le ballon à un buteur qui marque facilement.</p>
+</div>
+<table class="tableblock frame-all grid-all spread">
+<colgroup>
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1112%;">
+</colgroup>
+<tbody>
+<tr>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">#</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Position</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Mouvement</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Force</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Tacle</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Esquive</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Habileté</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Grit</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Type
+￼</p></th>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter
+￼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter
+￼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter
+￼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter
+￼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p><strong>DEADLINGS</strong>
+Chavirant sur le terrain, ces habitants de l&#8217;au-delà d&#8217;une demi-pinte de taille ne laisseraient pas une petite chose comme la mort les empêcher de jouer au Elfball. Bien que ces joueurs puisse à peine voir au dessus de la tête d&#8217;un diablotin, ils envoient quelques coups de poing puissant. Combiné avec la puissance des Deadwoods, c&#8217;est l&#8217;une des équipes en vie les plus redoutées  &#8230;&#8203; façon de parler.</p>
+</div>
+<table class="tableblock frame-all grid-all spread">
+<colgroup>
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1112%;">
+</colgroup>
+<tbody>
+<tr>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">#</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Position</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Mouvement</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Force</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Tacle</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Esquive</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Habileté</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Grit</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Type
+￼</p></th>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter
+￼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter
+￼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter
+￼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter
+￼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p><strong>CHIENS DU DESERT</strong>
+Du désert aride de Vihktora, les chiens du désert ont trouvé la transition vers le climat plus modéré facile car seule la quête de gloire sur le terrain consomme leurs pensées. Les chiens du désert sont une équipe bien équilibrée des plus redoutable avec leurs derviches tourneurs. Un derviche est souvent fou à cause de l&#8217;exposition excessive au soleil et la vie du désert. Ils sont spécialistes de frapper les joueurs au delà des limites en raison de leur folie, ils ignorent pratiquement tout des blessures dont ils souffrent.</p>
+</div>
+<table class="tableblock frame-all grid-all spread">
+<colgroup>
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1112%;">
+</colgroup>
+<tbody>
+<tr>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">#</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Position</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Mouvement</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Force</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Tacle</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Esquive</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Habileté</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Grit</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Type
+￼</p></th>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter
+￼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter
+￼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter
+￼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter
+￼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p><strong>VENT DIVIN</strong>
+Venant de l&#8217;ouest des royaumes du milieu. Le Elfball leur permet de pratiquer et perfectionner leurs aptitudes légendaires au combat. L&#8217;équipe est unique par son niveau de puissance et de combat mélangé à de rapide ninja.</p>
+</div>
+<table class="tableblock frame-all grid-all spread">
+<colgroup>
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1112%;">
+</colgroup>
+<tbody>
+<tr>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">#</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Position</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Mouvement</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Force</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Tacle</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Esquive</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Habileté</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Grit</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Type
+￼</p></th>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter
+￼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter
+￼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter
+￼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter
+￼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p><strong>NAINS</strong>
+Les nains vivent profondément sous les montagnes des royaumes du milieu sont de deux clans. L&#8217;un d&#8217;entre eux est le clan des roches noires sur versant est de la montagne. Ces nains ont succombé depuis longtemps à l&#8217;utilisation de la magie noire pour se faciliter la vie. Ils ont rsoumis les gobelins pour les aider dans leurs travaux ou ils punissent les membres du clan en les transformant en centaure pour évacuer les débris miniers. Ils ont ainsi trouvé un bon mélange pour constituer une équipe adapté au circuit de Elfball.</p>
+</div>
+<table class="tableblock frame-all grid-all spread">
+<colgroup>
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1112%;">
+</colgroup>
+<tbody>
+<tr>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">#</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Position</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Mouvement</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Force</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Tacle</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Esquive</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Habileté</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Grit</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Type
+￼</p></th>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter
+￼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter
+￼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter
+￼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter
+￼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p><strong>GNOLLS</strong>
+Les gnolls sont une race féroce surtout connu pour leurs aptitudes à la chasse. Ils sont les rivaux de longue date des chiens du désert et ils utiliser leurs techniques de chasse sur le terrain pour traquer les adversaires avec le ballon.</p>
+</div>
+<table class="tableblock frame-all grid-all spread">
+<colgroup>
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1112%;">
+</colgroup>
+<tbody>
+<tr>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">#</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Position</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Mouvement</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Force</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Tacle</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Esquive</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Habileté</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Grit</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Type
+￼</p></th>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter
+￼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter
+￼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter
+￼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter
+￼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p><strong>GNOMES</strong>
+Malgré leur petite taille les Gnomes sont étonnamment robuste et agile. Gnomes utilisent de grandes machines robotique pour les aider dans leur exploitation et les ont ingénieusement adaptés pour jouer au elfball (toutefois, ces machines sont connus pour se briser). Les gnomes sont méticuleux et jamais pressé de faire quelque chose mais plutôt de prendre le temps de bien faire les choses. Cette race est connue sur le circuit comme  "lente mais mortel".</p>
+</div>
+<table class="tableblock frame-all grid-all spread">
+<colgroup>
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1112%;">
+</colgroup>
+<tbody>
+<tr>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">#</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Position</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Mouvement</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Force</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Tacle</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Esquive</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Habileté</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Grit</p></th>
+<th class="tableblock halign-center valign-middle"><p class="tableblock">Type
+￼</p></th>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter
+￼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter
+￼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter
+￼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter
+￼</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">0-2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunters</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">6</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">2</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">4</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">3</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Hunter</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>ROYAUMES DU MILIEU
+Les humains des Royaumes du milieu sont un groupe varié ou tous participe au elfball. De nombreuses équipes recrutent des mercenaires, des monstres brutaux, afin d&#8217;ajouter le muscle nécessaire à leur équipe. Ces équipes sont normalement bien équilibré avec un accent sur la vitesse et l&#8217;attaque  plutôt qu&#8217;entrer en querelle avec l&#8217;équipe adverse.</p>
+</div>
+<div class="paragraph">
+<p>ELFES DE LA NUIT
+Les elfes de la nuit sont une race au cœur sombre et beaucoup sont des mages d&#8217;une certaine renommée. Les mages elfes de la nuit convoque des diablotins pour aider leur équipe. Les diablotins sont extrêmement rapide, ce qui leur permet de se mettre en bonne position sur le terrain ou d&#8217;éviter les plaquage. Ils sont des ressources à disposition pendant que les elfes de la nuit courent  au but.</p>
+</div>
+<div class="paragraph">
+<p>PHARAONS DE VIHKTORA
+Ces êtres issus d&#8217;anciennes vieilles tombes dans le désert Vihktora apparu lorsque leurs fidèles ont prié pour une intervention divine pour un tournoi Elfball à venir. Toutefois, ces êtres aime réellement le jeu et ont décidé de rester et d&#8217;offrir de  divine défaite à des équipes d&#8217;autres terres plutôt que de retourner dans leur tombes.</p>
+</div>
+<div class="paragraph">
+<p>RAZORBACKS
+Les marais de Calicos sont un endroit dangereux. Les Razorback divise la société en deux classes pour faire face à ce danger. Le Gruts qui effectuent les tâches quotidiennes autour de leurs colonies et les Chasseurs qui rassemblent les aliments et les défende. Maintenant que certains membres sont partis pour jouer au Elfball cette division du travail s&#8217;est révélée très utile.</p>
+</div>
+<div class="paragraph">
+<p>￼SARCOS
+From the Calicos Marshlands, the crocodilian Sarcos have slowly oozed into the Elfball circuit over the last few years. What they lack in speed and throwing skill they excel in leaping both for balls and opponents.
+￼￼￼
+# Allowed Position
+Jog Might Tackle Dodge Skill Grit Type
+￼￼￼
+6 3 4 3 2 3 Hunter 6 3 3 3 3 3 Midfielder 6 3 2 4 4 2 Striker
+0-4 Hunters
+0-3 Midfielders
+0-4 Strikers
+0-1 Terrorpin/Leviathan 4 5 4 2 1 5 Monster
+￼////
+￼
+SAMHAINO
+Au nord des marais Calicos sur le bord de la forêt sombre de l&#8217;Est se trouve le royaume sombre de Samhaino. On sait peu de choses sur ces  créatures de cauchemars qui partage le royaume de l&#8217;ombre perpétuelle avec les Deadlings sauf qu&#8217;ils jouent un jeu de sang-froid le Elfball.</p>
+</div>
+<div class="paragraph">
+<p>SIRINGIT
+To the southeast of the Calicos Marshlands lay the grassy plains where the land runs on forever (or so they say). The ani-men of this region have evolved from many different species. When they work together for Elfball they produce a team that excels at a little bit of everything.
+￼￼￼
+# Allowed Position
+0-2 Defenders 0-1 Gorillaur
+0-1 Hunter
+0-2 Mecat
+0-3 Midfielders
+0-1 Safety 0-1 Tantor 0-1 Thrower
+Jog Might Tackle Dodge Skill Grit
+Type
+Defender Striker Hunter Little Guy Midfielder Safety Monster Thrower
+￼￼￼
+5 4 4 6 3 3 6 3 4 7 2 2 6 3 3 7 3 3 4 6 4 6 2 3
+2 2 3 4 3 2 5 3 3 3 3 2 2 1 3 4
+4 2 3 2 3 3 4 3
+￼////
+￼
+￼￼ELFES DE TIMBERLINE
+Les elfes de Timberline vivent dans les forêts sur les bords de la montagne des nains. Contrairement aux elfes de la nuit, les elfes de Timberline sont des Chasseurs avec d&#8217;excellentes capacités de grimpeur dans la montagne. Ils travaillent en harmonie avec leur environnement et sont féroces lorsqu&#8217;il s&#8217;agit de protéger les régions boisées qu&#8217;ils occupent. Leurs techniques de survie et les Dryades de la forêt  en font des adversaires de Elfball formidable</p>
+</div>
+<div class="paragraph">
+<p>VALKYRIES
+Living in the frozen North makes for a tough life. The Valkyries are from a clan of Vikings where the women developed fierce battle skills to maintain and protect the homefront while the men where away on raiding voyages. The Valkyries even have "tamed" fierce Ice Trolls and the savage weremen from the icy mountain heights to give their team some extra punching power.
+￼￼￼
+# Allowed Position
+0-4 Hunters/Weremen 0-1 Ice Troll
+0-4 Midfielders
+0-2 Strikers
+0-1 Throwers
+Jog Might Tackle Dodge Skill Grit
+Type
+Hunter Monster Midfielder Striker Thrower
+￼￼￼
+6 3 4 4 5 4 6 3 3 6 3 2 6 2 3
+3 2 3 1 3 3 4 4 3 4
+3 4 3 2 3</p>
+</div>
+<div class="paragraph">
+<p>ORCS
+The race of Orcs were nearly exterminated from the Middle Kingdoms during wars many years ago. Now they live a rough existence in mountains and forests on the western border of Black Rock Ridge. These conditions harden the teams they occasionally form and make them formidable opponents.
+￼￼￼￼
+# Allowed Position
+0-2 Defenders 0-2 Hunters 0-4 Midfielders 0-2 Hobimps 0-1 Throwers 0-1 Troll
+Jog Might Tackle Dodge Skill Grit
+Type
+Defender Hunter Midfielder Cheater Thrower Monster
+￼￼￼
+5 4 4 6 3 4 6 3 3 6 2 4 6 2 3 4 5 4
+2 2 3 2 3 3 4 3 3 4 1 1
+4 3 3 2 3 6
+￼////
+￼
+￼HOMMES RATS
+La vitesse tue est la devise des hommes rats. Vivant sur le bord ouest de la plaine Siringit, le travail des hommes rats et plus particulièrement de leurs courriers  et de porter des messages entre les Siringit et les Royaumes du milieu, avec des Wrats brutal agissant comme gardes du corps sur les missions plus critique. Quand les équipes d&#8217;homme rats jouent au Elfball elles apportent le meilleur de leur vitesse.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_régles_alternatives">Régles alternatives</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Les règles qui suivent sont des règles facultatives pour elfBall, il convient de se mettre d&#8217;accord avec son adversaire ou son commissaire de ligue avant de les utiliser.</p>
+</div>
+<div class="paragraph">
+<p><strong>DUREE D&#8217;UN MATCH</strong>
+Si vous préférez utiliser une durée chronométré plutôt que la règle du premier à atteindre 1,2 ou 3 buts la règle suivante devrait vous intéressez. Prenez un jeu de carte à jouer standard (ou 2) posez le à cotés du plateau. À chaque fois qu&#8217;un joueur termine son tour retirer une carte de la pioche. Lorsqu&#8217;il n&#8217;y a plus de cartes le match est fini. Le jeu de cartes '2-minutes Warning' est un excellent moyen de mettre en place cette option avec en prime des événements spéciaux qui animent le jeu (vendu séparément).</p>
+</div>
+<div class="paragraph">
+<p><strong>MOUVEMENT DE DEUX JOUEURS</strong>
+Durant le tour de chaque équipe, deux joueurs peuvent être déplacés au lieu d&#8217;un seul sauf si le premier joueur subit un RdS. Vous ne choisissez le second joueur que quand le premier a finit son déplacement. Le joueur marqué comme le dernier à agir est celui qui avait la balle au début du tour si c&#8217;est l&#8217;un des deux joueurs a s&#8217;être déplacé, sinon c&#8217;est le premier joueur déplacé qui reçoit le marqueur. Tout Temps fort gagné par le premier joueur et non utilisé peut être utilisé par le second joueur.</p>
+</div>
+<div class="paragraph">
+<p><strong>CHANGER LE RESULTAT DU DE DE DEFI</strong></p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Cette règle optionnelle est FORTEMENT recommandé dans vos premiers matchs de Elfball pour un apprentissage des règles. Quand Vous utilisez cette règle ignorer tous les commentaires sur les succès conditionnels dans le livret de règles, la face étoile compte désormais pour deux succès au lieu d&#8217;un succès conditionnel.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><strong>MISE EN JEU</strong></p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Cette règle optionnelle est FORTEMENT recommandé dans vos premiers matchs de Elfball pour un apprentissage des règles. Remplacer entièrement la section Mise en Jeu par celle ci:
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Un Test commence toujours par une mise en jeu entre les deux joueurs positionnés dans le cercle central. Chaque entraineurs lancent les dés pour un défi de mise en jeu. Le joueur avec le plus grand nombre de succès (y compris zéro si votre adversaire est en échec) gagne la mise en jeu. En cas d&#8217;égalité, relancer les dés. Continuer à lancer les dés jusqu&#8217;à ce qu&#8217;un joueur gagne la mise en jeu ou que les deux échoue. Un joueur qui échoue trébuche et est placé à terre. Si les deux joueurs échouent, une nouvelle mise en jeu est lancée avec la même configuration de départ pour les deux équipes. Si le joueur qui remporte la mise en jeu a une force plus élevé que son habileté, il doit se déplacer à l&#8217;intérieur du cercle de deux hexagones pour automatiquement Plaquer son adversaire et le placer à terre ( aucun défi Charger/Plaquer ou Courage nécessaire). Si son habileté est plus élevé que sa force, il prend automatiquement possession de la balle (déplacé le jeton sur sa base). Si ces deux attributs sont égaux, alors il peut choisir l&#8217;événement qui se produit. Après la mise en jeu, l&#8217;équipe du vainqueur commence son tour normal. Tout joueur (y compris le gagnant de la mise en jeu) est éligible à être déplacé dans le cadre de cette première action.</p>
+</div>
+<div class="paragraph">
+<p><strong>ROULEAU COMPRESSEUR</strong>
+L&#8217;équipe Nain des marteaux de tonnerre peut utiliser le redoutable Rouleau compresseur. En outre l&#8217;équipe de Gnome peut aussi en utiliser un à la place d&#8217;une machine gnome. Le Rouleau compresseur existe uniquement pour éliminer les adversaires du jeu, en particulier ceux sur le terrain. Les arbitres en général détestent les Rouleau compresseur, donc après chaque tour où le Rouleau compresseur a été le joueur en action, lancer un dé de défi. Sur un fiasco, l&#8217;arbitre décide d&#8217;exclure le Rouleau compresseur du terrain. Retirez le Rouleau compresseur du terrain et il ne pourra plus être alignés pour le reste du match. Le Rouleau compresseur si elle fait partie de l&#8217;équipe ne peut gagner des points d&#8217;expériences, ne peut pas apprendre de nouvelles aptitudes, et ne peut utiliser des potions magiques. Le Rouleau compresseur a les aptitudes Vicieux, Impitoyable, Roué de coup et Écrasement.</p>
+</div>
+<div class="paragraph">
+<p><strong>JOUER EN TOURNOIS</strong></p>
+</div>
+<div class="paragraph">
+<p>Ces règles sont ouvertes aux modifications, c&#8217;est une suggestion pour passer un bon tournoi de Elfball.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Utiliser 120 à 150 Points d&#8217;équipe. Une équipe doit toujours avoir au moins 6 joueurs.</p>
+</li>
+<li>
+<p>Une équipe peut acheter un Arbitre corrompu, des Fûts de Zlurpee, des Pom-pom girls et des potions magiques. Les potions magique sont limitées à 2 au lieu de 3.</p>
+</li>
+<li>
+<p>Les règles optionnelles de Mise en jeu et  de l&#8217;étoile sur le dé de défi sont utilisées.</p>
+</li>
+<li>
+<p>Il est fortement recommandé que tous les matchs utilisent les cartes  '2-Minute Warning'.</p>
+</li>
+<li>
+<p>Le temps de jeu doit être limité à la première chose atteinte parmi un temps de 75 minutes, au premier but, ou avoir vidé les cartes '2-Minute Warning'.</p>
+</li>
+<li>
+<p>le score est calculé comme suit :</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>100 points pour une victoire + (nombre de cartes restante dans la pioche divisée par 5)</p>
+</li>
+<li>
+<p>1 point pour chaque carte 'Aucun Événement Inhabituel' en cas d&#8217;égalité ou de défaite.</p>
+</li>
+<li>
+<p>2 points pour chaque joueur adverse mit hors jeu, dans la zone de repos ou à l&#8217;infirmerie à la fin du match.</p>
+</li>
+</ol>
+</div>
+</li>
+</ul>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+si vous n&#8217;avez pas de jeux de cartes <em>2-Minute Warning</em>. Utilisez un jeu de cartes standard avec les Joker. Chaque figure (du Valet à l&#8217;As) donne +1 Temps fort au joueur pour ce tour. Chaque Joker donne +3 Temps fort au joueur pour ce tour. Toutes les autres cartes (2 à 10) sont traitées comme <em>Aucun Événement Inhabituel</em> et ne donne aucun avantage pour le tour.
+</td>
+</tr>
+</table>
+</div>
+<hr>
+<div class="imageblock" style="text-align: center">
+<div class="content">
+<img src="images/content.png" alt="Content">
+</div>
+</div>
+<div class="quoteblock">
+<blockquote>
+<em>La foule rugit après cette masse de bras et de jambes armurés se battant pour la possession du ballon.
+D&#8217;un mouvement souple et agile un elf de la nuit se détache de la mêlée avec le ballon dans les mains, mais tout aussi soudainement il est écrasé au sol par un imposant troll de glace. Le ballon est dans les airs &#8230;&#8203; il se dirige vers vous ! Pouvez-vous l&#8217;attraper ? Pensez-vous pouvoir esquiver et vous tordre jusqu&#8217;au cercle but ?</em>
+</blockquote>
+</div>
+<div class="paragraph">
+<p>C&#8217;est juste ce que vous avez à faire dans ElfBall ! Rassemblez une équipe jusqu&#8217;à 12 joueurs sélectionnés parmi une myriade de races imaginaires et opposer les à celle de vos amis dans un match fantastique entre le rugby et le football. Vous contrôlez tout ! Du nombre de majorettes que vous engagez jusqu&#8217;au déplacement de vos joueurs ! Votre équipe apprend et se développe avec vous, de sorte que vous pouvez porter de jeunes recrues vers la gloire ! Chaque tour est un défi et chaque lancer de dès une occasion d&#8217;être fier !</p>
+</div>
+<div class="paragraph">
+<p><strong>Êtes-vous prêt ?</strong></p>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+ 0.0.6<br>
+Dernière mise à jour 2016-02-21 12:48:12 CET
+</div>
+</div>
+</body>
+</html>
