@@ -1,4 +1,0 @@
-== Séquence du tour
-L'équipe du joueur qui gagne la mise en jeu doit être la première à exécuter une action. Une fois l’action résolue, l'entraîneur adverse peut choisir n'importe lequel de ses joueurs pour exécuter une action à son tour. Jouez alternativement comme cela jusqu'à ce qu’un but soit marqué. L'entraîneur peut choisir n'importe lequel de ses joueurs pour exécuter une action pendant son tour sauf le tout dernier joueur qu’il a utilisé (i.e. le même joueur ne peut être utilisé deux fois de suite).
-
-Si une équipe n’a plus qu’un joueur sur le terrain, celui ci peut alors effectuer une action durant plusieurs tours consécutifs.

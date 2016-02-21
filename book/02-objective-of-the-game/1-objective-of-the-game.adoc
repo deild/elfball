@@ -1,5 +1,0 @@
-== Objectif du jeu
-
-Le jeu se décompose en une série d'essais. Le gagnant de chaque essai est la première équipe qui marque un but ce qui conclu l'essai. Le jeu continu jusqu’à ce qu’une équipe gagne un nombre prédéterminé d'essai. Le jeu de base peut se jouer jusqu’au premier but gagnant, mais les règles avancées se joue en 2 ou 3 buts gagnant. Assurez vous de vous être entendu avec votre adversaire sur la condition de victoire avant d’avoir commencé le match. Pour marqué un but un joueur portant le ballon doit terminer son action dans l’hexagone contenant le cercle délimitant le but adverse.
-
-TIP: Lors de vos premiers match de Elfball pour appréhender au mieux et plus rapidement les règles du jeu vous devriez joués en un but gagnant avec les règles facultatives de Mise en jeu et de changement de résultat étoile sur le dé de défi.
