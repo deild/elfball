@@ -2,10 +2,10 @@ namespace :book do
   desc 'prepare build'
    task :prebuild do
      Dir.mkdir 'images' unless Dir.exists? 'images'
-     Dir.glob("book/*.jpg").each do |image|
+     Dir.glob("book/**/*.jpg").each do |image|
        FileUtils.copy(image, "images/" + File.basename(image))
      end
-     Dir.glob("book/*.png").each do |image|
+     Dir.glob("book/**/*.png").each do |image|
        FileUtils.copy(image, "images/" + File.basename(image))
      end
    end
