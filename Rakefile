@@ -33,7 +33,7 @@ namespace :book do
   desc 'archive basic book formats'
   task :archive => :build do
     puts "Compress HTML..."
-    `7za a -t7z -mx9 elfball.html.7z elfball.html images/**/*.png images/**/*.jpg`
+    `7za a -t7z -mx9 elfball.html.7z elfball.html images/**/*.png images/**/*.jpg favicon.ico`
     puts " -- output at elfball.html.7z"
     puts "Compress EPub..."
     `7za a -t7z -mx9 elfball.epub.7z elfball.epub`
