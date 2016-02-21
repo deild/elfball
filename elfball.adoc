@@ -23,6 +23,7 @@ endif::[]
 ifdef::ebook-format-epub3[]
 :no-header-footer:
 endif::[]
+:docinfo:
 
 [preface]
 image::elfball.png[elfball,align="center"]
