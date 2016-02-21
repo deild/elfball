@@ -10,3 +10,6 @@
 
 output
 /images/
+!/images/elfball.png
+!/images/avatars/default.jpg
+!/images/avatars/tolva.jpg

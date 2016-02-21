@@ -9,7 +9,7 @@ Quand un joueur effectue une action, il peut choisir différents types de défis
 Réceptionner/Intercepter: attraper la balle lancer dans votre hexagone ou la passe ratée d’un adversaire qui passe dans votre hexagone. +
 *Se lancer* : c’est un défi qui ne peut être tenté qu’une fois par action. Quand votre action normale est finit si vous avez des marqueurs de Temps fort de cotés vous pouvez tenté un défi Se lancer pour finir votre action. Un succès vous permet de réaliser un défi supplémentaire avec un dé supplémentaire ou un Plaquer/Pousser supplémentaire ou de vous déplacer d'un hexagone supplémentaire (incluant le désengager/ramasser si nécessaire) +
 
-----
+////
  Challenge types
 When a player performs an action he may perform many different challenges. The active player may perform each challenge (other than Impact/Tackle and Shove) as many times as desired per action. Each time a player moves from one hex to another he uses one pace of his Jog. Performing challenges does not use any paces of Jog and can be performed even after using your last pace of Jog. The list below shows the types of challenges:
 
@@ -20,4 +20,4 @@ When a player performs an action he may perform many different challenges. The a
 *Impact/Tackle* - Once per an action you may attempt to tackle an opponent in an adjacent hex.
 *Shove* - Attempting to shove one opposing player into the unoccupied adjacent hex directly behind him. Shoves are limited to half your Jog (rounded up)
 *Dash* - This is a special challenge that may be performed only once an action. After your normal action is ended (including performing any challenges at the end), if you have Momentum counters left you can attempt a Dash challenge to extend your action. A successful Dash challenge lets you either perform one additional challenge with one extra Challenge dice OR perform an extra Tackle/Shove challenge OR move one extra hex (including Disengage/Pick-up challenges needed)
-----
+////

@@ -1,4 +1,3 @@
-[chapter]
 = REGLES AVANCEES
 
 == Règles de construction de l'équipe
@@ -33,7 +32,7 @@ La plupart des joueurs développent des aptitudes après avoir jouer plusieurs m
 
 *Aptitudes basiques et avancées* : chaque attribut et type de joueur donne accès à une aptitude basique et une ou plusieurs aptitudes avancées que chaque joueur peut apprendre quand il a les points d'expériences suffisant. Une aptitude avancée ne peut être apprise que si le joueur a déjà apprise l'aptitude basique de cette attribut.  Une aptitude ne peut être apprise qu'une fois par un joueur. Les aptitudes sont décrites avec leur nom, l'attribut sur lequel elle se base et si elle est basique ou avancée. Tous les joueurs peuvent apprendre une aptitude basé sur un attribut général mais uniquement les joueurs du bon type peuvent apprendre les aptitudes basé sur un type.
 
-include::sections/25b-attribute.adoc[]
+include::sections/1-attribute.adoc[]
 
 
 ////

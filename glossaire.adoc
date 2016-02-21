@@ -1,9 +1,5 @@
 = Glossaire
-:author: Samuel Marcaille
-:email: <smur (at) free (dot) fr>
-:Date: 2015-05-16
 :icons: font
-:source-highlighter: coderay
 
 
 == Convention du glossaire

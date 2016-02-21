@@ -24,6 +24,9 @@ Pour simplifier la gestion et utiliser pleinement les capacités de Git et Githu
 Ensuite, il suffit de fournir la contribution au dépôt originel en créant une requête de tirage (_Pull Request_). Ceci ouvre un fil de discussion avec possibilité de revue, pour que le propriétaire et le contributeur puissent discuter et modifier la proposition jusqu'à ce que le propriétaire soit satisfait du résultat et le fusionne dans le dépôt originel.
 
 ** http://pioupioum.fr/developpement/git-alias-productivite.html
+** http://reinh.com/blog/2009/03/02/a-git-workflow-for-agile-teams.html
+** http://codingmonster.co.uk/blog/1168/automatically-keep-your-history-clean-with-git-aliases
+
 
 == Comment générer le livre
 

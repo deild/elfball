@@ -9,7 +9,7 @@ Durant un match de Elfball, il y a des moments chaud ou tout semble se passer po
 - Échoué a un défi Se lancer.
 - Fiasco à un défi (aucun marqueur de Temps fort ne peut être utilisé pour changer un fiasco à un défi)
 
-----
+////
  Momentum
 During a game of Elfball, teams and players will get hot streaks where everything seems to go right for them. This is represented by the Momentum track. A counter is placed on the Momentum track at zero at the start of each Test and after any action that ends without an event that results in a Shift in Momentum (abbreviated SiM in the rules which means your action ends and you have a Shift in Momentum).
 
@@ -19,4 +19,4 @@ Any time you attempt a challenge (other than a Dash or Face-off challenge or rol
 - Failing to have one of your players catch the ball after a throw challenge
 - Failing a Dash challenge
 - Flopping a challenge (if you have flopped a challenge no Momentum counters may be used to change this)
-----
+////

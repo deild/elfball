@@ -1,0 +1,32 @@
+*NAINS*
+Les nains vivent profondément sous les montagnes des royaumes du milieu sont de deux clans. L'un d'entre eux est le clan des roches noires sur versant est de la montagne. Ces nains ont succombé depuis longtemps à l'utilisation de la magie noire pour se faciliter la vie. Ils ont rsoumis les gobelins pour les aider dans leurs travaux ou ils punissent les membres du clan en les transformant en centaure pour évacuer les débris miniers. Ils ont ainsi trouvé un bon mélange pour constituer une équipe adapté au circuit de Elfball.
+
+////
+
+DWARVES
+The Dwarves living deep under the mountains of the Middle Kingdoms come in two clans. The Black Rock clan in the east practices sorcery summoning Imps to help them with their labours or punishing clan members by turning them into Centaurs to haul away mining debris. By comparison the western based Thunder Hammer clan are their opposites. They use no magic and live their lives as a united group dedicated to hard work, strong ale and gold (lots and lots of gold.)
+￼￼￼
+# Allowed Position
+0-6 or 0-12* Dwarves
+0-2 Dwarven Centaurs 0-4 Hobimps
+Jog Might Tackle Dodge Skill Grit
+5 4 4 1 3 4
+7 4 4 2 1 3
+6 2 4 4 3 2 Cheater
+Type
+￼￼￼
+Defender Hunter
+* Thunder Hammer teams are composed of only 0-12 Dwarves. Black Rock teams use 0-6 Dwarves along with Hobimps and Dwarven Centaurs.
+
+////
+
+[cols="^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^"]
+|===
+
+h| # h| Position h| Mouvement h| Force h| Tacle h| Esquive h| Habileté h| Grit h| Type
+￼| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+￼| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+￼| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+￼| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+￼| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+|===

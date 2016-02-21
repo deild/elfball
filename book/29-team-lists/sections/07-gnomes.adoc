@@ -1,0 +1,22 @@
+*GNOMES*
+Malgré leur petite taille les Gnomes sont étonnamment robuste et agile. Gnomes utilisent de grandes machines robotique pour les aider dans leur exploitation et les ont ingénieusement adaptés pour jouer au elfball (toutefois, ces machines sont connus pour se briser). Les gnomes sont méticuleux et jamais pressé de faire quelque chose mais plutôt de prendre le temps de bien faire les choses. Cette race est connue sur le circuit comme  "lente mais mortel".
+
+////
+￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼GNOMES
+Despite their small size Gnomes are surprisingly tough yet nimble. Gnomes use large robotic contraptions to help them with their mining and have ingeniously adapted them for playing Elfball (however these contraptions are notorious for breaking down). Gnomes are meticulous and never in a hurry to get something done instead of getting it done right. This race is known on the Elfball circuit for being "slow but deadly".
+￼￼￼￼￼# Allowed Position Jog Might Tackle Dodge Skill Grit
+0-9 Gnomes 5 3 3 4 3 3 0-3 Gnomish Contraptions 5 5 5 3 1 2
+Type
+Little Guy Monster
+////
+
+[cols="^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^"]
+|===
+
+h| # h| Position h| Mouvement h| Force h| Tacle h| Esquive h| Habileté h| Grit h| Type
+￼| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+￼| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+￼| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+￼| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+￼| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+|===

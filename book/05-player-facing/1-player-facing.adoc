@@ -1,8 +1,8 @@
 == Orientation du joueur
-Chaque joueur a une face avant et arrière. Charger un adversaire dans le dos ou essayer de l'éviter quand il regarde dans la direction opposée est plus facile que le faire face à lui. Chaque fois qu'un joueur commence ou finit un mouvement, un défi ou une action, vous devez orienter les yeux du joueur dans la direction que vous voulez qu'il regarde. S'il est peu clair de déterminer où regarde un joueur (c.à-d. il regarde une ligne), l'entraîneur adverse peut décider à quel hexagone il fait face.
+Chaque joueur a une face avant et arrière. Charger un adversaire dans le dos ou essayer de l'éviter quand il regarde dans la direction opposée est plus facile que le faire face à lui. Chaque fois qu'un joueur commence ou finit un mouvement, un défi ou une action, vous devez orienter les yeux du joueur dans la direction que vous souhaitez qu'il regarde. S'il est peu clair de déterminer où regarde un joueur (c.à-d. il regarde une ligne), l'entraîneur adverse peut décider à quel hexagone il fait face.
 
 [.right.text-center]
-image::images/playerFacing.jpg[facing]
+image::playerFacing.jpg[facing]
 L'orientation est déterminée sur la base de l'illustration de droite. L’hexagone que les yeux du joueur regardent et les 2 hexagones de chaque côté sont sa face avant. On considère tous les autres hexagones comme arrière.
 
 ////

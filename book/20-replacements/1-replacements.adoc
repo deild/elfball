@@ -1,5 +1,5 @@
 == Remplacements
 
 [.right.text-center]
-image::images/replacements.png[Zone de remplacement]
+image::replacements.png[Zone de remplacement]
 Si vous avez moins de 6 joueurs sur le terrain, à votre tour au lieu d'entreprendre une action avec un joueur sur le terrain vous pouvez prendre un joueur de votre zone de banc (pas de la zone de repos ou de l'infirmerie) et le placer dans un hexagone sans joueur à 3 hexagones de distance de l'entré de votre aire. (la zone en bleu sur l'image). Le joueur peut ramasser la balle mais ne peut entreprendre aucun autre défi durant ce tour. Ce joueur est marqué comme le dernier joueur en action.

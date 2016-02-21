@@ -1,6 +1,6 @@
 '''
 [abstract]
-image::images/content.png[Content,align="center"]
+image::content.png[Content,align="center"]
 [quote]
 _La foule rugit après cette masse de bras et de jambes armurés se battant pour la possession du ballon.
 D'un mouvement souple et agile un elf de la nuit se détache de la mêlée avec le ballon dans les mains, mais tout aussi soudainement il est écrasé au sol par un imposant troll de glace. Le ballon est dans les airs ... il se dirige vers vous ! Pouvez-vous l'attraper ? Pensez-vous pouvoir esquiver et vous tordre jusqu'au cercle but ?_

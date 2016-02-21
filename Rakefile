@@ -2,7 +2,10 @@ namespace :book do
   desc 'prepare build'
    task :prebuild do
      Dir.mkdir 'images' unless Dir.exists? 'images'
-     Dir.glob("book/*/images/*").each do |image|
+     Dir.glob("book/*.jpg").each do |image|
+       FileUtils.copy(image, "images/" + File.basename(image))
+     end
+     Dir.glob("book/*.png").each do |image|
        FileUtils.copy(image, "images/" + File.basename(image))
      end
    end
@@ -27,6 +30,7 @@ namespace :book do
     puts " -- PDF  output at elfball.pdf"
   end
 
+  desc 'archive basic book formats'
   task :archive => :build do
     puts "Compress HTML..."
     `7za a -t7z -mx9 elfball.html.7z elfball.html images/**/*.png images/**/*.jpg`
@@ -42,6 +46,7 @@ namespace :book do
     puts " -- output at elfball.pdf.7z"
   end
 
+  desc 'delete generate files'
   task :clean do
     puts "Delete Generate binaries..."
     `rm -f *.7z`
@@ -59,9 +64,10 @@ namespace :book do
     # puts " -- images folder deleted"
   end
 
+  desc 'Upload archive on dropbox'
   task :upload do
     puts "Upload on dropbox..."
-    date = Time.now.strftime "%Y-%m-%d_%H%M"
+    date = Time.now.strftime "%Y%m%d_%H%M"
     # find tools here : https://github.com/andreafabrizi/Dropbox-Uploader
     sh "~/Applications/dropbox_uploader.sh -p mkdir Elfball/#{date}/"
     sh "~/Applications/dropbox_uploader.sh -p copy Elfball/elfball.epub.7z Elfball/#{date}/"

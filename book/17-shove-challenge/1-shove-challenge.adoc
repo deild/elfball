@@ -14,10 +14,10 @@ Résultat:
 Nombre de succès insuffisant:	La poussée échoue. L'adversaire de bouge pas. Vous perdez un point de mouvement pour continuer à bouger ou tenter un autre défi.
 Nombre de succès suffisant:	Succès; Vous le poussez avec suffisamment de force pour qu'il bouge d'un hexagone
 
-----
+////
 == Shove challenge
 A player performing an action may attempt a number of Shove challenges up to half his Jog (rounded up) per an action. A standing player may attempt a Shove challenge against a standing opponent in an adjacent hex that he is facing to move the opponent one hex in a straight line if no other player is in that hex. If this shove forces the opponent into a hex with a white line through it on the edge of the field or around the goal, the referee will eject the opponent. If the shove forces the opponent into a hex with the ball, it is treated as a dropped ball.
 
 
 Shove challenge table
-----
+////

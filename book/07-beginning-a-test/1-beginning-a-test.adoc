@@ -9,7 +9,7 @@ Au début du match ou après chaque but marqué, vous replacez votre équipe pou
 * Jusqu'à deux joueurs peuvent être placés dans chacun des grands cercles jaunes de votre moitié de terrain. Vos joueurs doivent être placé à l'intérieur du cercle et non pas dans un hexagone traversé par la ligne jaune.
 * Tous les joueurs sont placés dans des cercles jaunes dans votre moitié de terrain et vous ne pouvez pas placer plus de 6 joueurs pour un Test. Tous les joueurs supplémentaires sont placés sur le banc des remplaçants.
 
-----
+////
  Beginning a test
 At the beginning of the game or after each goal is scored, you set up your team for the next Test with the following restrictions:
 
@@ -24,4 +24,4 @@ One player (and no more) must be placed in the Guardian circle (if you have a 2n
 Up to two players may be placed in each of the large Rover circles on your side of the playing field. Your player must be placed inside the circle and not in a hex with the yellow line running through it.
 
 All players must be set-up inside the yellow circles on your side of the field and you may not set up more than 6 players total for a Test. Any extra players from your team should be placed in the Bench area.
-----
+////

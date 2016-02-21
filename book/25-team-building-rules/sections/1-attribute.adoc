@@ -107,7 +107,7 @@ Immortel (Mort-vivant/Avancée): Ce joueur met de côté, même les blessures le
 
 Trainer les pieds (Mort-vivant/Avancée): Ce joueur a le célèbre mouvement lent imparable des morts-vivants. Ce joueur peut dépenser des Temps fort au lieu de son Mouvement pour se déplacer. Chaque deux points utilisés permettent à ce joueur de se déplacer d'un hexagone en ignorant tout défi Se Dégager qui seraient nécessaires.
 
-----
+////
 ==== General attribute abilites
 
 Steady (Jog/Basic):
@@ -251,8 +251,8 @@ This player has the famed slow unstoppable movement of the undead. This player m
 
 .Elfball Abilites Map
 image
-----
+////
 
 .Cartographie des aptitudes d'ElfBall
 [.left]
-image::images/ElfballAbilityMap.jpg[ElfballAbilityMap]
+image::ElfballAbilityMap.jpg[ElfballAbilityMap]

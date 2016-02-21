@@ -6,7 +6,7 @@ Chaque partie d'elfBall nécessite quelques éléments très simples pour jouer 
 === Aire de jeu
 [.right.text-left]
 .ElfBall l'aire de jeu
-image::images/playingField.png[Aire de jeu]
+image::playingField.png[Aire de jeu]
 Un terrain standard de elfball est un cercle de 21 cases de diamètre (une case est représentée par un hexagone sur le plateau). Dans ce cercle, il y a 9 autres cercles plus petits. Le cercle du centre est placé exactement au milieu du terrain. Il y a 2 autres petits cercles blanc, qui représentent les buts, placés chacun au fond d’une partie du terrain. Devant le petit cercle de but se trouve un autre petit cercle jaune, qui est la zone de départ du Garde qui protège les buts de votre équipe. Puis, il y a quatre larges cercles jaunes, deux de chaque coté du terrain, qui sont la zone de départ de la majorité de votre équipe. Il y a deux zones hors terrain pour placer ses joueurs. L'une est votre banc ou vous pouvez placer vos joueurs qui ne sont pas sur le terrain et l'autre votre zone de repos ou reste les joueurs touché jusqu'au prochain Test. Quand le jeu parle d'infirmerie les joueurs sont complètement enlevé du plateau pour ce match.
 
 
