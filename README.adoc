@@ -21,7 +21,7 @@ Si vous travaillez ou souhaitez travailler sur la traduction française, faites 
 
 Pour simplifier la gestion et utiliser pleinement les capacités de Git et Github, la manière la plus directe de contribuer consiste à dupliquer (_fork_) le dépôt *{uri-github-repo}* pour y générer vos modifications, si possible sur une branche thématique.
 
-Ensuite, il suffit de fournir la contribution au dépôt originel en créant une requête de tirage (_Pull Request_). Ceci ouvre un fil de discussion avec possibilité de revue, pour que le propriétaire et le contributeur puissent discuter et modifier la proposition jusqu'à ce que le propriétaire soit satisfait du résultat et le fusionne dans le dépôt originel.
+Ensuite, il suffit de fournir la link:CONTRIBUTING.adoc[contribution] au dépôt originel en créant une requête de tirage (_Pull Request_). Ceci ouvre un fil de discussion avec possibilité de revue, pour que le propriétaire et le contributeur puissent discuter et modifier la proposition jusqu'à ce que le propriétaire soit satisfait du résultat et le fusionne dans le dépôt originel.
 
 ** http://pioupioum.fr/developpement/git-alias-productivite.html
 ** http://reinh.com/blog/2009/03/02/a-git-workflow-for-agile-teams.html

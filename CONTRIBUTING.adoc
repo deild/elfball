@@ -1,0 +1,19 @@
+= Contribuer à elfball
+
+Voici les instructions pour vous aider à démarrer. elles ne sont sans doute pas parfaite, s'il vous plaît laissez-nous savoir si quelque chose semble mauvais ou incomplet.
+
+== Lignes directrices des contributions
+
+=== les requêtes de tirage sont toujours les bienvenus
+
+Nous sommes toujours heureux de recevoir des requêtes de tirage, et faisons de notre mieux pour les traiter le plus rapidement possible. Pas sûr que cette coquille vaut une requête de tirage ? Faites le ! Nous vous serons reconnaissant.
+
+Si votre requête de tirage n'est pas accepté au premier essai, ne vous découragez pas! S'il y a un problème avec la mise en œuvre, avec un peu de chance vous avez reçu des remarques sur ce qu'il faut améliorer.
+
+=== Créer des problèmes...
+
+Toute amélioration significative devrait être documentée comme link:https://github.com/deild/elfball/issues[un problème GitHub] avant que quiconque commence à travailler dessus.
+
+=== ...mais vérifier les problèmes existants tout d'abord!
+
+S'il vous plaît prenez un moment pour vérifier qu'il n'y a pas déjà un problème connu pour votre rapport de bug ou votre proposition d'amélioration. Si c'est le cas, cela n'a jamais fait de mal d'ajouter un rapide «+1» ou «J'ai aussi ce problème». Cela aidera à prioriser les problèmes et les demandes les plus courantes.
