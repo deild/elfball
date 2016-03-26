@@ -1,0 +1,12 @@
+*ORCS*
+La race des Orcs a presque été exterminés par les Royaumes du milieu au cours des nombreuses guerres du passée. Maintenant, ils vivent une existence rude dans les montagnes et les forêts à la frontière ouest des monts de la Roche noire. Ces conditions endurci les équipes qui  se forment occasionnellement les transformant en de redoutables adversaires.
+
+[options=header,frame=topbot,grid=none,cols="^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^"]
+|===
+|#|Position|Jogging|Force|Plaquage|Esquive|Habileté|Cran|Type
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+|===

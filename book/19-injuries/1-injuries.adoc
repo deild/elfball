@@ -1,25 +1,18 @@
 == Blessures
 Un joueur peut être blessé sur un placage sévère. Pour connaitre la gravité de la blessure, lancer un défi de Blessure. Si un joueur avec la balle subit un défi de Blessure,  résolvez ce défi avant la dispersion de la balle.
 
-Blessure
-Attribut:	Courage
-# de succès nécessaire	Voir en dessous
-Modificateur de succès : Aucun
-Résultat:
-Échec:	Le joueur est indisponible pour le reste du match. Placer le à l'infirmerie. Sa blessure met fin à sa carrière retirer le de votre équipe.
-0 succès:	Le joueur est indisponible pour le reste du match. Placer le à l'infirmerie. La blessure est permanente. Le joueur voit son attribut le plus élevé réduit d'un point , en cas d'égalité l'entraineur choisit.
-1 succès:	Le joueur est indisponible pour le reste du match.
-2 succès:	Le joueur est KO. Placé le dans la zone de repos. Après le prochain Test il pourra rejoindre le banc.
-3 succès:	Le joueur est placé sur le banc et rate le reste du Test en cours
-4 succès:	Le joueur est sonné
-5 ou + succès:	Le joueur est à terre
-
-////
-== Injuries
-A player on the wrong side of a particularly nasty tackle may be injured. To see the severity of the injury, roll an Injury challenge for the player injured.
-
-If a player with the ball suffers an Injury challenge, roll for the Injury challenge before the roll to scatter the ball.
-
-
-Injury challenge table
-////
+[cols="35,65", options=header, grid=none, frame=none]
+|===
+2+^|Blessure
+>|Attribut s|Courage
+>|# de succès nécessaire |Voir ci-dessous
+2+^|Modificateur de succès Aucun
+2+^|Résultat
+>|échec :|Le joueur est indisponible pour le reste du match. Placer le à l'infirmerie. Sa blessure met fin à sa carrière retirer le de votre équipe.
+>|0 succès :	|Le joueur est indisponible pour le reste du match. Placer le à l'infirmerie. La blessure est permanente. Le joueur voit son attribut le plus élevé réduit d'un point , en cas d'égalité l'entraineur choisit.
+>|1 succès :	|Le joueur est indisponible pour le reste du match.
+>|2 succès :	|Le joueur est KO. Placé le dans la zone de repos. Après le prochain Test il pourra rejoindre le banc.
+>|3 succès :	|Le joueur est placé sur le banc et rate le reste du Test en cours
+>|4 succès :	|Le joueur est sonné
+>|5 ou + succès :	|Le joueur est à terre
+|===

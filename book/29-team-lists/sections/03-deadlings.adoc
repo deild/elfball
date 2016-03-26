@@ -5,30 +5,15 @@ Chavirant sur le terrain, ces habitants de l'au-delà d'une demi-pinte de taille
 ￼DEADLINGS
 Shambling onto the field, these half-pint sized denizens from the afterlife don't let a little thing like being dead stop them from playing Elfball. While these players barely see over the head of a Imp, they pack some powerful punches. Combined with the power of the Deadwoods, this is one of the most feared teams alive ... in a manner of speaking.
 ￼￼￼
-# Allowed Position
-0-2 Deadwood
-0-2 Ghouls/Vamplings/
-Werelings/Wights 0-2 Mummies/Monsters 0-6 Zombies/Skeletons
-Jog Might Tackle Dodge Skill Grit
-Type
-Monster Undead
-Monster Undead
-￼￼￼
-3 6 5 5 3 3
-4 5 4 4 3 4
-1 1 3 3
-2 1 2 2
-5 4
-5 6
+
 ////
 
-[cols="^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^"]
+[options=header,frame=topbot,grid=none,cols="^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^"]
 |===
-
-h| # h| Position h| Mouvement h| Force h| Tacle h| Esquive h| Habileté h| Grit h| Type
-￼| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
-￼| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
-￼| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
-￼| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
-￼| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+|#|Position|Jogging|Force|Plaquage|Esquive|Habileté|Cran|Type
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
 |===

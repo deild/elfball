@@ -4,19 +4,15 @@ Les gnolls sont une race féroce surtout connu pour leurs aptitudes à la chasse
 ////
 ￼￼￼￼￼￼GNOLLS
 The Gnolls are a fierce race known primarily for their hunting skills. They are the long time rivals of the Desert Dogs and use their hunting skills on the field to track down opponents with the ball.
-￼￼￼￼￼# Allowed Position
-0-4 Hunters 0-2 Midfielders 0-4 Safeties 0-2 Strikers
-Jog Might Tackle Dodge Skill Grit Type
-6 3 4 3 2 3 Hunter 6 3 3 3 3 3 Midfielder 7 3 3 3 2 3 Safety 6 3 2 4 4 2 Striker
+
 ////
 
-[cols="^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^"]
+[options=header,frame=topbot,grid=none,cols="^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^"]
 |===
-
-h| # h| Position h| Mouvement h| Force h| Tacle h| Esquive h| Habileté h| Grit h| Type
-￼| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
-￼| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
-￼| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
-￼| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
-￼| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+|#|Position|Jogging|Force|Plaquage|Esquive|Habileté|Cran|Type
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
 |===

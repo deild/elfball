@@ -1,0 +1,12 @@
+*RAZORBACKS*
+Les marais de Calicos sont un endroit dangereux. Les Razorback divise la société en deux classes pour faire face à ce danger. Le Gruts qui effectuent les tâches quotidiennes autour de leurs colonies et les Chasseurs qui rassemblent les aliments et les défende. Maintenant que certains membres sont partis pour jouer au Elfball cette division du travail s'est révélée très utile.
+
+[options=header,frame=topbot,grid=none,cols="^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^"]
+|===
+|#|Position|Jogging|Force|Plaquage|Esquive|Habileté|Cran|Type
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+|===

@@ -1,0 +1,12 @@
+*ELFES DE LA NUIT*
+Les elfes de la nuit sont une race au cœur sombre et beaucoup sont des mages d'une certaine renommée. Les mages elfes de la nuit convoque des diablotins pour aider leur équipe. Les diablotins sont extrêmement rapide, ce qui leur permet de se mettre en bonne position sur le terrain ou d'éviter les plaquage. Ils sont des ressources à disposition pendant que les elfes de la nuit courent  au but.
+
+[options=header,frame=topbot,grid=none,cols="^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^"]
+|===
+|#|Position|Jogging|Force|Plaquage|Esquive|Habileté|Cran|Type
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+|===

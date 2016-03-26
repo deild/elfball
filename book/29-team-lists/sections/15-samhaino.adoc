@@ -1,0 +1,12 @@
+*SAMHAINO*
+Au nord des marais Calicos sur le bord de la forêt sombre de l'Est se trouve le royaume sombre de Samhaino. On sait peu de choses sur ces  créatures de cauchemars qui partage le royaume de l'ombre perpétuelle avec les Deadlings sauf qu'ils jouent un jeu de sang-froid le Elfball.
+
+[options=header,frame=topbot,grid=none,cols="^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^"]
+|===
+|#|Position|Jogging|Force|Plaquage|Esquive|Habileté|Cran|Type
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+|===

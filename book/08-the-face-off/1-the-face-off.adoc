@@ -1,13 +1,13 @@
 == Mise en Jeu ou face-à-face
 
-Un Test commence toujours par une mise en jeu entre les deux joueurs positionnés dans le cercle central. Chaque entraineurs lancent les dés pour un défi de Mise en jeu. Le joueur avec le plus grand nombre de succès (y compris zéro si votre adversaire est en échec) gagne la mise en jeu. En cas d'égalité, relancer les dés. Continuer à lancer les dés jusqu'à ce qu'un joueur gagne la mise en jeu ou que les deux joueurs échoues. Un joueur qui échoue trébuche et est à terre. Si les deux joueurs échouent, une nouvelle mise en jeu est lancée avec la même configuration de départ pour les deux équipes. Le joueur qui gagne la Mise en jeu prend une décision. Le vainqueur peut soit :
+Un Test commence toujours par une mise en jeu entre deux joueurs positionnés dans le cercle central. Chaque entraineurs lancent les dés pour un défi de Mise en jeu. Le joueur avec le plus grand nombre de succès (y compris zéro si votre adversaire est en échec) gagne la mise en jeu. En cas d'égalité, relancer les dés. Continuer à lancer les dés jusqu'à ce qu'un joueur gagne la mise en jeu ou que les deux joueurs échoues. Un joueur qui échoue trébuche et est à terre. Si les deux joueurs échouent, une nouvelle mise en jeu est lancée avec la même configuration de départ pour les deux équipes. Le joueur qui gagne la mise en jeu prend une décision. Le vainqueur peut soit :
 
 * Avancer de deux hexagones dans le cercle jaune de Mise en jeu tant que les cases sont vides pour tenter soit une poussée soit un plaquage sur son adversaire.
 * Ou avancé sur la case contenant la balle pour essayer de la Ramasser.
 
 Si le vainqueur de la mise en jeu a une force inférieur à son adversaire il reçoit un Temps fort pour chaque point de force d'écart avant de tenter son défi.
 
-Après cela, , l'équipe du vainqueur commence son tour normal. Tout joueur (y compris le gagnant de la mise en jeu) est éligible à être déplacé dans le cadre de cette première action. Tout Temps fort obtenu pendant la mise en jeu peut être utilisé pendant cette première action (même si c'est un autre joueur qui effectue l'action)
+Après cela, l'équipe du vainqueur commence son tour normal. Tout joueur (y compris le gagnant de la mise en jeu) est éligible à être déplacé dans le cadre de cette première action. Tout Temps fort obtenu pendant la mise en jeu peut être utilisé pendant cette première action (même si c'est un autre joueur qui effectue l'action)
 
 ////
  The face-off

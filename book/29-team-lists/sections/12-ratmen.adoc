@@ -1,0 +1,12 @@
+*￼HOMMES RATS*
+La vitesse tue est la devise des hommes rats. Vivant sur le bord ouest de la plaine Siringit, le travail des hommes rats et plus particulièrement de leurs courriers  et de porter des messages entre les Siringit et les Royaumes du milieu, avec des Wrats brutal agissant comme gardes du corps sur les missions plus critique. Quand les équipes d'homme rats jouent au Elfball elles apportent le meilleur de leur vitesse.
+
+[options=header,frame=topbot,grid=none,cols="^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^"]
+|===
+|#|Position|Jogging|Force|Plaquage|Esquive|Habileté|Cran|Type
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+|===

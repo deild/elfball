@@ -1,0 +1,11 @@
+*NAINS MARTEAU TONNERRE*
+
+_The Dwarves living deep under the mountains of the Middle Kingdoms come in two clans. The western based Thunder Hammer clan use no magic and live their lives as a united group dedicated to hard work, strong ale and gold (lots and lots of gold.) They have great relationships with the neighbouring Gnomes and often commission them to construct a terrifying device called the Impcrusher to assist their game._
+
+
+[options=header,frame=topbot,grid=none,cols="^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^"]
+|===
+|#|Position|Jogging|Force|Plaquage|Esquive|Habileté|Cran|Type
+|0-11|Nains|5|4|4|1|3|4|Défenseur
+|0-1|Concasseur|5|5|5|4|1|1|Monstre
+|===

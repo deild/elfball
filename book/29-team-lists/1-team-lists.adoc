@@ -1,48 +1,39 @@
 == LISTES DES EQUIPES
 
-include::sections/01-black-widows.adoc[]
+include::sections/01-dwarves.adoc[]
 
-include::sections/02-deadlings.adoc[]
+include::sections/02-black-widows.adoc[]
 
-include::sections/03-desert-dogs.adoc[]
+include::sections/03-deadlings.adoc[]
 
-include::sections/04-divine-wind.adoc[]
+include::sections/04-desert-dogs.adoc[]
 
-include::sections/05-dwarves.adoc[]
+include::sections/05-divine-wind.adoc[]
 
 include::sections/06-gnolls.adoc[]
 
 include::sections/07-gnomes.adoc[]
 
-*ROYAUMES DU MILIEU*
-Les humains des Royaumes du milieu sont un groupe varié ou tous participe au elfball. De nombreuses équipes recrutent des mercenaires, des monstres brutaux, afin d'ajouter le muscle nécessaire à leur équipe. Ces équipes sont normalement bien équilibré avec un accent sur la vitesse et l'attaque  plutôt qu'entrer en querelle avec l'équipe adverse.
+include::sections/08-middle-kingdoms.adoc[]
 
-*ELFES DE LA NUIT*
-Les elfes de la nuit sont une race au cœur sombre et beaucoup sont des mages d'une certaine renommée. Les mages elfes de la nuit convoque des diablotins pour aider leur équipe. Les diablotins sont extrêmement rapide, ce qui leur permet de se mettre en bonne position sur le terrain ou d'éviter les plaquage. Ils sont des ressources à disposition pendant que les elfes de la nuit courent  au but.
+include::sections/09-night-elves.adoc[]
 
-*PHARAONS DE VIHKTORA*
-Ces êtres issus d'anciennes vieilles tombes dans le désert Vihktora apparu lorsque leurs fidèles ont prié pour une intervention divine pour un tournoi Elfball à venir. Toutefois, ces êtres aime réellement le jeu et ont décidé de rester et d'offrir de  divine défaite à des équipes d'autres terres plutôt que de retourner dans leur tombes.
+include::sections/10-orcs.adoc[]
 
-*RAZORBACKS*
-Les marais de Calicos sont un endroit dangereux. Les Razorback divise la société en deux classes pour faire face à ce danger. Le Gruts qui effectuent les tâches quotidiennes autour de leurs colonies et les Chasseurs qui rassemblent les aliments et les défende. Maintenant que certains membres sont partis pour jouer au Elfball cette division du travail s'est révélée très utile.
+include::sections/11-pharaohs-of-vihktora.adoc[]
 
-*SARCOS*
-Des marais calicots, les crocodiliens sarcos ont lentement suintait dans le circuit au cours des dernières années. Ce qui leur manque en vitesse et en lancent ils  le compensent en sautant à la fois sur les balles et sur les opposants.
+include::sections/12-ratmen.adoc[]
 
-*SAMHAINO*
-Au nord des marais Calicos sur le bord de la forêt sombre de l'Est se trouve le royaume sombre de Samhaino. On sait peu de choses sur ces  créatures de cauchemars qui partage le royaume de l'ombre perpétuelle avec les Deadlings sauf qu'ils jouent un jeu de sang-froid le Elfball.
+include::sections/13-razorbacks.adoc[]
 
-*SIRINGIT*
-Dans le sud-est du marais Calicos au milieu des plaines herbeuses où la terre tourne à l'infini (a ce qu'ils disent). Les ani-hommes de cette région ont évolué à partir de nombreuses espèces différentes. Quand ils travaillent ensemble pour le Elfball ils rassemblent une équipe qui excelle dans tous les domaines.
+include::sections/14-sarcos-calasain.adoc[]
 
-*ELFES DE TIMBERLINE*￼￼
-Les elfes de Timberline vivent dans les forêts sur les bords de la montagne des nains. Contrairement aux elfes de la nuit, les elfes de Timberline sont des Chasseurs avec d'excellentes capacités de grimpeur dans la montagne. Ils travaillent en harmonie avec leur environnement et sont féroces lorsqu'il s'agit de protéger les régions boisées qu'ils occupent. Leurs techniques de survie et les Dryades de la forêt  en font des adversaires de Elfball formidable.
+include::sections/15-samhaino.adoc[]
 
-*V￼ALKYRIES*
-Vivre dans le Grand Nord est une une vie dure. Les Valkyries sont d'un clan de Vikings où les femmes ont appris à se battre pour préserver et protéger leur foyer pendant que les hommes sont en voyages pour des raids. Les Valkyries ont même "apprivoisé" de féroce Trolls des glaces et les weremen sauvage sur les hauteurs des montagnes de glace pour donner à leur équipe un peu de puissance de frappe supplémentaire.
+include::sections/16-siringit.adoc[]
 
-*ORCS*
-La race des Orcs a presque été exterminés par les Royaumes du milieu au cours des nombreuses guerres du passée. Maintenant, ils vivent une existence rude dans les montagnes et les forêts à la frontière ouest des monts de la Roche noire. Ces conditions endurci les équipes qui  se forment occasionnellement les transformant en de redoutables adversaires.
+include::sections/17-thunder-hammer-dwarves.adoc[]
 
-*￼HOMMES RATS*
-La vitesse tue est la devise des hommes rats. Vivant sur le bord ouest de la plaine Siringit, le travail des hommes rats et plus particulièrement de leurs courriers  et de porter des messages entre les Siringit et les Royaumes du milieu, avec des Wrats brutal agissant comme gardes du corps sur les missions plus critique. Quand les équipes d'homme rats jouent au Elfball elles apportent le meilleur de leur vitesse.
+include::sections/18-timberline-elves.adoc[]
+
+include::sections/19-valkyries.adoc[]

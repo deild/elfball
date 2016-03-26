@@ -1,0 +1,12 @@
+*V￼ALKYRIES*
+Vivre dans le Grand Nord est une une vie dure. Les Valkyries sont d'un clan de Vikings où les femmes ont appris à se battre pour préserver et protéger leur foyer pendant que les hommes sont en voyages pour des raids. Les Valkyries ont même "apprivoisé" de féroce Trolls des glaces et les weremen sauvage sur les hauteurs des montagnes de glace pour donner à leur équipe un peu de puissance de frappe supplémentaire.
+
+[options=header,frame=topbot,grid=none,cols="^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^"]
+|===
+|#|Position|Jogging|Force|Plaquage|Esquive|Habileté|Cran|Type
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+|===

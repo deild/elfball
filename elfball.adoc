@@ -6,7 +6,7 @@
 :toc-title: Table des matiéres
 :front-cover-image: image:cover.png[width=1050,height=1600]
 :revnumber: 0.0.6
-:revdate: Février 21, 2016
+:revdate: Mars 26, 2016
 :version-label!:
 :icons: font
 ifdef::backend-pdf[]
@@ -29,7 +29,7 @@ endif::[]
 image::elfball.png[elfball,align="center"]
 Un des grands mystères de ce sport le Elfball est où a-t-il vu le jour, et comment il a obtenu son nom. Les elfes de la nuit originaires des sombre forêts de Westerland prétendent qu’ils jouent à ce sport depuis la nuit des temps, et qu’ils ont nommés ce jeu en leur honneur. Depuis leur terre natales arides les gnolls nomades du désert le revendiquent aussi et insistent sur le fait que le nom du jeu viendrait du type de tête le plus adapté pour y jouer. En fait de nombreuses races revendiquent être à l'origine du jeu et beaucoup des guerres les plus meurtrières de l’histoire du monde ont étés déclarées à cause de ces revendications. Les hommes des royaumes du milieu ignorent ces pitoyables conflits, et préfèrent appeler le jeu « le cirque ».
 
-Aujourd'hui le ElfBall est joué par chaque nation, race et tribu du monde. Tandis que la plupart préfèrent le terrain distintif de norme circulaire, il existe d’autres variations pour jouer dans les centre-ville ou sur les plages de sable tout au tour du monde. Toutefois à sa base, le ballon distinctif et les règles du jeu sont toutes très standardisés.
+Aujourd'hui le ElfBall est pratiqué par chaque nation, race et tribu du monde. Tandis que la plupart préfèrent le terrain distintif de norme circulaire, il existe d’autres variations pour jouer dans les centre-ville ou sur les plages de sable tout au tour du monde. Toutefois à sa base, le ballon distinctif et les règles du jeu sont toutes très standardisés.
 
 toc::[]
 

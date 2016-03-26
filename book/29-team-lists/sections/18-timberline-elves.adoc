@@ -1,0 +1,12 @@
+*ELFES DE TIMBERLINE*￼￼
+Les elfes de Timberline vivent dans les forêts sur les bords de la montagne des nains. Contrairement aux elfes de la nuit, les elfes de Timberline sont des Chasseurs avec d'excellentes capacités de grimpeur dans la montagne. Ils travaillent en harmonie avec leur environnement et sont féroces lorsqu'il s'agit de protéger les régions boisées qu'ils occupent. Leurs techniques de survie et les Dryades de la forêt  en font des adversaires de Elfball formidable.
+
+[options=header,frame=topbot,grid=none,cols="^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^"]
+|===
+|#|Position|Jogging|Force|Plaquage|Esquive|Habileté|Cran|Type
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+|===

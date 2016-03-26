@@ -1,0 +1,12 @@
+*PHARAONS DE VIHKTORA*
+Ces êtres issus d'anciennes vieilles tombes dans le désert Vihktora apparu lorsque leurs fidèles ont prié pour une intervention divine pour un tournoi Elfball à venir. Toutefois, ces êtres aime réellement le jeu et ont décidé de rester et d'offrir de  divine défaite à des équipes d'autres terres plutôt que de retourner dans leur tombes.
+
+[options=header,frame=topbot,grid=none,cols="^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^"]
+|===
+|#|Position|Jogging|Force|Plaquage|Esquive|Habileté|Cran|Type
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+|===

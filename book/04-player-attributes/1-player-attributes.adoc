@@ -1,4 +1,4 @@
-== Joueurs attributs
+== Attributs des joueurs
 
 Tous les joueurs de Elfball ont 7 attributs qui définissent leurs performances sur le terrain.
 

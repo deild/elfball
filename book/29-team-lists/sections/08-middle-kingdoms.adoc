@@ -1,0 +1,12 @@
+*ROYAUMES DU MILIEU*
+Les humains des Royaumes du milieu sont un groupe varié ou tous participe au elfball. De nombreuses équipes recrutent des mercenaires, des monstres brutaux, afin d'ajouter le muscle nécessaire à leur équipe. Ces équipes sont normalement bien équilibré avec un accent sur la vitesse et l'attaque  plutôt qu'entrer en querelle avec l'équipe adverse.
+
+[options=header,frame=topbot,grid=none,cols="^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^"]
+|===
+|#|Position|Jogging|Force|Plaquage|Esquive|Habileté|Cran|Type
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+|===

@@ -1,0 +1,12 @@
+*SIRINGIT*
+Dans le sud-est du marais Calicos au milieu des plaines herbeuses où la terre tourne à l'infini (a ce qu'ils disent). Les ani-hommes de cette région ont évolué à partir de nombreuses espèces différentes. Quand ils travaillent ensemble pour le Elfball ils rassemblent une équipe qui excelle dans tous les domaines.
+
+[options=header,frame=topbot,grid=none,cols="^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^,^.^"]
+|===
+|#|Position|Jogging|Force|Plaquage|Esquive|Habileté|Cran|Type
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+| 0-2 | Hunters | 6 | 3 | 2 | 3 | 4 | 3 | Hunter
+|===
