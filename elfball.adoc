@@ -9,9 +9,6 @@
 :revdate: Mars 26, 2016
 :version-label!:
 :icons: font
-ifdef::backend-pdf[]
-:pdf-page-size: A4
-endif::[]
 :last-update-label: Dernière mise à jour
 :copyright: CC-BY-SA 4.0
 :lang: fr
