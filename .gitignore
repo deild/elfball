@@ -13,3 +13,6 @@ output
 !/images/elfball.png
 !/images/avatars/default.jpg
 !/images/avatars/tolva.jpg
+
+# bundle install product
+Gemfile.lock
